@@ -1,14 +1,6 @@
 import streamlit as st
 from utils import write_message
-
-import streamlit as st
-from langchain_openai import OpenAIEmbeddings
-from langchain_openai import ChatOpenAI
-from llm import llm, embeddings
-from graph import graph
-
 from agent import generate_response
-
 
 # tag::setup[]
 # Page Config
@@ -35,7 +27,7 @@ def handle_submit(message):
 
     # Handle the response
     with st.spinner('Thinking...'):
-        response = generate_response(message)
+        response= generate_response(message)
         write_message('assistant', response)
 # end::submit[]
 
