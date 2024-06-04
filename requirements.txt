@@ -3,3 +3,8 @@ openai
 langchain_openai
 neo4j-driver
 streamlit
+
+aiohttp
+asyncio
+requests
+bs4
