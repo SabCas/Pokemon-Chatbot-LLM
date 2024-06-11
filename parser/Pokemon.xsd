@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ims.uni-stuttgart.de" targetNamespace="http://ims.uni-stuttgart.de" elementFormDefault="qualified">
+
+  <xs:element name="Pokemon">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Name" type="Name" />
+        <xs:element name="ID" type="xs:int" />
+        <xs:element name ="Types" type="Types" />
+        <xs:element name="Bulbapedia" type="Bulbapedia" />
+        <xs:element name="Bisafans" type="Bisafans" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Definition of Complex Types -->
+  <xs:complexType name="Name">
+    <xs:sequence>
+      <xs:element name="English" type="xs:string" />
+      <xs:element name="German" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="Types">
+    <xs:sequence>
+      <xs:element name="EnglishType" type="Type" minOccurs="1" maxOccurs="2" />
+      <xs:element name="GermanType" type="Type" minOccurs="1" maxOccurs="2" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="Bulbapedia">
+    <xs:sequence>
+        <xs:element name="Introduction" type="xs:string" />
+        <xs:element name="Game" type="Game" />
+        <xs:element name="Anime" type="Anime" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="Bisafans">
+    <xs:sequence>
+        <xs:element name="Introduction" type="xs:string" />
+        <xs:element name="Game" type="Game" />
+        <xs:element name="Anime" type="Anime" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="Game">
+    <xs:sequence>
+      <xs:element name="Evolutions" type="Evolutions" minOccurs="0" maxOccurs="1" />
+      <xs:element name="Forms" type="Forms" minOccurs="0" maxOccurs="1"/> 
+      <xs:element name="Abilities" type="AbilityType" />
+      <xs:element name="Stats" type="Stats" />
+      <xs:element name="Physique" type="Physique" />
+      <xs:element name="GenderRatio" type="xs:string" /> 
+      <xs:element name="LearnSet" type="MoveSet" />
+      <xs:element name="Egg" type="Egg" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="Anime">
+    <xs:sequence>
+      <xs:element name="Biology" type="biology" />
+      <xs:element name="Category" type="xs:string" />
+      <xs:element name="MajorApperances" type="MajorApperances" />
+      <xs:element name="Trivias" type="Trivias" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="Evolutions">
+    <xs:sequence>
+      <xs:element name="Evoultion" type="Evolution" minOccurs="1" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="Evolution">
+    <xs:sequence>
+      <xs:element name="Name" type="xs:string" />
+      <xs:element name="EvolutionType" type="EvolutionCondition" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="EvolutionCondition">
+    <xs:choice>
+      <xs:element name="Level" type="xs:int" />
+      <xs:element name="Friendship" type=" xs:string" />
+      <xs:element name="Trade" type=" xs:string" />
+      <xs:element name="Item" type=" xs:string" />
+    </xs:choice>
+  </xs:complexType>
+  
+  <xs:complexType name="Forms">
+    <xs:sequence>
+      <xs:element name="Form" type="Form" minOccurs="1" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="Form">
+    <xs:sequence>
+      <xs:element name="FormName" type=" xs:string" />
+      <xs:element name="FormCondition" type="FormCondition" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="FormCondition">
+    <xs:choice>
+      <xs:element name="Mega" type="xs:string" />
+      <xs:element name="Dynamax" type=" xs:string" />
+      <xs:element name="Unique" type=" xs:string" />
+    </xs:choice>
+  </xs:complexType>
+  
+  <xs:complexType name="AbilityType">
+    <xs:sequence>
+      <xs:element name="Ability" type="Ability" minOccurs="1" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="Ability">
+    <xs:sequence>
+      <xs:element name="Name" type="xs:string" />
+      <xs:element name="Hidden" type="Hidden" /> <!-- TODO: add element for mega pokemon abilities -->
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="Stats">
+    <xs:sequence>
+      <xs:element name="HP" type="xs:int" />
+      <xs:element name="Attack" type="xs:int" />
+      <xs:element name="Defense" type="xs:int" />
+      <xs:element name="Sp.Atk" type="xs:int" />
+      <xs:element name="Sp.Def" type="xs:int" />
+      <xs:element name="Speed" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="Physique">
+    <xs:sequence>
+      <xs:element name="Height" type="Height" />
+      <xs:element name="Weight" type="Weight" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="MoveSet">
+    <xs:sequence>
+      <xs:element name="LevelUp" type="LevelUp" maxOccurs="unbounded" />
+      <xs:element name="TechnicalMachine" type="TechnicalMachine" maxOccurs="unbounded" />
+      <!-- TODO:  -->
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="LevelUp">
+    <xs:sequence>
+      <xs:element name="Level" type="Level" />
+      <xs:element name="Move" type=" xs:string" />
+      <xs:element name="Type" type=" Type" />
+      <xs:element name="Category" type="Category" />
+      <xs:element name="Power" type="Power" />
+      <xs:element name="Accuracy" type="Accuracy" />
+      <xs:element name="PP" type="PP" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="TM">
+    <xs:sequence>
+      <xs:element name="TM" type="TMName" />
+      <xs:element name="Move" type=" xs:string" />
+      <xs:element name="Type" type=" Type" />
+      <xs:element name="Category" type="Category" />
+      <xs:element name="Power" type="Power" />
+      <xs:element name="Accuracy" type="Accuracy" />
+      <xs:element name="PP" type="PP" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="Egg">
+    <xs:sequence>
+      <xs:element name="EggGroup" type="Eggs" maxOccurs="unbounded" />
+      <xs:element name="HatchTime" type="HatchTime"  /> 
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="Forms">
+    <xs:sequence>
+      <xs:element name="Form" type="FormGroup" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="biology">
+    <xs:sequence>
+      <xs:element name="p" type="xs:string" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="AnimeMoves">
+    <xs:sequence>
+      <xs:element name="MoveInfo" type="MoveInfo" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="MoveInfo">
+    <xs:sequence>
+      <xs:element name="Move" type=" xs:string" />
+      <xs:element name="Info" type=" xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="MajorApperances">
+    <xs:sequence>
+      <xs:element name="AppearanceInfo" type="AppearanceInfo" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="AppearanceInfo">
+    <xs:sequence>
+      <xs:element name="Pokemon" type=" xs:string" />
+      <xs:element name="Info" type=" xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="Trivias">
+    <xs:sequence>
+      <xs:element name="Trivia" type=" xs:string" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+  
+  <!-- SimpleTypes -->
+  <xs:simpleType name="Type">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Normal" />
+      <xs:enumeration value="Fire" />
+      <xs:enumeration value="Feuer" />
+      <xs:enumeration value="Water" />
+      <xs:enumeration value="Wasser" />
+      <xs:enumeration value="Electric" />
+      <xs:enumeration value="Elektro" />
+      <xs:enumeration value="Grass" />
+      <xs:enumeration value="Pflanze" />
+      <xs:enumeration value="Ice" />
+      <xs:enumeration value="Eis" />
+      <xs:enumeration value="Fighting" />
+      <xs:enumeration value="Kampf" />
+      <xs:enumeration value="Poison" />
+      <xs:enumeration value="Gift" />
+      <xs:enumeration value="Ground" />
+      <xs:enumeration value="Boden" />
+      <xs:enumeration value="Flying" />
+      <xs:enumeration value="Flug" />
+      <xs:enumeration value="Psychic" />
+      <xs:enumeration value="Psycho" />
+      <xs:enumeration value="Bug" />
+      <xs:enumeration value="Käfer" />
+      <xs:enumeration value="Rock" />
+      <xs:enumeration value="Gestein" />
+      <xs:enumeration value="Ghost" />
+      <xs:enumeration value="Geist" />
+      <xs:enumeration value="Dragon" />
+      <xs:enumeration value="Drache" />
+      <xs:enumeration value="Dark" />
+      <xs:enumeration value="Unlicht" />
+      <xs:enumeration value="Steel" />
+      <xs:enumeration value="Stahl" />
+      <xs:enumeration value="Fairy" />
+      <xs:enumeration value="Fee" />
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="Hidden">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="True" />
+      <xs:enumeration value="False" />
+      <xs:enumeration value="" /> <!-- TODO: remove after correct implementation -->
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="Eggs">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Monster" />
+      <xs:enumeration value="Human-Like" />
+      <xs:enumeration value="Water 1" />
+      <xs:enumeration value="Water 2" />
+      <xs:enumeration value="Water 3" />
+      <xs:enumeration value="Bug" />
+      <xs:enumeration value="Mineral" />
+      <xs:enumeration value="Flying" />
+      <xs:enumeration value="Amorphous" />
+      <xs:enumeration value="Field" />
+      <xs:enumeration value="Fairy" />
+      <xs:enumeration value="Ditto" />
+      <xs:enumeration value="Grass" />
+      <xs:enumeration value="Dragon" />
+      <xs:enumeration value="No Eggs" />
+      <xs:enumeration value="No gender" />
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="LevelingRate">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Erratic" />
+      <xs:enumeration value="Fast" />
+      <xs:enumeration value="Medium Fast" />
+      <xs:enumeration value="Medium Slow" />
+      <xs:enumeration value="Slow" />
+      <xs:enumeration value="Fluctuating" />
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="FormGroup">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Mega" />
+      <xs:enumeration value="Dynamax" />
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="HatchTime">
+      <xs:restriction base="xs:string">
+        <xs:pattern value="\d+ cycles " /> <!-- TODO: remove the white space in the parse algorithm -->
+      </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name ="Height">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d+\.\d m" />
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name ="Weight">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d+\.\d kg" />
+    </xs:restriction>
+  </xs:simpleType>
+  
+   <xs:simpleType name="Level">
+    <xs:restriction base="xs:int">
+      <xs:minInclusive value="1" />
+      <xs:maxInclusive value="100" />
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="Category">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Physical" />
+      <xs:enumeration value="Special" />
+      <xs:enumeration value="Status" />
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="Power">
+    <xs:restriction base="xs:int">
+      <xs:enumeration value="0000" /><!-- TODO: check how no damage is stored in the other sites -->
+      <xs:pattern value="\d0" />
+      <xs:pattern value="\d5" />
+      <xs:pattern value="1\d\d" />
+      <xs:pattern value="2\d\d" />
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="Accuracy">
+    <xs:restriction base="xs:int">
+      <xs:enumeration value="—%" /> <!-- TODO: check how other sites safe it -->
+      <xs:enumeration value="100%" />
+      <xs:pattern value="\d\d%" />
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="PP">
+    <xs:restriction base="xs:int">
+      <xs:pattern value="(5|10|15|20|25|30|35|40)" /> <!-- TODO is there a better way= -->
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="TMName">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="TM\d\d\d" />
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <!--
+  <xs:simpleType name="GenderTypes">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Male" />
+      <xs:enumeration value="Female" />
+      <xs:enumeration value="Both" />
+      <xs:enumeration value="Unknown" />
+    </xs:restriction>
+  </xs:simpleType>
+        Name (English, German, Japanese)
+        Type (Max 2, Min 1)
+        Ability (How Should the hidden ability be declared)
+        Gender (Male, Female, "Neither")
+        Learnset (Level, TM, Breeding, Prior Evolution)   (Should we differentiate between different Gens)
+        Height
+        Weight
+        Egg group
+        Hatch Time
+        Leveling rate
+        Base experience yield
+        Forms
+        Evolutions(Possible Mega, Dynamax)
+        Stats (HP, Attack, Defense, Sp. Attack, Sp. Defense, Speed, Total
+        Locations
+        Held Items
+  -->
+</xs:schema>
