@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Pokemon>
+	<Name>Bisasam</Name>
+	<ID>1</ID>
+	<Types>
+		<EnglishType>
+			<Type>Grass</Type>
+			<Type>Poison</Type>
+		</EnglishType>
+		<GermanType>
+			<Type>Pflanze</Type>
+			<Type>Gift</Type>
+		</GermanType>
+	</Types>
+	<Bisafans>
+		<Introduction>Bisasam ist ein Pokémon der Typen Pflanze und Gift und existiert seit der ersten Spielgeneration. Es ist die erste Entwicklungsstufe von Bisaknosp und Bisaflor. Neben Glumanda und Schiggy ist Bisasam eines der Starter-Pokémon aus Kanto. Als Starter-Pokémon ist es in Pokémon Rot, Blau, Feuerrot und Blattgrün erhältlich und in Pokémon X und Y ist es eines der von Professor Platan erhältlichen Pokémon. Außerdem kann man es in Pokémon Mystery Dungeon: Team Blau und Rot, Erkundungsteam Zeit, Dunkelheit und Himmel sowie in Pokémon Super Mystery Dungeon und Pokémon Mystery Dungeon: Retterteam DX als spielbaren Charakter oder als Partner erhalten. Im Anime und im Manga Pocket Monsters: Dengeki Pikachu nimmt es als Ashs Bisasam eine wichtige Rolle ein. Weitere größere Auftritte besitzt es als Maikes Bisasam im Anime und als Rots Bisasam namens Bisa im „Pocket Monsters SPECIAL“-Manga.</Introduction>
+		<Anime>
+			<Biology>
+				<p>Bisasam ist ein kleines, vierbeiniges und reptilienähnliches Pokémon. Es trägt einen hellgrünen Samen auf dem Rücken und sein Körper ist in einem ein klein wenig helleren Grünton gefärbt. Zusätzlich sind auf seiner Haut einzelne, dunkelgrüne Flecken zu erkennen. Das Pflanze-Gift-Pokémon besitzt einen breiten Kopf, der von zwei abgerundeten, dreieckigen Ohren gekrönt wird. Die großen Augen bestehen aus weißer Lederhaut und rot-weißen Pupillen. Die beiden kleinen Nasenlöcher befinden sich direkt über dem sehr breiten Maul. In der schillernden Form erscheint Bisasam komplett in einem leuchtend hellen Grün. Lediglich die Knolle weist ein dunkleres Grün als gewöhnlich auf.</p>
+				<p>Bisasams Knolle ist der Ausgangspunkt für zahlreiche Fähigkeiten. Sie ermöglicht es dem Pokémon Sonnenlicht zu absorbieren und dieses dort zu speichern. Dadurch kann Bisasam Attacken wie Solarstrahl, Synthese und Wachstum erlernen. Da Bisasam seine Knolle kurzzeitig an der Spitze öffnen kann, kann es die in der Knolle enthaltenen Samen auch offensiv nutzen, indem es den Gegner mit Samen bombardiert oder auf den Gegner einen Egelsamen schießt, der ihn bepflanzt und ihm Energie absaugt. Ebenso kann es durch die Knolle Puder freisetzen, was man an dem Einsatz von Giftpuder und Schlafpuder sehen kann. Zu guter Letzt kann Bisasam auch Ranken seitlich oder oben aus der Knolle heraus entfesseln, von denen es nicht nur beim Einsatz von Rankenhieb, einer seiner charakteristischsten Attacken, Gebrauch macht, sondern die es auch generell zum Greifen und Fangen von Objekten verwenden kann. Wie alle Pflanzen-Starter-Pokémon ist es mit genügend Zuneigung dazu in der Lage, von einem Attacken-Lehrer die Attacke Pflanzensäulen zu erlernen.</p>
+				<p>Bisasam weist gemeinsam mit seiner Evolutionslinie ein sehr schmales Verbreitungsspektrum auf und ist lediglich in Kanto und in Kalos heimisch. Aber auch dort ist es in freier Wildbahn äußerst selten anzutreffen und wird in diesen Regionen viel eher als Starter-Pokémon genutzt. Aus diesem Grund befinden sich die meisten Bisasam und dessen Entwicklungen im Besitz von Pokémon-Trainern und werden fast ausschließlich zu diesem Zweck gezüchtet und aufgezogen. Aufgrund dieser frühen und zumeist lang anhaltenden Verbindung zu einem Trainer gelten Bisasam als treue und gut erzogene Pokémon. Die wenigen wilden Exemplare bevorzugen als natürlichen Lebensraum hohes, sonniges Grasland und Wälder vorwiegend in der Kanto-Region.</p>
+				<p>Bisasam ist ein Basis-Pokémon und die Vorentwicklung von Bisaknosp, welches sich wiederum zu Bisaflor entwickeln kann. Weiterhin kann Bisaflor seit der sechsten Generation eine Mega-Entwicklung und seit der achten Generation eine Gigadynamaximierung vollführen. In den Spielen werden die Entwicklungen durch das Erreichen der Level 16 bzw. 32 ausgelöst. In der Anime-Episode Der mysteriöse Garten wird ein versteckter Garten geschildert, in dem sich jährlich Bisasam treffen, um sich bei einer, von einem Bisaflor gehaltenen, Zeremonie zu entwickeln. Dabei lässt sich beobachten, dass Bisasams Knolle hellblau leuchtet, wenn es bereit für die Entwicklung ist.</p>
+				<p>Bisasams Körperbau könnte auf einer Mischung aus einer Kröte und, aufgrund der Haltung und der Eckzähne, auf einem säugetierähnlichen Reptil der Teilordnung der Dicynodontia basieren. Falls jene auch über Ohrmuscheln verfügt haben sollten, würde dies wiederum für diese Herkunft sprechen. Der Samen auf seinem Rücken beruht wahrscheinlich auf einer Pflanzenzwiebel.</p>
+				<p>Seine Namen in den verschiedenen Sprachen spielen mit Wörtern wie Samen, Pflanzenzwiebel und Saurier auf seinen Körperbau an und betiteln das Pokémon als bizarr oder mysteriös. Das „Bi“ in seinem deutschen Namen könnte allerdings auch als Vorsilbe für „Zwei“ fungieren und eine Anspielung auf seine Symbiose zwischen Reptil und Pflanze sein. Des Weiteren bilden die japanischen Namen von Bisasam, Bisaknosp und Bisaflor ein Wortspiel: Bisasams Name fragt 不思議だね Fushigi da ne. Der Name von Bisaknosp antwortet 不思議そう Fushigi sou und Bisaflors Name erwidert 不思議ばな Fushigi ba na.</p>
+				<p>Es wurde von Atsuko Nishida entworfen.</p>
+			</Biology>
+			<category>Samen</category>
+			<Appearances>
+				<Series>
+					<Episode>Episode 1: Pika-Pikachu</Episode>
+					<Episode>Episode 10: Bisasam und das versteckte Idyll</Episode>
+					<Episode>Episode 17: Insel der Giganten</Episode>
+					<Episode>Episode 18: „Schönheit und der Strand!“</Episode>
+					<Episode>Episode 24: Alpollo vs. Kadabra</Episode>
+					<Episode>Episode 26: Im Reich der Düfte</Episode>
+					<Episode>Episode 31: Das Digda-Problem</Episode>
+					<Episode>Episode 32: Die Arena der Ninja</Episode>
+					<Episode>Episode 34: Kangama Kid</Episode>
+					<Episode>Episode 36: Fahrrad-Gang</Episode>
+					<Episode>Episode 41: Duell in Dark City</Episode>
+					<Episode>Episode 43: Angriff der Kokoweis</Episode>
+					<Episode>Episode 50: Kampf um Togepi</Episode>
+					<Episode>Episode 51: Der mysteriöse Garten</Episode>
+					<Episode>Episode 52: Das Prinzessinnenfest</Episode>
+					<Episode>Episode 53: Katzenjammer und Heldengeschichten</Episode>
+					<Episode>Episode 62: Die Piepi Legende</Episode>
+					<Episode>Episode 66: Verirrt im Schneesturm</Episode>
+					<Episode>Episode 70: Terror im Treibhaus</Episode>
+					<Episode>Episode 79: Hopp oder Top – Die Runde 4</Episode>
+					<Episode>Episode 80: Echte Freundschaft!</Episode>
+					<Episode>Episode 83: Panik-Party</Episode>
+					<Episode>Episode 84: Flug des Grauens</Episode>
+					<Episode>Episode 95: Abenteuer auf der Insel Navel</Episode>
+					<Episode>Episode 100: Ferientag mit Hindernissen</Episode>
+					<Episode>Episode 104: Gefahr im Kanal</Episode>
+					<Episode>Episode 114: In der Höhle des Drachen</Episode>
+					<Episode>Episode 120: Im Team gegen Team Rocket!</Episode>
+					<Episode>Episode 121: Ein spezieller Freund</Episode>
+					<Episode>Episode 123: Pokémon Illusion!</Episode>
+					<Episode>Episode 125: Attacke Webarak!</Episode>
+					<Episode>Episode 127: Das kleine Damhirplex</Episode>
+					<Episode>Episode 128: Endivies Rettung</Episode>
+					<Episode>Episode 129: Geheimnis des Morlord</Episode>
+					<Episode>Episode 130: Treue Ledyba</Episode>
+					<Episode>Episode 132: Überraschung im Knofensa-Turm</Episode>
+					<Episode>Episode 138: Endivies Alleingang</Episode>
+					<Episode>Episode 147: Teamwork</Episode>
+					<Episode>Episode 151: Gefährlicher Tunnel</Episode>
+					<Episode>Episode 153: Streit um Karnimani</Episode>
+					<Episode>Episode 155: Liebe auf Karnimani Art</Episode>
+					<Episode>Episode 156: Schlauer als Noctuh</Episode>
+					<Episode>Episode 157: Gefahr im finsteren Wald</Episode>
+					<Episode>Episode 168: Dojo Träume!</Episode>
+					<Episode>Episode 170: Angel, Köder, Angeber</Episode>
+					<Episode>Episode 174: In den Bergen</Episode>
+					<Episode>Episode 178: Pokémon Jujitsu</Episode>
+					<Episode>Episode 180: Das Pflanzen Pokémon Turnier</Episode>
+					<Episode>Episode 186: Diebische Kramurx</Episode>
+					<Episode>Episode 188: Der kleine Dieb</Episode>
+					<Episode>Episode 189: Bewegende Bilder</Episode>
+					<Episode>Episode 195: Fieberträume!</Episode>
+					<Episode>Episode 201: Brenzliges Abenteuer</Episode>
+					<Episode>Episode 202: Ärger mit Lorblatt</Episode>
+					<Episode>Episode 206: Hilfe beim Tunnelbau</Episode>
+					<Episode>Episode 215: Corasonn Schabernack!</Episode>
+					<Episode>Episode 225: Der Hoothoot-Express</Episode>
+					<Episode>Episode 226: Nerven aus Stahl!</Episode>
+					<Episode>Episode 227: Bisasam im Diplomatendienst</Episode>
+					<Episode>Episode 270: Ein entscheidendes Unentschieden</Episode>
+					<Episode>Episode 347: Die geheimste Geheimbasis der Welt</Episode>
+					<Episode>Episode 349: Betreten verboten!</Episode>
+					<Episode>Episode 350: Das nennt man Pech!</Episode>
+					<Episode>Episode 353: MFP-Girls wollen Spaß!</Episode>
+					<Episode>Episode 354: Verlieren geht über studieren!</Episode>
+					<Episode>Episode 358: Apfeldiebe!</Episode>
+					<Episode>Episode 360: Und wer fliegt jetzt!?</Episode>
+					<Episode>Episode 362: Projektor an und Action</Episode>
+					<Episode>Episode 366: Vladimer, der Angreifer!</Episode>
+					<Episode>Episode 370: Freundschaft zählt mehr als der größte Schatz</Episode>
+					<Episode>Episode 372: Fitness macht stark!</Episode>
+					<Episode>Episode 378: Hat Max Recht?</Episode>
+					<Episode>Episode 379: Hochmut kommt vor dem Fall</Episode>
+					<Episode>Episode 383: Absolutes Desaster!</Episode>
+					<Episode>Episode 390: Die rollende Romanze</Episode>
+					<Episode>Episode 391: Eifer sucht Eifersucht!</Episode>
+					<Episode>Episode 397: Mehr Schein als sein?</Episode>
+					<Episode>Episode 398: Trau, Schau wem!</Episode>
+					<Episode>Episode 399: Studieren geht über verlieren!</Episode>
+					<Episode>Episode 400: Flug ins Ungewisse</Episode>
+					<Episode>Episode 409: Auf Los geht's los!</Episode>
+					<Episode>Episode 465: Alte Freunde</Episode>
+					<Episode>Episode 466: Alles auf eine Karte!</Episode>
+					<Episode>Episode 650: Die alte Rasselbande</Episode>
+					<Episode>Episode 775: Ein feuriges Wiedersehen!</Episode>
+					<Episode>Episode 801: Dem Traum hinterher!</Episode>
+					<Episode>Episode 840: Das Pokémon-Sommer-Camp!</Episode>
+					<Episode>Episode 841: Tag drei: Videowettbewerb!</Episode>
+					<Episode>Episode 842: Ein Pokémon Orientierungs-Rennen im Nebel!</Episode>
+					<Episode>Episode 843: Kampf um die Ruhmeshalle!</Episode>
+					<Episode>Episode 848: Vom Traum, Performerin zu werden!</Episode>
+					<Episode>Episode 865: Mit einem strahlenden Lächeln!</Episode>
+					<Episode>Episode 887: Ein legendärer Fototermin!</Episode>
+					<Episode>Episode 958: Kristallklare Detektivarbeit!</Episode>
+					<Episode>Episode 983: Alola, Kanto!</Episode>
+					<Episode>Episode 1031: Die Zukunft beginnt jetzt!</Episode>
+					<Episode>Episode 1088: Hallo, Pikachu!</Episode>
+					<Episode>Episode 1089: Legende? Los! Freunde? Los!</Episode>
+					<Episode>Episode 1090: Der geheimnisvolle Turm der Bisaknosp!</Episode>
+					<Episode>Episode 1103: Ein schrecklicher-Fluch!</Episode>
+					<Episode>Episode 1133: Anders als erwartet!</Episode>
+					<Episode>Episode 1136: Trainieren oder nicht trainieren!</Episode>
+					<Episode>Episode 1155: Gohs Entscheidung!</Episode>
+					<Episode>Episode 1174: Das Eis wird gebrochen!</Episode>
+					<Episode>Episode 1201: Freunde, Rivalen, stärkt meinen Kampfgeist!</Episode>
+					<Episode>Episode 1205: Harter Gegner – harter Kampf!</Episode>
+					<Episode>Episode 1210: Wechselspiele ohne Ende!</Episode>
+					<Episode>Episode 1211: Wagemut: Ein strategischer Teil des Kämpfens!</Episode>
+					<Episode>Episode 1212: Schritt für Schritt dem Ziel näher!</Episode>
+					<Episode>Episode 1217: Taktikspiele!</Episode>
+					<Episode>Episode 1218: Wer gibt hier den Takt an?!</Episode>
+					<Episode>Episode 1219: Partner gegen Partner!</Episode>
+					<Episode>Episode 1222: Helden vereinen sich!</Episode>
+					<Episode>Episode 1223: Dies könnten die Anfänge … von etwas Großem sein!</Episode>
+					<Episode>Episode 1228: Eine Meute voller Leidenschaft!</Episode>
+					<Episode>Episode 1233: Ash und Latios!</Episode>
+					<Episode>Episode 1234: Der Regenbogen und der Pokémon-Meister!</Episode>
+					<Episode>Episode 1235: Der Anhänger, mit dem alles anfängt! (1)</Episode>
+					<Episode>Episode 1236: Der Anhänger, mit dem alles anfängt! (2)</Episode>
+					<Episode>Episode 1239: Ich hab’ dich gefunden, Krokel!</Episode>
+					<Episode>Episode 1259: Rivalen im Dunkeln der Nacht!</Episode>
+				</Series>
+				<Films>
+					<Movie>Pokémon – Der Film </Movie>
+					<Movie>Pokémon 2 – Die Macht des Einzelnen </Movie>
+					<Movie>Pokémon 3 – Im Bann der Icognito </Movie>
+					<Movie>Mewtu kehrt zurück </Movie>
+					<Movie>Pokémon 7 – Destiny Deoxys </Movie>
+					<Movie>Pokémon 10 – Der Aufstieg von Darkrai </Movie>
+					<Movie>Pokémon – Der Film: Du bist dran! </Movie>
+					<Movie>Pokémon – Der Film: Die Macht in uns </Movie>
+					<Movie>Pokémon: Der Film: Mewtu schlägt zurück EVOLUTION</Movie>
+				</Films>
+			</Appearances>
+			<Trivias>
+				<Trivia>In den englischen Versionen von Schwarz und Weiss konnten Bisasam und seine Entwicklungen nicht ohne Spitznamen über die GTS getauscht werden, da ihr englischer Name das deutsche Schimpfwort "Sau" enthält.</Trivia>
+				<Trivia>In Generation 6 kann man alle Starterpokémon erhalten: In XY die der sechsten und ersten Generation, in ORAS die der zweiten, dritten, vierten und fünften Generation.</Trivia>
+				<Trivia>In der ersten Folge des Pokémon-Animes stehen auf den Pokébällen der Starter-Pokemon ihre japanischen Namen. Eine Szene mit allen drei Bällen samt Beschriftungen hat es auch in die westliche Fassung geschafft.</Trivia>
+				<Trivia>Bisasam ist neben Bauz der einzige Starter der Hauptreihe, der von Beginn an einen Dual-Typ ( ) hat.</Trivia>
+				<Trivia>Alle Entwicklungsstufen von Bisasam kommen in der Super Smash Bros.-Reihe vor.</Trivia>
+				<Trivia>Es wurde 2001 auf den Niue-Dollar gedruckt.</Trivia>
+			</Trivias>
+		</Anime>
+	</Bisafans>
+</Pokemon>
