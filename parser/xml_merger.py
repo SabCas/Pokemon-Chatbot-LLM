@@ -2,15 +2,23 @@ import os
 import xmltodict
 import german_parser
 import english_parser
+from tqdm import tqdm
 
 
-bisafans_dir = 'bisafans_data'
-pokewiki_dir = 'pokewiki_data'
-bulbapedia_dir = 'bulbapedia_data'
+bisafans_dir = '/home/alp/Studium/Text Technology/llm-chatbot-python/data/bisafans_data'
+pokewiki_dir = '/home/alp/Studium/Text Technology/llm-chatbot-python/data/pokewiki_data'
+bulbapedia_dir = '/home/alp/Studium/Text Technology/llm-chatbot-python/data/bulbapedia_data'
+
+
+target_dir = '/home/alp/Studium/Text Technology/llm-chatbot-python/data/final_data'
+os.makedirs(target_dir, exist_ok=True)
 
 
 
-for bisa_file_name, poke_file_name, bulba_file_name in zip(os.listdir(bisafans_dir), os.listdir(pokewiki_dir), os.listdir(bulbapedia_dir)):
+for bisa_file_name, poke_file_name, bulba_file_name in tqdm(zip(sorted(os.listdir(bisafans_dir)), 
+                                                           sorted(os.listdir(pokewiki_dir)), 
+                                                           sorted(os.listdir(bulbapedia_dir))), total=1024):
+    
     with open(os.path.join(bisafans_dir, bisa_file_name), 'r') as file:
         bisafans_html = file.read()
     with open(os.path.join(pokewiki_dir, poke_file_name), 'r') as file:
@@ -18,40 +26,129 @@ for bisa_file_name, poke_file_name, bulba_file_name in zip(os.listdir(bisafans_d
     with open(os.path.join(bulbapedia_dir, bulba_file_name), 'r') as file:
         bulbapedia_html = file.read()
 
+    store_path = os.path.join(target_dir, bisa_file_name[:4] + '.xml')
+    if os.path.exists(store_path):
+        continue
+    
     german_data = german_parser.main(bisafans_html, pokewiki_html)
     english_data = english_parser.main(bulbapedia_html)
 
+
     # Example dictionary
+    abilities_list_eng = [{'Name': ability, "Hidden": False} for ability in english_data['abilities'][0]]
+    abilities_list_eng.append({'Name': english_data['abilities'][1], "Hidden": True})
+
+    # Example dictionary
+    abilities_list_ger = [{'Name': ability, "Hidden": False} for ability in german_data['abilities'][0]]
+    abilities_list_ger.append({'Name': german_data['abilities'][1], "Hidden": True})
+
+
     data = {
         "Pokemon": {
-        "Name": 'Pikachu',
-        "ID": 25,
+        "Name": {
+            'English': english_data['name'],
+            'German': bisa_file_name[bisa_file_name.find('_')+1:-5]
+        },
+        "ID": int(f'1{english_data['dex_number']}') - 10000,
         "Types": {
-            'EnglishType': {'Type': ['Grass','Poison']},
+            'EnglishType': {'Type': english_data['type']},
             'GermanType': {'Type': german_data['type']},
         },
-        'Bisafans': {
-            "Introduction": german_data['intro'],
+        "EnglishData": {
+            "Category": english_data['category'],
+            "EvolutionLine": {'Name': [name for name in english_data['evolution_line']]},
+            "Forms": {"Name": [name for name in english_data['forms']]},
+            "Introduction": english_data['introduction'],
+            "Biology": {'P': [biology for biology in english_data['biology']]},
+            "Trivias": {'Trivia': [trivia for trivia in english_data['trivias']]},
             "Game": {
-
+                "Abilities": {
+                    "Ability": abilities_list_eng,
+                    },
+                "Stats": english_data['stats'],
+                "Physique": {
+                    "Height": english_data["physique"][0],
+                    "Weight": english_data["physique"][1],
+                },
+                "GenderRatio": english_data["gender"],
+                "LearnableAttacks": {
+                    "LevelUp": {
+                        "Attack": [{'Level': attack[0], 
+                                    'MoveName': attack[1],  
+                                    'Type': attack[2],  
+                                    'Category': attack[3],  
+                                    'Power': attack[4], 
+                                    'Accuracy': attack[5],  
+                                    'PP': attack[6]} for attack in english_data['learnset'][0][1:]]
+                                    },
+                    'TechnicalMachine': {
+                        "Attack": [{'Level': attack[0], 
+                                    'MoveName': attack[1],  
+                                    'Type': attack[2],  
+                                    'Category': attack[3],  
+                                    'Power': attack[4], 
+                                    'Accuracy': attack[5],  
+                                    'PP': attack[6]} for attack in english_data['learnset'][1][1:]]
+                                    },     
+                },
             },
             "Anime": {
-                "Biology": {"P":[biology.replace('\n', ' ') for biology in german_data['biologies']]},
-                "category": german_data['category'] +'-Pokemon',
+                "Appearances": [{'Title': appearance,
+                                'Summary': english_data['major_appearances'][appearance]
+                } for appearance in english_data['major_appearances']],
+            },
+        },
+        'GermanData': {
+            "Category": german_data['category'] + ' Pokémon',
+            "EvolutionLine": {'Name': [name for name in german_data['evolutions']]},
+            "Forms": {"Name": [name for name in german_data['forms']]},
+            "Introduction": german_data['intro'],
+            "Biology": {"P":[biology.replace('\n', ' ') for biology in german_data['biologies']]},
+            "Trivias": {'Trivia': [trivia for trivia in german_data['trivias']]},
+            "Game": {
+                "Abilities": {
+                    "Ability": abilities_list_ger,
+                    },
+                "Stats": german_data['stats'],
+                "Physique": {
+                    "Height": german_data["physique"][0],
+                    "Weight": german_data["physique"][1],
+                },
+                "GenderRatio": english_data["gender"],
+                "LearnableAttacks": {
+                    "LevelUp": {
+                        "Attack": [{'Level': attack[0], 
+                                    'MoveName': attack[1],  
+                                    'Type': attack[2],  
+                                    'Category': attack[3],  
+                                    'Power': attack[4], 
+                                    'Accuracy': attack[5],  
+                                    'PP': attack[6]} for attack in german_data['attacks']['levelup']]
+                                    },
+                    'TechnicalMachine': {
+                        "Attack": [{'Level': attack[0], 
+                                    'MoveName': attack[1],  
+                                    'Type': attack[2],  
+                                    'Category': attack[3],  
+                                    'Power': attack[4], 
+                                    'Accuracy': attack[5],  
+                                    'PP': attack[6]} for attack in german_data['attacks']['tm']]
+                                    },     
+                },
+            },
+            "Anime": {
                 "Appearances": {
                     "Series": {'Episode': [episode for episode in german_data['appearances']['Serie']]},
                     "Films": {'Movie': [movie for movie in german_data['appearances']['Filme und Spezialfilme']]}
                 },
-                "Trivias": {'Trivia': [trivia for trivia in german_data['trivias']]},
-            }
-            
-        }
-        
-        }
+            },
+        },
+        },
     }
-    
 
-# Convert dictionary to XML
-xml_str = xmltodict.unparse(data, pretty=True)
-with open('pika.xml', 'w') as writer:
-    writer.write(xml_str)
+
+    # Convert dictionary to XML
+    xml_str = xmltodict.unparse(data, pretty=True)
+
+    with open(store_path, 'w') as writer:
+        writer.write(xml_str)

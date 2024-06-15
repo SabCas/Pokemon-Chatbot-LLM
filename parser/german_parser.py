@@ -51,12 +51,12 @@ def get_appearances(soup):
     """
     Extracts appearance data (series and movies) of a Pokémon.
     """
-    appearances = {}
+    appearances = {'Serie':[],
+                   'Filme und Spezialfilme': []}
 
     for title in soup.find_all('h4'):
         if title.text != 'Serie':
             continue
-        appearances[title.text] = []
         for list_element in title.find_next().find_all('li')[1::2]:
             le_text = list_element.text.strip()
             le_text = le_text[le_text.find(' ') + 1:]
@@ -66,7 +66,6 @@ def get_appearances(soup):
     for title in soup.find_all('h4'):
         if title.text != 'Filme und Spezialfilme':
             continue
-        appearances[title.text] = []
         for list_element in title.find_next().find_all('li'):
             le_text = list_element.text.strip().split('\n')[0]
             if le_text not in appearances[title.text]:
@@ -81,7 +80,9 @@ def get_trivias(soup):
     for title in soup.find_all('h3'):
         if title.text != 'Trivia':
             continue
-        return title.find_next().text.strip().split('\n')
+        if title.find_next().text.strip().split('\n') is not None:
+            return title.find_next().text.strip().split('\n')
+    return []
 
 def get_gender_ratio(soup):
     """
@@ -110,10 +111,15 @@ def get_forms(soup):
     """
     Extracts different forms of a Pokémon.
     """
+    forms = []
     if soup.find('div', id='sonder') is None:
         return []
+    
+    if soup.find('div', id='sonder').find('h2') is None:
+        for a in soup.find('div', id='sonder').find('div', id='bilderdex').find_all('a'):
+            forms.append(a.text.strip())
+        return forms
 
-    forms = []
     if soup.find('div', id='sonder').find('ul', class_='nav-tabs'):
         for element in soup.find('div', id='sonder').find('ul').find_all('li'):
             forms.append(element.text.strip())
@@ -144,7 +150,7 @@ def get_stats(soup):
         div_tag = title.find_next()
         for row in div_tag.find_all('tr')[2:-1]:
             values = row.find_all('td')
-            result[values[0].text.strip()] = int(values[2].text.strip())
+            result[values[0].text.strip().replace('‑','')] = int(values[2].text.strip())
     return result
 
 def get_physique(soup):
@@ -160,14 +166,31 @@ def get_attacks(soup):
     Extracts attack moves of a Pokémon.
     """
     attack_dict = {}
-    for learn_typ, table in zip(['levelup', 'tm'], soup.find('div', id='movetable-0-gen-9').find_all('tbody')[0:2]):
+    
+    found_attack_divs = []
+    for right_title in soup.find_all('h4'):
+        if right_title.text.strip() not in ['Durch Level-Up', 'Durch TMs']:
+            continue
+        else:
+            found_attack_divs.append(right_title.find_next())
+    
+
+    for learn_typ, div in zip(['levelup', 'tm'], found_attack_divs):
+        table = div.find('tbody')
         attack_dict[learn_typ] = []
+        if table is None:
+            continue
         for row in table.find_all('tr'):
             values = row.find_all('td')
             lvl = values[0].text.strip()
             name = values[1].find('a').text.strip()
-            typ = values[2].find('img').get('alt')
-            kat = values[3].find('img').get('title')
+            try:
+                typ = values[2].find('img').get('alt')
+                kat = values[3].find('img').get('title')
+            except:
+                print('Error with attack in bisafans:', name)
+                typ = 'Psycho'
+                kat = 'Status'
             power = values[4].text.strip()
             prec = values[5].text.strip()
             ap = values[6].text.strip()
@@ -202,7 +225,7 @@ def main(bisafans_html, pokewiki_html):
         "biologies": extract_p_text_between_tags(biology_first_tag, biology_end_tag, True),
         "appearances": get_appearances(bisafans_soup),
         "trivias": get_trivias(bisafans_soup),
-        "gender_ratio": get_gender_ratio(bisafans_soup),
+        "gender": get_gender_ratio(bisafans_soup),
         "evolutions": get_evolutions(bisafans_soup),
         "forms": get_forms(bisafans_soup),
         "abilities": get_abilities(bisafans_soup),
