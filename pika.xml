@@ -1,0 +1,1339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Pokemon>
+	<Name>Pikachu</Name>
+	<ID>25</ID>
+	<Types>
+		<EnglishType>
+			<Type>Grass</Type>
+			<Type>Poison</Type>
+		</EnglishType>
+		<GermanType>
+			<Type>Elektro</Type>
+		</GermanType>
+	</Types>
+	<Bisafans>
+		<Introduction>Pikachu ist ein Pokémon mit dem Typ Elektro und existiert seit der ersten Spielgeneration. Es ist die erste Entwicklung von Pichu und kann sich selbst zu Raichu weiterentwickeln. Ferner ist es auf dem Cover der Pokémon Special Pikachu Edition und Pokémon: Let’s Go, Pikachu! zu sehen, wo es ebenfalls das Starter-Pokémon darstellt. Seit der achten Generation ist es in der Lage, per Gigadynamaximierung zu Gigadynamax-Pikachu zu werden. Pikachu ist das Maskottchen im Anime, das Pokémon mit dem höchsten Bekanntheitsgrad und das Maskottchen des Pokémon-Franchises. Im Anime ist Pikachu das Starter-Pokémon des Protagonisten Ash Ketchum, welches ihn seit Beginn seiner Reise begleitet. Außerdem besitzt Richie ein Pikachu namens Sparky. Des Weiteren spielt es als Meisterdetektiv Pikachu im gleichnamigen Film eine der Hauptrollen. Auch in Pokémon Horizonte: Die Serie hat es als Flugkapitän Pikachu eine wichtige Rolle. In allen Spielen der „Pokémon Mystery Dungeon“-Reihe kann man es als spielbaren Charakter oder als Partner erhalten. Es ist die Hauptrolle in Hey You, Pikachu! und Pokémon Channel sowie Protagonist in Pokémon Party minis Pikachu's Rocket Star. Außerdem ist es eines der fünf spielbaren Pokémon in Pokémon Pinball mini. Es ist der einzig spielbare Rennteilnehmer in Pokémon Race mini.</Introduction>
+		<Game></Game>
+		<Anime>
+			<Biology>
+				<P>Pikachu ist ein kleines, nagerähnliches Pokémon, das gelb, schwarz, braun und rot auftritt. Der Großteil seines Körpers ist dabei gelb gefärbt. Die Spitzen der Ohren sind allerdings in Schwarz. Auch befinden sich auf seinem Rücken zwei breite, abgerundete Streifen brauner Farbe. Gleiches gilt für den Beginn des Schwanzes. Das ursprünglich mollige und gedrungene Elektro-Pokémon ist mit der Zeit deutlich schlanker geworden. Auf dem Kopf wachsen zwei spitze, lange Ohren. Das Gesicht besteht aus den beiden schwarz-weißen, runden Augen, der sehr kleinen Nase, den beiden roten, mit Elektrizität gefüllten Backen und dem kleinen Mund. An seinen Vorderfüßen hat Pikachu fünf kurze Finger. Es besitzt breite Oberschenkel, die unmittelbar in die schmalen, langen Füße übergehen. An diesen hat es jeweils drei Zehen. Ein auffälliges Merkmal ist sein Schwanz, der die Form eines Blitzes hat.</P>
+				<P>In der schillernden Form ist es in einem kräftigen Dunkelgelb, nahezu orangenem Ton gefärbt.</P>
+				<P>Pikachu nutzt vor allem Elektro-Attacken wie Donnerblitz, um die in seinem Körper gespeicherte Elektrizität zu entladen. Pikachu lernt im Gegensatz zu seiner Weiterentwicklung Raichu deutlich mehr Attacken durch Levelaufstieg. Somit ist Raichus Attackenrepertoire durch Levelaufstieg stark begrenzt und es ist auf die Attacken seiner beiden Vorentwicklungen angewiesen, weshalb es ratsam ist, Pikachu nicht zu früh weiterzuentwickeln. Pikachu greift generell gerne physisch an, indem es zum Beispiel mit seinem Schweif in Form von Slam oder Eisenschweif auf seinen Gegner einpeitscht. Zusätzlich rammt es im Kampf auch seine Widersacher mit Einsatz seines ganzen Körpers, wie beispielsweise mit Ruckzuckhieb oder in Kombination mit Elektrizität in Form von Volttackle, der Spezialattacke der Pikachu-Evolutionslinie. Nur über Events ist es Pikachu auch möglich, die Attacke Surfer zu erlernen. In Pokémon Gelb initiiert dies sogar das Minispiel Pikachus Strand und das surfende Pikachu hat hier sogar einen eigenen Overworldsprite.</P>
+				<P>Mit Perfektes Pika-Projektil und Tausendfacher Donnerblitz besitzt Pikachu sogar zwei eigene Z-Attacken, die nur Pikachu beim Tragen der Z-Kristalle Pikachium Z und Ash-Pikachium Z einsetzen kann. Tausendfacher Donnerblitz mit der Basisstärke von 195 kann allerdings nur von einem Pikachu mit Ash-Kappe eingesetzt werden und wird namensgebend über die Attacke Donnerblitz ausgelöst. Perfektes Pika-Projektil muss hingegen mit Volttackle aktiviert werden und weist sogar eine Basisstärke von 210 auf.</P>
+				<P>Bei seinen Fähigkeiten bedient es sich seiner natürlichen Verhaltensweise, Elektrizität aufzunehmen bzw. zu speichern und wieder abzugeben. Dies wird durch die beiden Fähigkeiten Blitzfänger und Statik dargestellt. Stellt der Gegner mit seiner Attacke Kontakt zu einem Exemplar mit Statik her, besteht eine 30%-ige Wahrscheinlichkeit, dass er sich dabei eine Paralyse zuzieht. Blitzfänger zieht hingegen Elektro-Attacken an, absorbiert sie ohne Schaden zu nehmen und erhöht dabei Pikachus Spezial-Angriff um eine Stufe.</P>
+				<P>Pikachu ist ein kleines, recht scheues Pokémon, welches zwar in vielen Gegenden heimisch ist, jedoch eher selten beobachtet wird. Besonders häufig wird es in der Kanto- und in der Johto-Region angetroffen. Es bevorzugt als Lebensraum vor allem dichte Wälder, allerdings fühlt es sich auch von Orten mit viel Elektrizität wie zum Beispiel Kraftwerken angezogen. Dieses Pokémon kann in seinen Backentaschen Elektrizität speichern. Diese laden sich nachts im Schlaf auf. Es entlädt manchmal seine elektrische Ladung, wenn es gerade aufgewacht und noch schläfrig ist. Bei Schlafmangel kann es nur Schwachstrom entladen. Es liegt aber generell in seiner Natur, konstant Elektrizität in sich anzustauen. Kann es diese nicht regelmäßig entladen, löst dies Stress aus. Ist es angespannt, setzt es knisternd Elektrizität aus seinen Backentaschen frei. Ist es gar wütend, entlädt es diese sogar spontan. Immer wenn Pikachu auf etwas Neues stößt, jagt es einen Elektroschock hindurch. Eine verkohlte Beere im Wald deutet oft darauf hinauf, dass dieses Pokémon seine elektrische Ladung falsch eingeschätzt hat. Einige Exemplare dieser Spezies grillen aber auch harte Beeren absichtlich mit Elektrizität, um diese anschließend zu essen. Pikachu sind keine Einzelgänger und leben zusammen mit anderen Artgenossen in Wäldern. Wenn sich mehrere dieser Pokémon versammeln, kann ihre Energie Blitzgewitter erzeugen. Ein Grund für das Zusammentun vieler Pikachu kann das gemeinsame Graben nach Donnersteinen sein. Es verwendet hin und wieder auch seine gespeicherte Elektrizität, um ein anderes, geschwächtes Pikachu aufzuladen. Auch können sich mehrere Pikachu aufeinanderstellen und Donnerblitz in einer Art Serienschaltung einsetzen, um gemeinsam einen Feind zu bekämpfen.</P>
+				<P>In der Alola-Region ist es üblich, dass bei einem Streit zwischen zwei wild lebenden Pikachu einer Gruppe ein Duell geführt wird, bei dem der Sieger dasjenige Pikachu ist, das zuerst in den Schweif seines Gegenübers beißt. Weiter begrüßen sich Pikachu in Alola durch das Aneinanderreiben ihrer Schweife, wodurch statische Elektrizität in die Atmosphäre übertragen wird und Blitze erzeugt werden, die die Pikachu treffen. Dies gibt den Pikachu in Alola ein seidenes, schimmerndes Fell, während die Pikachu aus anderen Regionen eher über ein funkelndes verfügen.</P>
+				<P>Neuere Bestrebungen für eine umweltfreundliche Energieerzeugung versuchen, mithilfe einer großen Anzahl an Pikachu ein ganzes Kraftwerk zu betreiben. Ferner dient der Schweif dieses Pokémon als Frühwarnsystem. Zieht man ein Pikachu am Schweif, so beißt es um sich. Es streckt seinen Schweif aber auch nach oben, um seine Umgebung zu prüfen. Häufig fährt dann ein Blitz in den Schweif.</P>
+				<P>Pikachu ist ein Basis-Pokémon und die Vorentwicklung von Raichu. Seit der 2. Generation besitzt diese Evolutionsreihe mit Pichu eine Baby-Form und seit der 8. Generation ist Pikachu zudem zur Gigadynamaximierung fähig. In den Spielen wird die Entwicklung zu Raichu durch die Gabe eines Donnersteins ausgelöst. Pichu erreicht seine Basis-Form, wenn es genügend Zuneigung zu seinem Trainer sammeln konnte und im Anschluss ein Level erreicht. Die einzige Ausnahme in den Hauptreihen-Spielen bildet die Gelbe Edition, diese orientiert sich am Anime, in welchem sich Pikachu nicht entwickeln möchte.</P>
+				<P>Am 11. August 2016 wurde für seine Weiterentwicklung Raichu eine Regionalform vorgestellt. Selbst Pokémon-Forscher wissen nicht genau, warum sich Raichus Form in der Alola-Region verändert hat. Die Menschen dort scheint es zumindest nicht besonders zu kümmern. Ihre Vermutung: Es hat einfach zu viele süße, fluffige, runde Pfannkuchen verputzt. Zusätzlich wurde in Trailern bestätigt, dass sich Alola-Raichu aus einem regulären Pikachu entwickelt, welches sich gerade in der Alola-Region befindet. In Pokémon Ultrasonne und Ultramond entwickelt sich Pikachu zu einem regulären Raichu, wenn die Entwicklung außerhalb der Alola-Region, also in der Ultradimension, durchgeführt wird.</P>
+				<P>Pikachu wurde von Atsuko Nishida entworfen. Der Elektro-Typ stand in der Designphase als Erstes fest. Begonnen wurde mit der Form eines Daifuku mit schwarzen Ohren. Dann folgte die Namensgebung „Pikachu“, siehe unten. Obwohl Pikachu als Elektromaus bekannt ist, diente ein anderes Tier als Vorlage. Nishida liebt Tiere und war damals begeistert von Eichhörnchen. Obwohl schon ein Frettchen und eine Schildkröte bei ihr lebten, hätte sie am liebsten auch noch ein Eichhörnchen als Haustier gehalten. Daher übernahm sie einige ihrer Eigenschaften, dazu zählen die Backentaschen, in denen Eichhörnchen – ähnlich wie Hamster – Futter ansammeln, sowie der lange, niedliche Schwanz. Dieser wurde aufgrund der Elektro-Eigenschaften zu einem Blitz geformt. Die Streifen auf dem Rücken entstanden, um die Körperzeichnung der Rückansicht im Kampfgeschehen der Game-Boy-Spiele nicht so leer wirken zu lassen.</P>
+				<P>Pikachus Name ist in jeder Sprache gleich und wird auch im Anime weltweit von derselben, japanischen Synchronsprecherin Ikue Ōtani gesprochen. Der Name setzt sich aus den Wortlauten für Funkeln und dem Mäusepiepsen zusammen.</P>
+			</Biology>
+			<category>Maus-Pokemon</category>
+			<Appearances>
+				<Series>
+					<Episode>Episode 1: Pika-Pikachu</Episode>
+					<Episode>Episode 2: In letzter Minute</Episode>
+					<Episode>Episode 3: Ash im Jagdfieber</Episode>
+					<Episode>Episode 4: Die Herausforderung</Episode>
+					<Episode>Episode 5: Showdown in Marmoria City</Episode>
+					<Episode>Episode 6: Piepi und der mysteriöse Mondstein</Episode>
+					<Episode>Episode 7: Bezaubernde Schwestern</Episode>
+					<Episode>Episode 8: Harte Schale – Weicher Kern</Episode>
+					<Episode>Episode 9: Übung macht den Meister</Episode>
+					<Episode>Episode 10: Bisasam und das versteckte Idyll</Episode>
+					<Episode>Episode 11: Glumanda – Ein Pokémon in Nöten</Episode>
+					<Episode>Episode 12: Die Schiggy-Meute</Episode>
+					<Episode>Episode 13: Der geheimnisvolle Leuchtturm</Episode>
+					<Episode>Episode 14: Vorsicht Hochspannung!</Episode>
+					<Episode>Episode 15: An Bord der M.S. Anne</Episode>
+					<Episode>Episode 16: Das Schiffswrack</Episode>
+					<Episode>Episode 17: Insel der Giganten</Episode>
+					<Episode>Episode 18: „Schönheit und der Strand!“</Episode>
+					<Episode>Episode 19: Tentacha &amp; Tentoxa</Episode>
+					<Episode>Episode 20: Die verlorene Seele</Episode>
+					<Episode>Episode 21: Bye-bye Smettbo</Episode>
+					<Episode>Episode 22: Abra und das Psychoduell</Episode>
+					<Episode>Episode 23: Der Terror-Turm</Episode>
+					<Episode>Episode 24: Alpollo vs. Kadabra</Episode>
+					<Episode>Episode 25: Rasaff dreht durch</Episode>
+					<Episode>Episode 26: Im Reich der Düfte</Episode>
+					<Episode>Episode 27: Hypnos Nickerchen</Episode>
+					<Episode>Episode 28: Modezeit – Eitelkeit</Episode>
+					<Episode>Episode 29: Hart, aber fair</Episode>
+					<Episode>Episode 30: Drohende Gefahr</Episode>
+					<Episode>Episode 31: Das Digda-Problem</Episode>
+					<Episode>Episode 32: Die Arena der Ninja</Episode>
+					<Episode>Episode 33: Das Pokémon-Rennen</Episode>
+					<Episode>Episode 34: Kangama Kid</Episode>
+					<Episode>Episode 35: „Die Legende des Dratini“</Episode>
+					<Episode>Episode 36: Fahrrad-Gang</Episode>
+					<Episode>Episode 37: Die mysteriöse Villa</Episode>
+					<Episode>Episode 38: Pikachus Abschied</Episode>
+					<Episode>Episode 39: Die ungleichen Brüder</Episode>
+					<Episode>Episode 40: Relaxo im Tiefschlaf</Episode>
+					<Episode>Episode 41: Duell in Dark City</Episode>
+					<Episode>Episode 42: „Elektro-Soldat Porygon“</Episode>
+					<Episode>Episode 43: Angriff der Kokoweis</Episode>
+					<Episode>Episode 44: Die Paras-Problematik</Episode>
+					<Episode>Episode 45: Pummeluffs Song</Episode>
+					<Episode>Episode 46: Angreifer aus der Urzeit</Episode>
+					<Episode>Episode 47: Operation Chaneira</Episode>
+					<Episode>Episode 48: Verliebt, verlobt, verheiratet ...</Episode>
+					<Episode>Episode 49: Der Trickbetrüger</Episode>
+					<Episode>Episode 50: Kampf um Togepi</Episode>
+					<Episode>Episode 51: Der mysteriöse Garten</Episode>
+					<Episode>Episode 52: Das Prinzessinnenfest</Episode>
+					<Episode>Episode 53: Katzenjammer und Heldengeschichten</Episode>
+					<Episode>Episode 54: Die Fukano-Akte</Episode>
+					<Episode>Episode 55: Pokémon-Paparazzi</Episode>
+					<Episode>Episode 56: Die Feuerprobe</Episode>
+					<Episode>Episode 57: Butch und Cassidy</Episode>
+					<Episode>Episode 58: Der Rätselmeister</Episode>
+					<Episode>Episode 59: Panik im Vulkan</Episode>
+					<Episode>Episode 60: Turtoks Tiefschlaf-Drama</Episode>
+					<Episode>Episode 61: Bezaubernde Meerjungfrau</Episode>
+					<Episode>Episode 62: Die Piepi Legende</Episode>
+					<Episode>Episode 63: Der Kampf um den Erdorden</Episode>
+					<Episode>Episode 64: Vertauschte Rollen</Episode>
+					<Episode>Episode 65: Rossanas Odyssee</Episode>
+					<Episode>Episode 66: Verirrt im Schneesturm</Episode>
+					<Episode>Episode 67: Ewige Rivalen</Episode>
+					<Episode>Episode 68: Rätselhafte Entwicklung</Episode>
+					<Episode>Episode 69: Die große Welle</Episode>
+					<Episode>Episode 70: Terror im Treibhaus</Episode>
+					<Episode>Episode 71: … und Action!</Episode>
+					<Episode>Episode 72: Mauzi in Hollywood</Episode>
+					<Episode>Episode 73: Groß, größer, Onix!</Episode>
+					<Episode>Episode 74: Die rätselhafte Tempelruine</Episode>
+					<Episode>Episode 75: Böse bis auf die Knochen</Episode>
+					<Episode>Episode 76: Im Zeichen der Flamme</Episode>
+					<Episode>Episode 77: Ring frei zur Runde 1</Episode>
+					<Episode>Episode 78: Feuer und Eis</Episode>
+					<Episode>Episode 79: Hopp oder Top – Die Runde 4</Episode>
+					<Episode>Episode 80: Echte Freundschaft!</Episode>
+					<Episode>Episode 81: Möge der Bessere gewinnen!</Episode>
+					<Episode>Episode 82: Das Versprechen</Episode>
+					<Episode>Episode 83: Panik-Party</Episode>
+					<Episode>Episode 84: Flug des Grauens</Episode>
+					<Episode>Episode 85: Gefahr im Verzug!</Episode>
+					<Episode>Episode 86: Das verlorene Lapras</Episode>
+					<Episode>Episode 87: Wettkampf der Wasser-Pokémon</Episode>
+					<Episode>Episode 88: Der Aufstand</Episode>
+					<Episode>Episode 89: Das Kristall-Onix</Episode>
+					<Episode>Episode 90: Pinkan Island</Episode>
+					<Episode>Episode 91: Auf der Suche nach Fossilien</Episode>
+					<Episode>Episode 92: Theater, Theater ...</Episode>
+					<Episode>Episode 93: Entons Verschwinden</Episode>
+					<Episode>Episode 94: Entzückender Notdienst</Episode>
+					<Episode>Episode 95: Abenteuer auf der Insel Navel</Episode>
+					<Episode>Episode 96: Der Fruchtdieb!</Episode>
+					<Episode>Episode 97: Die Trophäe im Geisterschiff</Episode>
+					<Episode>Episode 98: Mauzis Abenteuer</Episode>
+					<Episode>Episode 99: Tracey und die Käfer-Pokémon</Episode>
+					<Episode>Episode 100: Ferientag mit Hindernissen</Episode>
+					<Episode>Episode 101: Ash und die Lektion auf der Mandarin-Insel</Episode>
+					<Episode>Episode 102: Liebe auf den ersten Blick!</Episode>
+					<Episode>Episode 103: Blitzgewitter und Energiespender</Episode>
+					<Episode>Episode 104: Gefahr im Kanal</Episode>
+					<Episode>Episode 105: Romantisches Insel-Abenteuer</Episode>
+					<Episode>Episode 106: Mächtig Ärger!</Episode>
+					<Episode>Episode 107: Willkommen im Dream Team!</Episode>
+					<Episode>Episode 108: Wasser Marsch!</Episode>
+					<Episode>Episode 109: Der Kampf ums Essen</Episode>
+					<Episode>Episode 110: Der Pokémon-Doppelkampf</Episode>
+					<Episode>Episode 111: Der wirre Beobachter</Episode>
+					<Episode>Episode 112: Stachelsporen-Chaos</Episode>
+					<Episode>Episode 113: Hallo Pummelo!</Episode>
+					<Episode>Episode 114: In der Höhle des Drachen</Episode>
+					<Episode>Episode 115: Viva Las Lapras!</Episode>
+					<Episode>Episode 116: Lektrobal Dilemma</Episode>
+					<Episode>Episode 117: Zirkus in Alabastia</Episode>
+					<Episode>Episode 118: Showdown in Alabastia</Episode>
+					<Episode>Episode 119: Finger weg von Karnimani!</Episode>
+					<Episode>Episode 120: Im Team gegen Team Rocket!</Episode>
+					<Episode>Episode 121: Ein spezieller Freund</Episode>
+					<Episode>Episode 122: Roll on Pokémon!</Episode>
+					<Episode>Episode 123: Pokémon Illusion!</Episode>
+					<Episode>Episode 124: Flower Power</Episode>
+					<Episode>Episode 125: Attacke Webarak!</Episode>
+					<Episode>Episode 126: Schnappt euch Snubbull!</Episode>
+					<Episode>Episode 127: Das kleine Damhirplex</Episode>
+					<Episode>Episode 128: Endivies Rettung</Episode>
+					<Episode>Episode 129: Geheimnis des Morlord</Episode>
+					<Episode>Episode 130: Treue Ledyba</Episode>
+					<Episode>Episode 131: Alte Bekannte</Episode>
+					<Episode>Episode 132: Überraschung im Knofensa-Turm</Episode>
+					<Episode>Episode 133: Kampf um den Flügelorden</Episode>
+					<Episode>Episode 134: Klein aber Oho</Episode>
+					<Episode>Episode 135: Rettung in letzter Sekunde</Episode>
+					<Episode>Episode 136: Herausforderung für Glurak</Episode>
+					<Episode>Episode 137: Sonnflora des Jahres</Episode>
+					<Episode>Episode 138: Endivies Alleingang</Episode>
+					<Episode>Episode 140: Superhelden</Episode>
+					<Episode>Episode 141: Sanft und Wollig</Episode>
+					<Episode>Episode 142: Verkabelter Pokémonkampf</Episode>
+					<Episode>Episode 143: Feurige Jagd</Episode>
+					<Episode>Episode 144: Die Regenmacher</Episode>
+					<Episode>Episode 145: Aprikoko Fieber</Episode>
+					<Episode>Episode 146: Die Arena von Azalea City</Episode>
+					<Episode>Episode 147: Teamwork</Episode>
+					<Episode>Episode 148: Die Pokémon-Tauschbörse</Episode>
+					<Episode>Episode 149: Feuerwehr Wettbewerb</Episode>
+					<Episode>Episode 150: Die Felino-Schule</Episode>
+					<Episode>Episode 151: Gefährlicher Tunnel</Episode>
+					<Episode>Episode 152: Nachts – wenn die Hunduster kommen</Episode>
+					<Episode>Episode 153: Streit um Karnimani</Episode>
+					<Episode>Episode 154: Heiße Kämpfe</Episode>
+					<Episode>Episode 155: Liebe auf Karnimani Art</Episode>
+					<Episode>Episode 156: Schlauer als Noctuh</Episode>
+					<Episode>Episode 157: Gefahr im finsteren Wald</Episode>
+					<Episode>Episode 158: Der magische Blick</Episode>
+					<Episode>Episode 159: Das Schicksalsbuch</Episode>
+					<Episode>Episode 160: Eine harte Nuss in Dukatia City</Episode>
+					<Episode>Episode 161: Revanche in Dukatia City</Episode>
+					<Episode>Episode 162: Live auf Sendung!</Episode>
+					<Episode>Episode 163: Fang das Käfer-Pokémon!</Episode>
+					<Episode>Episode 164: Eine Frage des Typs</Episode>
+					<Episode>Episode 165: Aufregende Entdeckungen</Episode>
+					<Episode>Episode 166: Der Taubsi Express Service!</Episode>
+					<Episode>Episode 167: Verschollen im Schloss</Episode>
+					<Episode>Episode 168: Dojo Träume!</Episode>
+					<Episode>Episode 169: Heiße Wasserschlacht</Episode>
+					<Episode>Episode 170: Angel, Köder, Angeber</Episode>
+					<Episode>Episode 171: Die Schöne und der Züchter</Episode>
+					<Episode>Episode 172: Geheime Medizin</Episode>
+					<Episode>Episode 173: Stromausfall im Windkraftwerk!</Episode>
+					<Episode>Episode 174: In den Bergen</Episode>
+					<Episode>Episode 175: Woingenau Festival</Episode>
+					<Episode>Episode 176: Imitation Konfrontation</Episode>
+					<Episode>Episode 177: Nur Ärger mit Snubbull</Episode>
+					<Episode>Episode 178: Pokémon Jujitsu</Episode>
+					<Episode>Episode 179: Gefährlicher Flügelschlag</Episode>
+					<Episode>Episode 180: Das Pflanzen Pokémon Turnier</Episode>
+					<Episode>Episode 181: Süße Früchte</Episode>
+					<Episode>Episode 182: Ausgebüxt!</Episode>
+					<Episode>Episode 183: Geister in Teak City</Episode>
+					<Episode>Episode 184: Von Geist zu Geist</Episode>
+					<Episode>Episode 185: Tea Time</Episode>
+					<Episode>Episode 186: Diebische Kramurx</Episode>
+					<Episode>Episode 187: Das mysteriöse Regenbogenlicht</Episode>
+					<Episode>Episode 188: Der kleine Dieb</Episode>
+					<Episode>Episode 189: Bewegende Bilder</Episode>
+					<Episode>Episode 190: Heiße Quellen</Episode>
+					<Episode>Episode 191: Kalter Schock</Episode>
+					<Episode>Episode 192: Feuersteine!</Episode>
+					<Episode>Episode 193: Trügerische Dummisel</Episode>
+					<Episode>Episode 194: Woingenau und der magische Schlüssel</Episode>
+					<Episode>Episode 195: Fieberträume!</Episode>
+					<Episode>Episode 196: Pokémon Sumo</Episode>
+					<Episode>Episode 197: Der Pokémon Flüsterer</Episode>
+					<Episode>Episode 198: Die goldene Maske</Episode>
+					<Episode>Episode 199: Pokémon Kunst</Episode>
+					<Episode>Episode 200: Herzschmerz!</Episode>
+					<Episode>Episode 201: Brenzliges Abenteuer</Episode>
+					<Episode>Episode 202: Ärger mit Lorblatt</Episode>
+					<Episode>Episode 203: Natu mit dem Zukunftsblick</Episode>
+					<Episode>Episode 204: Der Heißluftballon Wettbewerb</Episode>
+					<Episode>Episode 205: Die große Show</Episode>
+					<Episode>Episode 206: Hilfe beim Tunnelbau</Episode>
+					<Episode>Episode 207: Das Luxus-Luftschiff</Episode>
+					<Episode>Episode 208: Schwester Joy vom Lucid See</Episode>
+					<Episode>Episode 209: Die Pokémon-Oase</Episode>
+					<Episode>Episode 210: Das kranke Ampharos</Episode>
+					<Episode>Episode 211: Der Maschock-Trainer</Episode>
+					<Episode>Episode 212: Mitten im Strudel!</Episode>
+					<Episode>Episode 213: Hoch hinaus!</Episode>
+					<Episode>Episode 214: Die große Lampi-Parade</Episode>
+					<Episode>Episode 215: Corasonn Schabernack!</Episode>
+					<Episode>Episode 216: Auf der Suche nach dem Silberflügel</Episode>
+					<Episode>Episode 217: Octillery im Abseits</Episode>
+					<Episode>Episode 218: Duell der Helden!</Episode>
+					<Episode>Episode 219: Gute Freunde – Heiße Rivalen!</Episode>
+					<Episode>Episode 220: Die Digda-Dieb-Division</Episode>
+					<Episode>Episode 221: Silber zu uns!</Episode>
+					<Episode>Episode 222: Das Comeback von Butch und Cassidy</Episode>
+					<Episode>Episode 223: Lugia in der Falle</Episode>
+					<Episode>Episode 224: Versprochen ist versprochen!</Episode>
+					<Episode>Episode 225: Der Hoothoot-Express</Episode>
+					<Episode>Episode 226: Nerven aus Stahl!</Episode>
+					<Episode>Episode 227: Bisasam im Diplomatendienst</Episode>
+					<Episode>Episode 228: Vier sind einer zu wenig</Episode>
+					<Episode>Episode 229: Aufstand der Pokémon</Episode>
+					<Episode>Episode 230: Extreme-Pokémon in Eiskirchen</Episode>
+					<Episode>Episode 231: Das Ei ist weg!</Episode>
+					<Episode>Episode 232: Phanpys wahre Freunde</Episode>
+					<Episode>Episode 233: Zurück ins Team</Episode>
+					<Episode>Episode 234: Vulnona im Nebel</Episode>
+					<Episode>Episode 235: Rabauz macht Rabatz!</Episode>
+					<Episode>Episode 236: Die Xatu und die Zukunft</Episode>
+					<Episode>Episode 237: Gefährliche Radiowellen</Episode>
+					<Episode>Episode 238: Armes Garados</Episode>
+					<Episode>Episode 239: Der eiskalte Norbert</Episode>
+					<Episode>Episode 240: Der Eis-Preis</Episode>
+					<Episode>Episode 241: Von wo der Wind weht</Episode>
+					<Episode>Episode 242: Manche mögens heiß!</Episode>
+					<Episode>Episode 243: Hokus Pokémon</Episode>
+					<Episode>Episode 244: Kristallklare Sache</Episode>
+					<Episode>Episode 245: Das alte Lied ...</Episode>
+					<Episode>Episode 246: Erleuchtung für alle!</Episode>
+					<Episode>Episode 247: Der Poké-Reim-Battle</Episode>
+					<Episode>Episode 248: Vom Himmel gefallen</Episode>
+					<Episode>Episode 249: Böse Zukunft</Episode>
+					<Episode>Episode 250: Abenteuer im Park</Episode>
+					<Episode>Episode 251: Folgenschwere Verwechslung</Episode>
+					<Episode>Episode 252: „Die Eishöhle!“</Episode>
+					<Episode>Episode 253: Porentief rein</Episode>
+					<Episode>Episode 254: Der Drachenzahn von Ebenholz</Episode>
+					<Episode>Episode 255: Das rasende Dragoran</Episode>
+					<Episode>Episode 256: Orden Nummer 8!</Episode>
+					<Episode>Episode 257: Die Orden sind weg!</Episode>
+					<Episode>Episode 258: Pure Enton-Power!</Episode>
+					<Episode>Episode 259: Wiedersehen mit Ärger</Episode>
+					<Episode>Episode 260: Fang das Larvitar</Episode>
+					<Episode>Episode 261: Das legendäre Entei</Episode>
+					<Episode>Episode 262: Auf der Suche nach dem Paradies</Episode>
+					<Episode>Episode 263: Elekid ist weg!</Episode>
+					<Episode>Episode 264: Lavitar – Superstar!</Episode>
+					<Episode>Episode 265: Geheimnisvolles Icognito</Episode>
+					<Episode>Episode 266: Glücklich vereint</Episode>
+					<Episode>Episode 267: Ein Sniebel geht um</Episode>
+					<Episode>Episode 268: Die Flamme des Ho-Oh</Episode>
+					<Episode>Episode 269: Schiggy für Ash!</Episode>
+					<Episode>Episode 270: Ein entscheidendes Unentschieden</Episode>
+					<Episode>Episode 271: Alte Rivalen</Episode>
+					<Episode>Episode 272: In der Hitze des Gefechts</Episode>
+					<Episode>Episode 273: Spiel mit dem Feuer!</Episode>
+					<Episode>Episode 274: Zeit des Abschieds</Episode>
+					<Episode>Episode 275: Auf Wiedersehen, Freunde!</Episode>
+					<Episode>Episode 276: Endlich in der Hoenn-Region</Episode>
+					<Episode>Episode 277: Pikachu in Not</Episode>
+					<Episode>Episode 278: Das Tor zur Vergangenheit</Episode>
+					<Episode>Episode 279: Nervensäge Max</Episode>
+					<Episode>Episode 280: Ein Schwalbini kommt selten allein</Episode>
+					<Episode>Episode 281: Ein Hoch auf die Knickerbocker</Episode>
+					<Episode>Episode 282: In den Fängen des Wilderers</Episode>
+					<Episode>Episode 283: Die Geckarbor und ihr Zuhause</Episode>
+					<Episode>Episode 284: Ein neuer Freund</Episode>
+					<Episode>Episode 285: Die heimatlosen Knilz</Episode>
+					<Episode>Episode 286: Die stärksten Pokémon der Welt</Episode>
+					<Episode>Episode 287: Das letzte Bisschen</Episode>
+					<Episode>Episode 288: Rocko und das kleine Loturzel</Episode>
+					<Episode>Episode 289: Pokémon-Eleganz</Episode>
+					<Episode>Episode 290: Zweimal Franklin</Episode>
+					<Episode>Episode 291: Die Pokémon-Akademie</Episode>
+					<Episode>Episode 292: Der erste offizielle Kampf!</Episode>
+					<Episode>Episode 293: Max erstes Abenteuer</Episode>
+					<Episode>Episode 294: Kapitän Salzkopf</Episode>
+					<Episode>Episode 295: Angriff der Tohaido!</Episode>
+					<Episode>Episode 296: König der Wellen</Episode>
+					<Episode>Episode 297: Vertauschte Waumpel</Episode>
+					<Episode>Episode 298: Höhlen-Ärger!</Episode>
+					<Episode>Episode 299: Der Krebscorpsfischer</Episode>
+					<Episode>Episode 300: Das Allesfresser-Pokémon</Episode>
+					<Episode>Episode 301: Der alte Moormann</Episode>
+					<Episode>Episode 302: Endlich Freunde</Episode>
+					<Episode>Episode 303: Drei Teams zu viel!</Episode>
+					<Episode>Episode 304: Irren ist menschlich</Episode>
+					<Episode>Episode 305: Das Minenmonster</Episode>
+					<Episode>Episode 306: Stürmische Begegnung</Episode>
+					<Episode>Episode 307: Strategie ist alles!</Episode>
+					<Episode>Episode 308: Oase im Meer</Episode>
+					<Episode>Episode 309: Das Probe-Pokémon-Feuerwerk!</Episode>
+					<Episode>Episode 310: Ein Wailord für alle Fälle</Episode>
+					<Episode>Episode 311: Hopp oder top!</Episode>
+					<Episode>Episode 312: Der Geheimnisvolle Stein</Episode>
+					<Episode>Episode 313: Retter in der Not</Episode>
+					<Episode>Episode 314: Der Held im Nebel</Episode>
+					<Episode>Episode 315: Das Rätselhaus</Episode>
+					<Episode>Episode 316: Spaß muss sein</Episode>
+					<Episode>Episode 317: Die Melonenmeisterin</Episode>
+					<Episode>Episode 318: Liebe auf den zweiten Blick</Episode>
+					<Episode>Episode 319: Der Traum vom Fliegen</Episode>
+					<Episode>Episode 320: Die Prinzessin und das Togepi</Episode>
+					<Episode>Episode 321: Das Togepi-Paradies</Episode>
+					<Episode>Episode 322: Camerupt außer Rand und Band!</Episode>
+					<Episode>Episode 323: Wenn Düfte durch die Lüfte ziehen...</Episode>
+					<Episode>Episode 324: Im Zickzack zum Ziel</Episode>
+					<Episode>Episode 325: Max im Doppelpack</Episode>
+					<Episode>Episode 326: Schwindel auf der ganzen Linie!</Episode>
+					<Episode>Episode 327: Maike macht's möglich</Episode>
+					<Episode>Episode 328: Der falsche Meister</Episode>
+					<Episode>Episode 329: Ein Ass im Ärmel</Episode>
+					<Episode>Episode 330: Der Stein aus dem All</Episode>
+					<Episode>Episode 331: Der Pokémon-Poet</Episode>
+					<Episode>Episode 332: Das Große Gähnen</Episode>
+					<Episode>Episode 333: Schnapp dir das Pandir!</Episode>
+					<Episode>Episode 334: Qual aus Stahl</Episode>
+					<Episode>Episode 335: Voltenso in Hochspannung</Episode>
+					<Episode>Episode 336: Heilendes Händchen</Episode>
+					<Episode>Episode 337: Perfekt getarnt!</Episode>
+					<Episode>Episode 338: Auf den letzten Drücker!</Episode>
+					<Episode>Episode 339: Der Lord des Wassers</Episode>
+					<Episode>Episode 340: Angst vorm Fliegen</Episode>
+					<Episode>Episode 341: Riesenschlucker Schluppuck!</Episode>
+					<Episode>Episode 342: Rums! Da kommt ein Krawumms!</Episode>
+					<Episode>Episode 343: So ein Kappalores!</Episode>
+					<Episode>Episode 344: Norman-Mania!</Episode>
+					<Episode>Episode 345: Romantik à la Blütenburg!</Episode>
+					<Episode>Episode 346: Power zum umfallen!</Episode>
+					<Episode>Episode 347: Die geheimste Geheimbasis der Welt</Episode>
+					<Episode>Episode 348: Top-Teamwork!</Episode>
+					<Episode>Episode 349: Betreten verboten!</Episode>
+					<Episode>Episode 350: Das nennt man Pech!</Episode>
+					<Episode>Episode 351: Ein angelnder Gott</Episode>
+					<Episode>Episode 352: Ich bin du!</Episode>
+					<Episode>Episode 353: MFP-Girls wollen Spaß!</Episode>
+					<Episode>Episode 354: Verlieren geht über studieren!</Episode>
+					<Episode>Episode 355: Perle, wem Perle gebührt!</Episode>
+					<Episode>Episode 356: Der König der Ringe</Episode>
+					<Episode>Episode 357: Fliegende Untertassen</Episode>
+					<Episode>Episode 358: Apfeldiebe!</Episode>
+					<Episode>Episode 359: Der Mann mit den 1000 Gesichtern</Episode>
+					<Episode>Episode 360: Und wer fliegt jetzt!?</Episode>
+					<Episode>Episode 361: Kampf um den sechsten Orden</Episode>
+					<Episode>Episode 362: Projektor an und Action</Episode>
+					<Episode>Episode 363: Verrückt nach Lunastein</Episode>
+					<Episode>Episode 364: Der Bummelz-Bananen-Garten</Episode>
+					<Episode>Episode 365: Freunde fürs Leben!</Episode>
+					<Episode>Episode 366: Vladimer, der Angreifer!</Episode>
+					<Episode>Episode 367: Übung macht den Meister!</Episode>
+					<Episode>Episode 368: Das Herz am rechten Fleck!</Episode>
+					<Episode>Episode 369: Wirbel um die Blaue Perle</Episode>
+					<Episode>Episode 370: Freundschaft zählt mehr als der größte Schatz</Episode>
+					<Episode>Episode 371: Die Pokémon als Friedensstifter</Episode>
+					<Episode>Episode 372: Fitness macht stark!</Episode>
+					<Episode>Episode 373: Macht über Groudon!</Episode>
+					<Episode>Episode 374: Alte Legenden leben auf!</Episode>
+					<Episode>Episode 375: Kräftemessen ohne Schwerkraft!</Episode>
+					<Episode>Episode 376: Bei aller Freundschaft</Episode>
+					<Episode>Episode 377: Übermut tut selten gut!</Episode>
+					<Episode>Episode 378: Hat Max Recht?</Episode>
+					<Episode>Episode 379: Hochmut kommt vor dem Fall</Episode>
+					<Episode>Episode 380: Einer für alle, alle für einen??</Episode>
+					<Episode>Episode 381: Was sich liebt, das neckt sich!</Episode>
+					<Episode>Episode 382: Der Wille versetzt Berge!</Episode>
+					<Episode>Episode 383: Absolutes Desaster!</Episode>
+					<Episode>Episode 384: Eine Hand wäscht die andere!</Episode>
+					<Episode>Episode 385: Max, halte durch!</Episode>
+					<Episode>Episode 386: Aus der Traum?</Episode>
+					<Episode>Episode 387: Acht auf einen Streich</Episode>
+					<Episode>Episode 388: Frust macht Diebe!</Episode>
+					<Episode>Episode 389: Is wer? Is wo! Is wie? Isso!</Episode>
+					<Episode>Episode 390: Die rollende Romanze</Episode>
+					<Episode>Episode 391: Eifer sucht Eifersucht!</Episode>
+					<Episode>Episode 392: Alles oder Nichts!</Episode>
+					<Episode>Episode 393: Eine Beere in Ehren kann niemand verwehren!</Episode>
+					<Episode>Episode 394: Weniger ist manchmal mehr!</Episode>
+					<Episode>Episode 395: Phantom Dieb Alarm!</Episode>
+					<Episode>Episode 396: „Ash and Maike! Heiße Kämpfe in Hoenn!!“</Episode>
+					<Episode>Episode 397: Mehr Schein als sein?</Episode>
+					<Episode>Episode 398: Trau, Schau wem!</Episode>
+					<Episode>Episode 399: Studieren geht über verlieren!</Episode>
+					<Episode>Episode 400: Flug ins Ungewisse</Episode>
+					<Episode>Episode 401: Das gestiefelte Mauzi</Episode>
+					<Episode>Episode 402: Übermauzische Kräfte!</Episode>
+					<Episode>Episode 403: Bereiter als bereit!</Episode>
+					<Episode>Episode 404: Die Attacken-Sonate</Episode>
+					<Episode>Episode 405: Wettkampf der Strategien</Episode>
+					<Episode>Episode 406: Jetzt oder nie!</Episode>
+					<Episode>Episode 407: Und der Gewinner ist?</Episode>
+					<Episode>Episode 408: Neue Träume, neue Ziele!</Episode>
+					<Episode>Episode 409: Auf Los geht's los!</Episode>
+					<Episode>Episode 410: Geschwister kosten Nerven!</Episode>
+					<Episode>Episode 411: Wiedersehen macht Freude!</Episode>
+					<Episode>Episode 412: Ein Trumpf im Ärmel!</Episode>
+					<Episode>Episode 413: Jagd auf Onix</Episode>
+					<Episode>Episode 414: WER hat hier WEN ausgesucht?</Episode>
+					<Episode>Episode 415: Wettlauf gegen die Zeit</Episode>
+					<Episode>Episode 416: Enton klein – im Netzchen fein!</Episode>
+					<Episode>Episode 417: Duell am Herd!</Episode>
+					<Episode>Episode 418: Groß, größer, am größten!</Episode>
+					<Episode>Episode 419: Reingelegt!</Episode>
+					<Episode>Episode 420: Schiggy, der riesen Power-Zwerg!</Episode>
+					<Episode>Episode 421: Pasta Lavista!</Episode>
+					<Episode>Episode 422: Duell in der Geisterstadt</Episode>
+					<Episode>Episode 423: Der Mann, den sie Klein-James nannten</Episode>
+					<Episode>Episode 424: Der Zauberlehrling</Episode>
+					<Episode>Episode 425: Kleider machen KEINE Leute</Episode>
+					<Episode>Episode 426: Ein 'Ei'-maliges Abenteuer!</Episode>
+					<Episode>Episode 427: Rock'n'Roll</Episode>
+					<Episode>Episode 428: Aus Schaden wird man klug</Episode>
+					<Episode>Episode 429: Taktisches Theater</Episode>
+					<Episode>Episode 430: Überspannt!</Episode>
+					<Episode>Episode 431: Der Hüter des Waldes</Episode>
+					<Episode>Episode 432: Stolz und Tapferkeit</Episode>
+					<Episode>Episode 433: Eine Zeitreise heilt alle Wunden</Episode>
+					<Episode>Episode 434: Flotte Lotte</Episode>
+					<Episode>Episode 435: Durch Teamwork zum Früchtekorb!</Episode>
+					<Episode>Episode 436: Immer wieder Harley</Episode>
+					<Episode>Episode 437: Schmerz, lass nach</Episode>
+					<Episode>Episode 438: Wenn sich zwei streiten, haut der Dritte ab</Episode>
+					<Episode>Episode 439: Aus und vorbei</Episode>
+					<Episode>Episode 440: Natürlich Natur!</Episode>
+					<Episode>Episode 441: Achtung, Kamera läuft!</Episode>
+					<Episode>Episode 442: Unfug! Nichts als Unfug!</Episode>
+					<Episode>Episode 443: Glück im Spiel – Pech in der Liebe</Episode>
+					<Episode>Episode 444: Zu süß, um wahr zu sein</Episode>
+					<Episode>Episode 445: Der Pokémonflüsterer</Episode>
+					<Episode>Episode 446: Alle guten Dinge sind zwei!</Episode>
+					<Episode>Episode 447: Deoxys aus dem All (1)</Episode>
+					<Episode>Episode 448: Deoxys aus dem All (2)</Episode>
+					<Episode>Episode 449: Es ist nicht alles Gold was glänzt!</Episode>
+					<Episode>Episode 450: Kommt Zeit, kommt Plan</Episode>
+					<Episode>Episode 451: Wer aufgibt, hat verloren</Episode>
+					<Episode>Episode 452: Einmal ein Team, immer ein Team</Episode>
+					<Episode>Episode 453: Vergeben und vergessen!</Episode>
+					<Episode>Episode 454: Der Feind in mir</Episode>
+					<Episode>Episode 455: Monster mit Appetit!</Episode>
+					<Episode>Episode 456: Zeigs ihnen, Maike!</Episode>
+					<Episode>Episode 457: Jetzt geht's los!</Episode>
+					<Episode>Episode 458: Zarte Bande</Episode>
+					<Episode>Episode 459: Es lebe der König!</Episode>
+					<Episode>Episode 460: Strategie am Morgen, Komik am Abend!</Episode>
+					<Episode>Episode 461: Das Snibunna-Duell</Episode>
+					<Episode>Episode 462: Zu früh gefreut!</Episode>
+					<Episode>Episode 463: Wie eine Niederlage zum Sieg wird!</Episode>
+					<Episode>Episode 464: SOS in den Bergen</Episode>
+					<Episode>Episode 465: Alte Freunde</Episode>
+					<Episode>Episode 466: Alles auf eine Karte!</Episode>
+					<Episode>Episode 467: Wer nichts hat, kann nichts verlieren!</Episode>
+					<Episode>Episode 468: Jedes Ende hat einen Anfang!</Episode>
+					<Episode>Episode 469: Lucia startet durch!</Episode>
+					<Episode>Episode 470: Gib niemals auf!</Episode>
+					<Episode>Episode 471: Endlich vereint!</Episode>
+					<Episode>Episode 472: Friede, Freude, Sonnentag!</Episode>
+					<Episode>Episode 473: Klein, aber bärenstark!</Episode>
+					<Episode>Episode 474: Stur wie ein Pokémon</Episode>
+					<Episode>Episode 475: Die Beeren in Nachbars Garten</Episode>
+					<Episode>Episode 476: Prinzessin Powerzone</Episode>
+					<Episode>Episode 477: Verknallt in Pikachu</Episode>
+					<Episode>Episode 478: Wer nicht hat, der hat schon!</Episode>
+					<Episode>Episode 479: Lucias allererster Wettbewerb</Episode>
+					<Episode>Episode 480: Freundin und Rivalin</Episode>
+					<Episode>Episode 481: Aus der Luft ins Netz!</Episode>
+					<Episode>Episode 482: Rockos eigenes Süppchen!</Episode>
+					<Episode>Episode 483: Außen hui, innen pfui!</Episode>
+					<Episode>Episode 484: Alles auf eine Karte!</Episode>
+					<Episode>Episode 485: Die Rückkehr der Fossilien</Episode>
+					<Episode>Episode 486: Selbstvertrauen ist der halbe Sieg!</Episode>
+					<Episode>Episode 487: Schnapp dir Pachirisu!</Episode>
+					<Episode>Episode 488: Pokémon-Jägerin unterwegs!</Episode>
+					<Episode>Episode 489: Die Poké-Weiterentwicklungsmaschine</Episode>
+					<Episode>Episode 490: Voll eifersüchtig!</Episode>
+					<Episode>Episode 491: Ohne Mut kein Preis!</Episode>
+					<Episode>Episode 492: Kein Kuchen ohne Sugar!</Episode>
+					<Episode>Episode 493: Knursp-Kochkurs für Knirpse</Episode>
+					<Episode>Episode 494: Wer wird denn Bammel haben?</Episode>
+					<Episode>Episode 495: Lucias große Chance!?</Episode>
+					<Episode>Episode 496: Driftlon im Wind...</Episode>
+					<Episode>Episode 497: Die Champion-Zwillinge</Episode>
+					<Episode>Episode 498: Wo ist der Zauber-Honig</Episode>
+					<Episode>Episode 499: Verrückt nach Pflanzen-Pokémon!</Episode>
+					<Episode>Episode 500: Wer den Honig liebt...</Episode>
+					<Episode>Episode 501: Nachahmen streng erlaubt!</Episode>
+					<Episode>Episode 502: Spezialtraining für Plinfa</Episode>
+					<Episode>Episode 503: WER hat hier WEN im Griff?!</Episode>
+					<Episode>Episode 504: Wer sind die wahren Gauner?</Episode>
+					<Episode>Episode 505: Die Unschlagbaren Drei</Episode>
+					<Episode>Episode 506: Familienzuwachs!</Episode>
+					<Episode>Episode 507: Pokémon, allein auf See!</Episode>
+					<Episode>Episode 508: Der große Traum der Meisterin!</Episode>
+					<Episode>Episode 509: Üben! Üben! Üben!</Episode>
+					<Episode>Episode 510: Eine "blitzende" Herausforderung!</Episode>
+					<Episode>Episode 511: Wunderland, leb wohl!</Episode>
+					<Episode>Episode 512: Mit Seifenblasen ins Traumland!</Episode>
+					<Episode>Episode 513: Rettet Schilterus!</Episode>
+					<Episode>Episode 514: Ein Irrgarten zum Irrewerden!</Episode>
+					<Episode>Episode 515: Gut Ding hat keine Weile!</Episode>
+					<Episode>Episode 516: „Ash und Lucia! Ein Blick auf neue Abenteuer!!“</Episode>
+					<Episode>Episode 517: Geplatzte Träume!</Episode>
+					<Episode>Episode 518: Ein Partner zum Abgewöhnen!</Episode>
+					<Episode>Episode 519: Willkommen im Team!</Episode>
+					<Episode>Episode 520: Mit Vollgas ins Finale!</Episode>
+					<Episode>Episode 521: Tränen der Vergangenheit</Episode>
+					<Episode>Episode 522: Entscheidung des Herzens</Episode>
+					<Episode>Episode 523: Ein Unerwarteter Tausch!</Episode>
+					<Episode>Episode 524: Die Legende lebt!</Episode>
+					<Episode>Episode 525: Bidifas nagt am besten!</Episode>
+					<Episode>Episode 526: Der Power-Gehirn Manipulator</Episode>
+					<Episode>Episode 527: Die Drei schönen Banditen</Episode>
+					<Episode>Episode 528: Eine Reise – Icognito!</Episode>
+					<Episode>Episode 529: Fehler machen klüger!</Episode>
+					<Episode>Episode 530: Nett und geduldig...?!</Episode>
+					<Episode>Episode 531: Thermalquelle mit Leck!</Episode>
+					<Episode>Episode 532: Vom Winde verweht</Episode>
+					<Episode>Episode 533: Sandtricks!</Episode>
+					<Episode>Episode 534: Erfolg ist ein hartes Geschäft!</Episode>
+					<Episode>Episode 535: Eine Herausforderung mit Folgen...!</Episode>
+					<Episode>Episode 536: Heiß, heißer, am heißesten!</Episode>
+					<Episode>Episode 537: Galaktisch böse – Team Galaktik!</Episode>
+					<Episode>Episode 538: Das Klingeling der Klingplim!</Episode>
+					<Episode>Episode 539: Pokémon Ranger: Die Entführung von Riolu – Teil 1</Episode>
+					<Episode>Episode 540: Pokémon Ranger: Die Entführung von Riolu – Teil 2</Episode>
+					<Episode>Episode 541: Auf den letzten Drücker!</Episode>
+					<Episode>Episode 542: Pikachu gegen Goliath!</Episode>
+					<Episode>Episode 543: Lucia sucht den Superstar!</Episode>
+					<Episode>Episode 544: Das "Sieben Sterne Restaurant"!</Episode>
+					<Episode>Episode 545: Der Schmetterling des Meeres</Episode>
+					<Episode>Episode 546: Probe aufs Exempel</Episode>
+					<Episode>Episode 547: Nerven bewahren!</Episode>
+					<Episode>Episode 548: Es ist noch kein Meister vom Himmel gefallen!</Episode>
+					<Episode>Episode 549: Panflam in Flammen!</Episode>
+					<Episode>Episode 550: Ein Tänzchen in Ehren, ...!</Episode>
+					<Episode>Episode 551: Power Crash(er)-Kurs!</Episode>
+					<Episode>Episode 552: Ein liebenswürdiger Vielfraß!</Episode>
+					<Episode>Episode 553: Bekämpfe die Angst mit Angst!</Episode>
+					<Episode>Episode 554: Poké-Style!</Episode>
+					<Episode>Episode 555: Ein Enton kommt selten allein!</Episode>
+					<Episode>Episode 556: Die Pokémon Sommer-Akademie!</Episode>
+					<Episode>Episode 557: Volle Punktzahl ... mit Abstrichen!</Episode>
+					<Episode>Episode 558: Ein Verirrter Geist!</Episode>
+					<Episode>Episode 559: Der Pokémon-Triathlon!</Episode>
+					<Episode>Episode 560: Zurück zu den Wurzeln!</Episode>
+					<Episode>Episode 561: Eine ganz besondere Gegnerin!</Episode>
+					<Episode>Episode 562: Doktor Rocko!</Episode>
+					<Episode>Episode 563: Zwei Generationen – eine Gegnerin!</Episode>
+					<Episode>Episode 564: Viel Aufregung um den Weiß-Orb</Episode>
+					<Episode>Episode 565: Im Doppelteam-Karussell!</Episode>
+					<Episode>Episode 566: Kleider machen Monster-Pokémon!</Episode>
+					<Episode>Episode 567: Wiedersehen mit Freunden und Trainern!</Episode>
+					<Episode>Episode 568: In die Hände gespielt!</Episode>
+					<Episode>Episode 569: Trainer, Trainer!</Episode>
+					<Episode>Episode 570: Drei gegen Drei!</Episode>
+					<Episode>Episode 571: Wer suchet, der findet!</Episode>
+					<Episode>Episode 572: Ein legendäres Pokémon!</Episode>
+					<Episode>Episode 573: Gespensteralarm!</Episode>
+					<Episode>Episode 574: Außer Rand und Band</Episode>
+					<Episode>Episode 575: Das Eis ist gebrochen</Episode>
+					<Episode>Episode 576: Wohl bedacht ist halb gewonnen!</Episode>
+					<Episode>Episode 577: Wailmer in Not!</Episode>
+					<Episode>Episode 578: Chaos auf der Eiseninsel</Episode>
+					<Episode>Episode 579: Auf den letzten Drücker</Episode>
+					<Episode>Episode 580: Ein Freund aus dem Weltall!</Episode>
+					<Episode>Episode 581: Glück oder Unglück, das ist hier die Frage!</Episode>
+					<Episode>Episode 582: Manche Schüsse gehen nach hinten los!</Episode>
+					<Episode>Episode 583: Plaudernder Plaudagei...!</Episode>
+					<Episode>Episode 584: Schneppke vermisst!</Episode>
+					<Episode>Episode 585: Das Super-Nudeltalent!</Episode>
+					<Episode>Episode 586: Hoch, höher, abgestürzt!</Episode>
+					<Episode>Episode 587: Gelernt ist gelernt</Episode>
+					<Episode>Episode 589: Das einsame Shnebedeck</Episode>
+					<Episode>Episode 590: Stopp! Im Namen der Liebe!</Episode>
+					<Episode>Episode 591: Alte Rivalen, neue Tricks</Episode>
+					<Episode>Episode 592: Pokémon Tischtennis!</Episode>
+					<Episode>Episode 593: Ein Süßes Drama!</Episode>
+					<Episode>Episode 594: Blitz-Quiz mit Hindernissen!</Episode>
+					<Episode>Episode 595: Alles auf eine Karte!</Episode>
+					<Episode>Episode 596: Pyramid-aler Zorn!</Episode>
+					<Episode>Episode 597: Ein Ungewöhnliches Nickerchen!</Episode>
+					<Episode>Episode 598: Eine Zugfahrt die ist lustig...!</Episode>
+					<Episode>Episode 599: Mit Eifer und Mut wird alles gut!</Episode>
+					<Episode>Episode 600: Ein strategisches Feuerwerk!</Episode>
+					<Episode>Episode 601: Nach dem Kampf ist vor dem Kampf</Episode>
+					<Episode>Episode 602: Kraftspende erwünscht!</Episode>
+					<Episode>Episode 603: Das Diebes-Duo</Episode>
+					<Episode>Episode 604: Das Labyrinth im Kraterberg</Episode>
+					<Episode>Episode 605: Jede Geschichte hat drei Seiten!</Episode>
+					<Episode>Episode 606: Eine Hausgemachte Strategie!</Episode>
+					<Episode>Episode 607: Falsch ge-Eich-t!</Episode>
+					<Episode>Episode 608: Ein kleiner Umweg</Episode>
+					<Episode>Episode 609: Ein legendäres Duell</Episode>
+					<Episode>Episode 610: Wo ein Togepi noch nie gewesen ist</Episode>
+					<Episode>Episode 611: Ei, Ei, Ei!</Episode>
+					<Episode>Episode 612: Stromausfall im Windkraftwerk</Episode>
+					<Episode>Episode 613: Kampf um Kaumalat!</Episode>
+					<Episode>Episode 614: Verkleidungstausch!</Episode>
+					<Episode>Episode 615: Fangen will gelernt sein!</Episode>
+					<Episode>Episode 616: Familientrubel!</Episode>
+					<Episode>Episode 617: Freunde, ...ob ihr wollt oder nicht!</Episode>
+					<Episode>Episode 618: Es braut sich was zusammen!</Episode>
+					<Episode>Episode 619: Kampf um das See-Trio</Episode>
+					<Episode>Episode 620: Der große Kampf um Raum und Zeit!</Episode>
+					<Episode>Episode 621: Der Schatz gehört mir!</Episode>
+					<Episode>Episode 622: Eine frische Brise!</Episode>
+					<Episode>Episode 623: Gegensätze ziehen sich an!</Episode>
+					<Episode>Episode 624: Kaumalats Drachentrubel!</Episode>
+					<Episode>Episode 625: Schnapp' dir das Kaumalat!</Episode>
+					<Episode>Episode 626: Kampf der Titanen!</Episode>
+					<Episode>Episode 627: Faust gegen Faust!</Episode>
+					<Episode>Episode 628: Wissenschaft ist auch nicht alles!</Episode>
+					<Episode>Episode 629: Lucia mit dem Leuchtstrubbelkopf!</Episode>
+					<Episode>Episode 630: Ein harter Brocken Arbeit ...!</Episode>
+					<Episode>Episode 631: Panpyro außer Rand und Band!</Episode>
+					<Episode>Episode 632: Die Pokémon Rettungstruppe!</Episode>
+					<Episode>Episode 633: Ein ansteckendes Feuer ...!</Episode>
+					<Episode>Episode 634: Der fliegende Turm von Sonnewik! Sunyshore!</Episode>
+					<Episode>Episode 635: Wenn der Lehrer von den Schülern lernt!</Episode>
+					<Episode>Episode 636: Heiß, heißer, Heatran!</Episode>
+					<Episode>Episode 637: Auf die Form kommt es an!</Episode>
+					<Episode>Episode 638: Die Kunst des Beobachtens!</Episode>
+					<Episode>Episode 639: Prinzessin für einen Tag!</Episode>
+					<Episode>Episode 640: Mit Stil und Eleganz, ab in den Kampf!</Episode>
+					<Episode>Episode 641: Das doppelte Ditto!</Episode>
+					<Episode>Episode 642: Das große Festival beginnt!</Episode>
+					<Episode>Episode 643: Auf den letzten Drücker!</Episode>
+					<Episode>Episode 644: Versprochen ist versprochen!</Episode>
+					<Episode>Episode 645: Die Entscheidung</Episode>
+					<Episode>Episode 646: Mauzi im Liebesrausch</Episode>
+					<Episode>Episode 647: Ein Kampf um alles oder nichts!</Episode>
+					<Episode>Episode 648: Nur wer an sich glaubt, kann auch gewinnen!</Episode>
+					<Episode>Episode 649: Auf Schatzsuche</Episode>
+					<Episode>Episode 650: Die alte Rasselbande</Episode>
+					<Episode>Episode 651: Das Turnier ist eröffnet</Episode>
+					<Episode>Episode 652: Barrys großer Kampf</Episode>
+					<Episode>Episode 653: Den Letzten beißt ein Kaumalat!</Episode>
+					<Episode>Episode 654: Ash gegen Paul</Episode>
+					<Episode>Episode 655: Ein Strategiekampf, der es in sich hat!</Episode>
+					<Episode>Episode 656: Ein Gegner, der Respekt verdient!</Episode>
+					<Episode>Episode 657: Unbesiegbar, gibt's nicht!!</Episode>
+					<Episode>Episode 658: Rockos Bewährungsprobe</Episode>
+					<Episode>Episode 659: Der Abschied</Episode>
+					<Episode>Episode 660: Im Schatten von Zekrom!</Episode>
+					<Episode>Episode 661: Die Reise beginnt ...!</Episode>
+					<Episode>Episode 662: Gefahr im Verzug!</Episode>
+					<Episode>Episode 663: Der Pokémon-Kampfklub!</Episode>
+					<Episode>Episode 664: Keine Wahl, aber dreifache Qual</Episode>
+					<Episode>Episode 665: Wo Träume brachliegen!</Episode>
+					<Episode>Episode 666: Ein Serpifeu lässt sich nicht so leicht fangen!!</Episode>
+					<Episode>Episode 667: Rettung auf den letzten Glockenschlag!</Episode>
+					<Episode>Episode 668: Lilia's große Prüfung</Episode>
+					<Episode>Episode 669: Zwei Rivalen im Pokémon-Kampf</Episode>
+					<Episode>Episode 670: Ein Zuhause für Lithomith</Episode>
+					<Episode>Episode 671: Wohin mit Unratütox?</Episode>
+					<Episode>Episode 672: Picochilla – ein niedlicher Putzteufel!</Episode>
+					<Episode>Episode 673: Eine Nacht im Museum von Septerna City!</Episode>
+					<Episode>Episode 674: Ein ganz spezieller Kampfstil!</Episode>
+					<Episode>Episode 675: Ein großartiges Rezept für einen Kampf!</Episode>
+					<Episode>Episode 676: Zurrokex – wild und ungezähmt!</Episode>
+					<Episode>Episode 677: Strawickl und Artie im Ewigenwald!</Episode>
+					<Episode>Episode 678: Kenner gegen Kenner!</Episode>
+					<Episode>Episode 679: Pikachu und das Piccolente-Trio!</Episode>
+					<Episode>Episode 680: Die Verlorene Welt von Morbitesse!</Episode>
+					<Episode>Episode 681: Ansturm der Toxiped!</Episode>
+					<Episode>Episode 682: Ein Gut gewürzter Arenakampf!</Episode>
+					<Episode>Episode 683: Kampf um Emolga!</Episode>
+					<Episode>Episode 684: Emolgas neuer Voltwechsel!</Episode>
+					<Episode>Episode 685: Schrecken ohne Ende im Anwesen der Lichtel!</Episode>
+					<Episode>Episode 686: Aller Anfang ist schwer!</Episode>
+					<Episode>Episode 687: Ottaro und die verlorene Muschel!</Episode>
+					<Episode>Episode 688: Waumboll – zweisam in Einall!</Episode>
+					<Episode>Episode 689: Ein UFO für Pygraulon!</Episode>
+					<Episode>Episode 690: Ein Kampf mit Erkenntnissen!</Episode>
+					<Episode>Episode 691: Stell dich der Angst mit offenen Augen!</Episode>
+					<Episode>Episode 692: Ein Stalobor hat auch Gefühle...!</Episode>
+					<Episode>Episode 693: Ein Kiesling um jeden Preis!</Episode>
+					<Episode>Episode 694: Wo sind all die Ohrdoch hin?</Episode>
+					<Episode>Episode 695: Aeropteryx – Besuch aus der Urzeit!</Episode>
+					<Episode>Episode 696: Angeln will gelernt sein...!</Episode>
+					<Episode>Episode 697: Film ab! "Die Legende des Pokémon-Ritters"!</Episode>
+					<Episode>Episode 698: Großes Wiedersehen in Rayono!</Episode>
+					<Episode>Episode 699: Benny gegen Diaz, Ash gegen Georgina!!</Episode>
+					<Episode>Episode 700: Ein Klubkampf, der es in sich hat: Emolga gegen Karadonis!</Episode>
+					<Episode>Episode 701: Das Klubkampf-Finale: Geburt eines Helden!</Episode>
+					<Episode>Episode 702: Mauzi als Retter in der Not!</Episode>
+					<Episode>Episode 703: Felilou hat's faustdick hinter den Ohren!</Episode>
+					<Episode>Episode 704: Megalon, Mitodos und der Traumdieb!</Episode>
+					<Episode>Episode 705: Siberio gegen Siberio!</Episode>
+					<Episode>Episode 706: Geisterzug auf Abwegen!</Episode>
+					<Episode>Episode 707: Der Kampf um die Metro!</Episode>
+					<Episode>Episode 708: Kamilla, die elektrisierende Arenaleiterin!</Episode>
+					<Episode>Episode 709: Ein Brillianter Kampf in der Rayono City-Arena!</Episode>
+					<Episode>Episode 710: Die Stempel-Rallye!</Episode>
+					<Episode>Episode 711: Nicht allein die Stärke zählt!</Episode>
+					<Episode>Episode 712: Ein Maracamba-Musical!</Episode>
+					<Episode>Episode 713: Die Vier Jahreszeiten der Kronjuwild!</Episode>
+					<Episode>Episode 714: Ein Mollimorba, das weiß, was es will!</Episode>
+					<Episode>Episode 715: Das einsame Kapuno!</Episode>
+					<Episode>Episode 716: Der Mächtige Hydragilio – Helfer in der Not!</Episode>
+					<Episode>Episode 717: Ein Ruf nach brüderlicher Liebe!</Episode>
+					<Episode>Episode 718: Der Zorn der Legendären Pokémon! (1)</Episode>
+					<Episode>Episode 719: Der Zorn der Legendären Pokémon! (2)</Episode>
+					<Episode>Episode 720: Der Kampf gegen den König der Minen!</Episode>
+					<Episode>Episode 721: Krise in der Elekrolithhöhle!</Episode>
+					<Episode>Episode 722: Eine Spannende Tausch-Entwicklung!</Episode>
+					<Episode>Episode 723: In der Ruine des Helden!</Episode>
+					<Episode>Episode 724: Der Kampf gegen den Angeber!</Episode>
+					<Episode>Episode 725: Gut verkleidet ist halb gewonnen!</Episode>
+					<Episode>Episode 726: Benny ergreift die Flucht nach vorn!</Episode>
+					<Episode>Episode 727: Ein Luftkampf mit Überraschungen!</Episode>
+					<Episode>Episode 728: Erklimm den Turm des Erfolgs!</Episode>
+					<Episode>Episode 729: Großer Krach beim Explodon-Turnier!</Episode>
+					<Episode>Episode 730: Die Suche nach dem Klub-Besten!</Episode>
+					<Episode>Episode 731: Die Spannung steigt beim Explodon-Turnier!</Episode>
+					<Episode>Episode 732: Wer gewinnt die Explodon-Krone?</Episode>
+					<Episode>Episode 733: Den Blätter-Dieben auf der Spur!</Episode>
+					<Episode>Episode 734: Begegnung mit der Urzeit! (Teil 1)</Episode>
+					<Episode>Episode 735: Begegnung mit der Urzeit! (Teil 2)</Episode>
+					<Episode>Episode 736: Eine "Heiße" Weiterentwicklung!</Episode>
+					<Episode>Episode 737: Der Beschützer des Berges in Gefahr!</Episode>
+					<Episode>Episode 738: Vorsicht: Der Kampf wird rutschig!</Episode>
+					<Episode>Episode 739: Wettstreit unter Kennern!</Episode>
+					<Episode>Episode 740: Krise im Kastadur-Forschungsintitut!</Episode>
+					<Episode>Episode 741: Der Pokémon Film-Wettbewerb!</Episode>
+					<Episode>Episode 742: Es rockt in der Vapydro-Arena! (Teil 1)</Episode>
+					<Episode>Episode 743: Es rockt in der Vapydro-Arena! (Teil 2)</Episode>
+					<Episode>Episode 744: Aufregung um Meloetta!</Episode>
+					<Episode>Episode 745: Ganz wie in alten Zeiten!</Episode>
+					<Episode>Episode 746: Expedition auf die Onix-Insel!</Episode>
+					<Episode>Episode 747: Das geheimnisvolle Verschwinden von Petznief!</Episode>
+					<Episode>Episode 748: Dragoran außer Rand und Band!</Episode>
+					<Episode>Episode 749: Ansturm auf den Junior Pokal!</Episode>
+					<Episode>Episode 750: Dragoran macht, was es will!</Episode>
+					<Episode>Episode 751: Ash, Lilia und Diaz: Da waren es nur noch drei!</Episode>
+					<Episode>Episode 752: Tschüss Junior-Pokal – Hallo Abenteuer!</Episode>
+					<Episode>Episode 753: Auf nach Abidaya-City!</Episode>
+					<Episode>Episode 754: Trubel im Pokémon-Hort!</Episode>
+					<Episode>Episode 755: Meloetta und der Unterwassertempel!</Episode>
+					<Episode>Episode 756: Kampf um die Zukunft der Einall-Region!</Episode>
+					<Episode>Episode 757: Hochmut kommt vor dem Fall!</Episode>
+					<Episode>Episode 758: Ein Zweiermatch-Team voller Überraschungen!</Episode>
+					<Episode>Episode 759: Heimkehr ins Dorf der Drachen!</Episode>
+					<Episode>Episode 760: Lysander gegen Lilia!</Episode>
+					<Episode>Episode 761: Team Evoli und das Pokémon Rettungs-Team!</Episode>
+					<Episode>Episode 762: Vorhang auf für die Einall-Liga!</Episode>
+					<Episode>Episode 763: Der Rivale darf nicht gewinnen!</Episode>
+					<Episode>Episode 764: Milza!! Wo bist du?</Episode>
+					<Episode>Episode 765: Gute Strategie ist Gold wert!</Episode>
+					<Episode>Episode 766: Die Geheimwaffe von Carsten!</Episode>
+					<Episode>Episode 767: Weiterentwicklung bei der Einall-Liga!</Episode>
+					<Episode>Episode 768: Neue Orte... Bekannte Gesichter!</Episode>
+					<Episode>Episode 769: Wer ist N?</Episode>
+					<Episode>Episode 770: Der neue Arenaleiter von Eventura City!</Episode>
+					<Episode>Episode 771: Team Plasmas miese Verschwörung!</Episode>
+					<Episode>Episode 772: Das Licht von der Dausing-Ranch!</Episode>
+					<Episode>Episode 773: Rettet Washakwil!</Episode>
+					<Episode>Episode 774: Die Pokémon Hafenpolizei in Aktion!</Episode>
+					<Episode>Episode 775: Ein feuriges Wiedersehen!</Episode>
+					<Episode>Episode 776: Manipulierte Pokémon!!</Episode>
+					<Episode>Episode 777: Geheimnisse aus dem Nebel!</Episode>
+					<Episode>Episode 778: Wer trickst hier wen aus?!</Episode>
+					<Episode>Episode 779: Wunschbilder im Widerspruch!</Episode>
+					<Episode>Episode 780: Der Kampf um den Lichtstein!</Episode>
+					<Episode>Episode 781: Zwischen Wunsch und Wirklichkeit!</Episode>
+					<Episode>Episode 782: Auf zu neuen Abenteuern!</Episode>
+					<Episode>Episode 783: In Gefahr auf der Honiginsel!</Episode>
+					<Episode>Episode 784: Der Kenner mit Spürsinn und das Auge des Kleoparda!</Episode>
+					<Episode>Episode 785: Es lebe der Muschelkönig!</Episode>
+					<Episode>Episode 786: Die Insel der Illusionen!</Episode>
+					<Episode>Episode 787: Wie fängt man ein Rotom?!</Episode>
+					<Episode>Episode 788: Die Piraten von Decolor!</Episode>
+					<Episode>Episode 789: Auf den letzten Drücker!</Episode>
+					<Episode>Episode 790: Ein Streit mit schlimmen Folgen!</Episode>
+					<Episode>Episode 791: Der Herzenswunsch!</Episode>
+					<Episode>Episode 792: Vorsicht! UFO!</Episode>
+					<Episode>Episode 793: Die Journalistin aus der Fremde!</Episode>
+					<Episode>Episode 794: Die mysteriöse Schatzinsel!</Episode>
+					<Episode>Episode 795: Das andersfarbige Pokémon!</Episode>
+					<Episode>Episode 796: Die große Feier zu Ehren des Conley-Kometen!</Episode>
+					<Episode>Episode 797: Che-, Che-, Chevrumm!</Episode>
+					<Episode>Episode 798: Emolga schließt sich Team Rocket an!</Episode>
+					<Episode>Episode 799: Kampf um das Überleben der Orion City-Arena!</Episode>
+					<Episode>Episode 800: Alles Gute und bis bald!</Episode>
+					<Episode>Episode 801: Dem Traum hinterher!</Episode>
+					<Episode>Episode 802: Kalos, Region der Träume und Abenteuer!</Episode>
+					<Episode>Episode 803: Verfolgungsjagd in Illumia City!</Episode>
+					<Episode>Episode 804: Ein Kampf der Lüfte!</Episode>
+					<Episode>Episode 805: Vorsicht! Wangenrubbler!</Episode>
+					<Episode>Episode 806: Ein stürmischer Nouvaria-Arenakampf!</Episode>
+					<Episode>Episode 807: Gib nie auf!</Episode>
+					<Episode>Episode 808: Ein Rihorn-Rennen mit Hindernissen!</Episode>
+					<Episode>Episode 809: Gestylte Coiffwaff!</Episode>
+					<Episode>Episode 810: Citros Geheimnis!</Episode>
+					<Episode>Episode 811: Die Mega-Mauzi-Manie!</Episode>
+					<Episode>Episode 812: Zoff im Bambus-Wald!</Episode>
+					<Episode>Episode 813: Vorsicht! Pokémon Schmuggler!</Episode>
+					<Episode>Episode 814: Kindergarten-Chaos!</Episode>
+					<Episode>Episode 815: Schutz vor dem Sturm!</Episode>
+					<Episode>Episode 816: Ein voller Magen kämpft nicht gern!</Episode>
+					<Episode>Episode 817: Eine Verwechslung mit Folgen!</Episode>
+					<Episode>Episode 818: Ninja-Weisheiten im Schnelldurchlauf!</Episode>
+					<Episode>Episode 819: Erweckt den schlafenden Riesen!</Episode>
+					<Episode>Episode 820: Gemeinsam gegen geheime Machenschaften!</Episode>
+					<Episode>Episode 821: Die Adelstitel des Kampfschlosses!</Episode>
+					<Episode>Episode 822: Ein Poké-Werbevideo-Dreh mit Folgen!</Episode>
+					<Episode>Episode 823: Legende oder Wahrheit?</Episode>
+					<Episode>Episode 824: Zurück in der Kälte!</Episode>
+					<Episode>Episode 825: Ein Zuhause auf dem Meeresgrund!</Episode>
+					<Episode>Episode 826: Bezwinge die Wand!</Episode>
+					<Episode>Episode 827: Kampf auf süßer Ebene</Episode>
+					<Episode>Episode 828: Die Suche nach der Feenblume!</Episode>
+					<Episode>Episode 829: Das Geheimnis der Mega-Entwicklung!</Episode>
+					<Episode>Episode 830: Hilfe! Doppelgänger!</Episode>
+					<Episode>Episode 831: Mega-Enthüllungen!</Episode>
+					<Episode>Episode 832: Die Höhle der Prüfungen!</Episode>
+					<Episode>Episode 833: Der Aura-Sturm!</Episode>
+					<Episode>Episode 834: Rufe von jenseits der Aura!</Episode>
+					<Episode>Episode 835: Das Band der Mega-Entwicklung!</Episode>
+					<Episode>Episode 836: Der Wald-Champion!</Episode>
+					<Episode>Episode 837: Kämpfe am Himmel!</Episode>
+					<Episode>Episode 838: Die Höhle der Spiegel!</Episode>
+					<Episode>Episode 839: Neue Wald-Freundschaften!</Episode>
+					<Episode>Episode 840: Das Pokémon-Sommer-Camp!</Episode>
+					<Episode>Episode 841: Tag drei: Videowettbewerb!</Episode>
+					<Episode>Episode 842: Ein Pokémon Orientierungs-Rennen im Nebel!</Episode>
+					<Episode>Episode 843: Kampf um die Ruhmeshalle!</Episode>
+					<Episode>Episode 844: Der Ursprung der Mega-Entwicklung!</Episode>
+					<Episode>Episode 845: Kräftemessen in der Yantara-Arena!</Episode>
+					<Episode>Episode 846: Wenn Geschwister streiten!</Episode>
+					<Episode>Episode 847: Ein ängstlicher Tollpatsch wird zum Held des Tages!</Episode>
+					<Episode>Episode 848: Vom Traum, Performerin zu werden!</Episode>
+					<Episode>Episode 849: Ein Wiedersehen in der Schule!</Episode>
+					<Episode>Episode 850: Heureka geht in die Verteidigung!</Episode>
+					<Episode>Episode 851: Vorführungspartner gesucht!</Episode>
+					<Episode>Episode 852: Licht gegen Finsternis!</Episode>
+					<Episode>Episode 853: Eine verborgene Herausforderung!</Episode>
+					<Episode>Episode 854: Ein Rennen um einen Traum!</Episode>
+					<Episode>Episode 855: Der teuflische Plan der Calamanero!</Episode>
+					<Episode>Episode 856: Eine glitschige Begegnung!</Episode>
+					<Episode>Episode 857: Eins zu null für Viscora!</Episode>
+					<Episode>Episode 858: Eiskalte Panik in Tempera City!</Episode>
+					<Episode>Episode 859: Es grünt so grün …</Episode>
+					<Episode>Episode 860: Geschenke, die von Herzen kommen!</Episode>
+					<Episode>Episode 861: Serenas Showcase-Debüt!</Episode>
+					<Episode>Episode 862: Eine Oase der Hoffnung!</Episode>
+					<Episode>Episode 863: Entschlossenheit katapultiert uns in die Zukunft!</Episode>
+					<Episode>Episode 864: Eine Gabelung: Hier trennen sich unsere Wege!</Episode>
+					<Episode>Episode 865: Mit einem strahlenden Lächeln!</Episode>
+					<Episode>Episode 866: Gute Freunde, tolles Training!</Episode>
+					<Episode>Episode 867: Gegen die Finsternis!</Episode>
+					<Episode>Episode 868: Geistesblitz in Illumina City</Episode>
+					<Episode>Episode 869: Knakracks Mega-Band!</Episode>
+					<Episode>Episode 870: Verteidigt die Heimat!</Episode>
+					<Episode>Episode 871: Jenseits des Regenbogens!</Episode>
+					<Episode>Episode 872: Der schlimmste Tag des Jahres!</Episode>
+					<Episode>Episode 873: Gruselige Gastfreundschaft!</Episode>
+					<Episode>Episode 874: Ein schicker Kampf!</Episode>
+					<Episode>Episode 875: Feen-List!</Episode>
+					<Episode>Episode 876: Ein neuer Rivale!</Episode>
+					<Episode>Episode 877: Fliegen ist kein Kinderspiel!</Episode>
+					<Episode>Episode 878: Die Pokémon-Himmelsstaffel!</Episode>
+					<Episode>Episode 879: Licht! Kamera! Pika!</Episode>
+					<Episode>Episode 880: Wilde Jagd in der Fabrik!</Episode>
+					<Episode>Episode 881: Wer wagt, gewinnt!</Episode>
+					<Episode>Episode 882: Rotoms Wunsch!</Episode>
+					<Episode>Episode 883: Ein Festival-Tausch! Ein Festival-Abschied?</Episode>
+					<Episode>Episode 884: Durch den Schnee und über den Berg!</Episode>
+					<Episode>Episode 885: Eine abenteuerliche Besorgung!</Episode>
+					<Episode>Episode 886: Auch Kampfgeist kann zerbrechen!</Episode>
+					<Episode>Episode 887: Ein legendärer Fototermin!</Episode>
+					<Episode>Episode 888: Die winzige Betreuerin!</Episode>
+					<Episode>Episode 890: Ein fantastischer Fund in den Blumen!</Episode>
+					<Episode>Episode 891: Inspiration beim Zweiermatch!</Episode>
+					<Episode>Episode 892: Ein Vorführungs-Quiz!</Episode>
+					<Episode>Episode 893: Unklares Schicksal, leuchtende Zukunft!</Episode>
+					<Episode>Episode 894: Alle Augen Richtung Zukunft!</Episode>
+					<Episode>Episode 895: Von A bis Z!</Episode>
+					<Episode>Episode 896: Wo die Liebe hinfällt…!</Episode>
+					<Episode>Episode 897: Giga-Kampf - Mega-Ergebnisse!</Episode>
+					<Episode>Episode 898: Der feurige Weg des Erwachsenwerdens!</Episode>
+					<Episode>Episode 899: Mein Traum ist dein Traum!</Episode>
+					<Episode>Episode 900: Der Held der Ninja!</Episode>
+					<Episode>Episode 901: Ein Festival der Entscheidung!</Episode>
+					<Episode>Episode 902: Das Tanzdebüt!</Episode>
+					<Episode>Episode 903: Konfrontation in der Omega-Höhle!</Episode>
+					<Episode>Episode 904: Eine Zellenverbindung!</Episode>
+					<Episode>Episode 905: Eine stürmische Begegnung!</Episode>
+					<Episode>Episode 906: Ein verrücktes Tanzabenteuer!</Episode>
+					<Episode>Episode 907: Ein Treffen von großer Bedeutung!</Episode>
+					<Episode>Episode 908: Ein brisanter Einsatz!</Episode>
+					<Episode>Episode 909: Stille Wasser!</Episode>
+					<Episode>Episode 910: Meisterinnenklasse!</Episode>
+					<Episode>Episode 911: Eine elektrisierende Wut!</Episode>
+					<Episode>Episode 912: Respekt muss verdient sein!</Episode>
+					<Episode>Episode 913: Alles oder nichts!</Episode>
+					<Episode>Episode 914: Ein Versprechen für die Zukunft!</Episode>
+					<Episode>Episode 915: Die Richtige für immer?</Episode>
+					<Episode>Episode 916: Voll aufgedreht!</Episode>
+					<Episode>Episode 917: Der Synchron-Test!</Episode>
+					<Episode>Episode 918: Wie man Freunde gewinnt!</Episode>
+					<Episode>Episode 919: Ein Kampf im Namen der Forschung!</Episode>
+					<Episode>Episode 920: Erwarte das Unerwartete!</Episode>
+					<Episode>Episode 921: Es hagelt in der Eis-Arena!</Episode>
+					<Episode>Episode 922: Den Wald vor lauter Bäumen sehen!</Episode>
+					<Episode>Episode 923: Ein echter Eisbrecher!</Episode>
+					<Episode>Episode 924: Ein ungeschliffener Diamant!</Episode>
+					<Episode>Episode 925: Apparate bis zum Abwinken!</Episode>
+					<Episode>Episode 926: Eine Liga für sich!</Episode>
+					<Episode>Episode 927: Wertvolle Erfahrungen für alle!</Episode>
+					<Episode>Episode 928: Analyse gegen Leidenschaft!</Episode>
+					<Episode>Episode 929: Eine fesselnde Rivalität!</Episode>
+					<Episode>Episode 930: Der Tag vor dem großen Finale!</Episode>
+					<Episode>Episode 932: Ein feuriges Finale!</Episode>
+					<Episode>Episode 933: Wucherndes Inferno!</Episode>
+					<Episode>Episode 935: Der richtige Held für den richtigen Job!</Episode>
+					<Episode>Episode 936: Gemeinsam stark!</Episode>
+					<Episode>Episode 937: Perfekte Einheit!</Episode>
+					<Episode>Episode 938: Ein unbeschriebenes Blatt!</Episode>
+					<Episode>Episode 939: Der erste Tag vom Rest deines Lebens!</Episode>
+					<Episode>Episode 940: Das Wohl der Vielen!</Episode>
+					<Episode>Episode 941: Was für eine wunderbare Zeit!</Episode>
+					<Episode>Episode 942: Alola, neue Abenteuer!</Episode>
+					<Episode>Episode 943: Die Herausforderung des Schutzpatrons!</Episode>
+					<Episode>Episode 944: Dex aktiviert!</Episode>
+					<Episode>Episode 945: Alola-Fang á la Ash Ketchum!</Episode>
+					<Episode>Episode 946: Groß! Größer! Robball, los!</Episode>
+					<Episode>Episode 947: Schock im Einkaufszentrum!</Episode>
+					<Episode>Episode 948: Ein Schlingel namens Flamiau!</Episode>
+					<Episode>Episode 949: Lillys Ei-staunliche Herausforderung!</Episode>
+					<Episode>Episode 950: Herrscher des Kampfes!</Episode>
+					<Episode>Episode 951: Doppelt geprüft hält besser!</Episode>
+					<Episode>Episode 952: Backe, backe Kuchen!</Episode>
+					<Episode>Episode 953: Sonne! Schreck! Geheimes Versteck!</Episode>
+					<Episode>Episode 954: Ein pfann-tastisches Rennen!</Episode>
+					<Episode>Episode 955: Zeit zum Kennenlernen!</Episode>
+					<Episode>Episode 956: Aufruhr am Klauenhügel!</Episode>
+					<Episode>Episode 957: Weggeblasen!</Episode>
+					<Episode>Episode 958: Kristallklare Detektivarbeit!</Episode>
+					<Episode>Episode 959: Eine köstliche Suche!</Episode>
+					<Episode>Episode 960: Zeit für einen Rückkampf!</Episode>
+					<Episode>Episode 961: Partnerversprechen!</Episode>
+					<Episode>Episode 962: Ein Ende kann ein Anfang sein!</Episode>
+					<Episode>Episode 963: Eine schwerwiegende Schaufelsuche!</Episode>
+					<Episode>Episode 964: Kommt die Band wieder zusammen?!</Episode>
+					<Episode>Episode 965: Tag der offenen Tür!</Episode>
+					<Episode>Episode 966: Gerangel um den Z-Kristall!</Episode>
+					<Episode>Episode 967: Leb wohl, Chrys!</Episode>
+					<Episode>Episode 968: Eine funkelnde Rivalität!</Episode>
+					<Episode>Episode 969: Pfeffer im Pokémon-Base-Spiel!</Episode>
+					<Episode>Episode 970: Ab ins Schlummerland!</Episode>
+					<Episode>Episode 971: Bäumchen, wechsle dich!</Episode>
+					<Episode>Episode 972: Die Insel-Flüsterin!</Episode>
+					<Episode>Episode 973: Eine Schatzsuche im Akala-Stil!</Episode>
+					<Episode>Episode 974: Kleinfisch, große Beute!</Episode>
+					<Episode>Episode 975: Der krönende Moment der Wahrheit!</Episode>
+					<Episode>Episode 976: Eine geschmackvolle Aufgabe!</Episode>
+					<Episode>Episode 977: Erneut geprüft hält noch besser!</Episode>
+					<Episode>Episode 978: Der grüne Blitz schlägt ein!</Episode>
+					<Episode>Episode 979: Mimigmas Enttarnung!</Episode>
+					<Episode>Episode 980: Maho und der Lehrer des Waldes!</Episode>
+					<Episode>Episode 981: Meer, Marikeck und Moruda!</Episode>
+					<Episode>Episode 982: Ein spannungsgeladenes Rennen!</Episode>
+					<Episode>Episode 983: Alola, Kanto!</Episode>
+					<Episode>Episode 984: Wenn Regionen aufeinanderprallen!</Episode>
+					<Episode>Episode 985: Eine Begegnung im Traum!</Episode>
+					<Episode>Episode 986: Hier, da, dort!</Episode>
+					<Episode>Episode 987: Der Schein trügt!</Episode>
+					<Episode>Episode 988: Eine maskierte Warnung!</Episode>
+					<Episode>Episode 989: Die Nacht der tausend Posen!</Episode>
+					<Episode>Episode 990: Mission: Totale Erinnerung!</Episode>
+					<Episode>Episode 991: Fabians Rache!</Episode>
+					<Episode>Episode 992: Eine Familienangelegenheit!</Episode>
+					<Episode>Episode 993: Die Enthüllung einer Legende!</Episode>
+					<Episode>Episode 994: Rettung der Unwilligen!</Episode>
+					<Episode>Episode 995: Ein tausendfacher Grund zu kämpfen!</Episode>
+					<Episode>Episode 996: Das neue Abenteuer der Professoren!</Episode>
+					<Episode>Episode 997: Schlafende Pokémon weckt man nicht!</Episode>
+					<Episode>Episode 998: Rotom auf Irrwegen!</Episode>
+					<Episode>Episode 999: Kampf mit den Tränen!</Episode>
+					<Episode>Episode 1000: Bittersüße Erinnerungen!</Episode>
+					<Episode>Episode 1001: Ein großer Sprung vorwärts!</Episode>
+					<Episode>Episode 1002: Eine ultradringliche Mission!</Episode>
+					<Episode>Episode 1003: Gut in Form!</Episode>
+					<Episode>Episode 1004: Feuer und Flamme!</Episode>
+					<Episode>Episode 1005: „Ash und Quartermak! Touchdown der Freundschaft!!“</Episode>
+					<Episode>Episode 1006: Alle sind verrückt nach Elima!</Episode>
+					<Episode>Episode 1007: Ein schmetternder Sieg!</Episode>
+					<Episode>Episode 1008: Liebe auf den ersten Dreh!</Episode>
+					<Episode>Episode 1009: Immer ran an die Arbeit!</Episode>
+					<Episode>Episode 1010: Funkelnder Stern, der Heimat so fern!</Episode>
+					<Episode>Episode 1011: Eine junge Flamme schlägt zurück!</Episode>
+					<Episode>Episode 1012: Tracy wird gefangen!</Episode>
+					<Episode>Episode 1013: Sauer, aber süß!</Episode>
+					<Episode>Episode 1014: Wer wünscht sich nicht einen Z-Ring?!</Episode>
+					<Episode>Episode 1015: Prüfungen für harte Typen!</Episode>
+					<Episode>Episode 1016: Nicht wirklich faul!</Episode>
+					<Episode>Episode 1017: Ein Rückkampf in Abwesenheit!</Episode>
+					<Episode>Episode 1018: Wachgerüttelt</Episode>
+					<Episode>Episode 1019: Ein Feuerwerk der Superlative!</Episode>
+					<Episode>Episode 1020: Ein spektakulärer Schauer!</Episode>
+					<Episode>Episode 1021: Das Eis ist gebrochen!</Episode>
+					<Episode>Episode 1022: Ein royales Talent erwacht!</Episode>
+					<Episode>Episode 1023: Das große Tanzvergnügen!</Episode>
+					<Episode>Episode 1024: Dummkopf, du hast die Kinder geschrumpft!</Episode>
+					<Episode>Episode 1025: Zeichen der Liebe!</Episode>
+					<Episode>Episode 1026: Der große Sprung nach Hause!</Episode>
+					<Episode>Episode 1027: Einfach paradiesisch!</Episode>
+					<Episode>Episode 1028: Dunkel ins Licht bringen!</Episode>
+					<Episode>Episode 1029: Der Vollmond hat viele Helfer!</Episode>
+					<Episode>Episode 1030: Das Prisma zwischen Licht und Dunkelheit!</Episode>
+					<Episode>Episode 1031: Die Zukunft beginnt jetzt!</Episode>
+					<Episode>Episode 1032: Pika-Viele Pikachu!</Episode>
+					<Episode>Episode 1033: Der Mann und die Maske!</Episode>
+					<Episode>Episode 1034: Lillier und der Stab!</Episode>
+					<Episode>Episode 1035: Ein Geisterhaus für jeden!</Episode>
+					<Episode>Episode 1036: Donner, Blitz und Funkenstein!</Episode>
+					<Episode>Episode 1037: An den Haaren herbeigezogen!</Episode>
+					<Episode>Episode 1038: Der Stein des Anstoßes!</Episode>
+					<Episode>Episode 1039: Die große Chance!</Episode>
+					<Episode>Episode 1040: Wir wissen, wo du hinwillst, Evoli!</Episode>
+					<Episode>Episode 1041: Die Bestie im Inneren!</Episode>
+					<Episode>Episode 1042: Parallele Freundschaften!</Episode>
+					<Episode>Episode 1043: Alola, Alola!</Episode>
+					<Episode>Episode 1044: Herz aus Feuer, Herz aus Stein!</Episode>
+					<Episode>Episode 1045: Eine Inselerkundung mit Schärfe!</Episode>
+					<Episode>Episode 1046: Kräftemessen auf Poni!</Episode>
+					<Episode>Episode 1047: Entwicklungsreiche Forschung!</Episode>
+					<Episode>Episode 1048: Lauft, ihr Helden, lauft!</Episode>
+					<Episode>Episode 1049: Erinnerungen im Nebel!</Episode>
+					<Episode>Episode 1052: Her mit dem Metall!</Episode>
+					<Episode>Episode 1053: Ein Meltan gefällig?</Episode>
+					<Episode>Episode 1054: Karpi kommt groß raus!</Episode>
+					<Episode>Episode 1055: Kristall vor Schönheit!</Episode>
+					<Episode>Episode 1056: Der Händler der Zerstörung!</Episode>
+					<Episode>Episode 1057: Die geheimnisvolle Prinzessin!</Episode>
+					<Episode>Episode 1058: Vom Winde bewegt!</Episode>
+					<Episode>Episode 1059: Ganz nach oben!</Episode>
+					<Episode>Episode 1060: Ein rasendes Erwachen!</Episode>
+					<Episode>Episode 1061: Kyogre in der Falle!</Episode>
+					<Episode>Episode 1062: Ein Erfolgsrezept!</Episode>
+					<Episode>Episode 1063: Spionieren für den großen Boss!</Episode>
+					<Episode>Episode 1064: Ein feuriger Trick!</Episode>
+					<Episode>Episode 1065: Auf Messers Schneide!</Episode>
+					<Episode>Episode 1066: Eine zeitlose Begegnung!</Episode>
+					<Episode>Episode 1067: Pikachus großes Abenteuer!</Episode>
+					<Episode>Episode 1068: Erinnerungen und Träume!</Episode>
+					<Episode>Episode 1069: Jubel, Trubel, Ligastart!</Episode>
+					<Episode>Episode 1070: Battle Royale 151!</Episode>
+					<Episode>Episode 1071: Beste Freunde, beste Gegner!</Episode>
+					<Episode>Episode 1072: Das Kampffeld der Wahrheit und Liebe!</Episode>
+					<Episode>Episode 1073: Nachahmung ist die schönste Strategie!</Episode>
+					<Episode>Episode 1074: Ein beschwingter Kampf!</Episode>
+					<Episode>Episode 1075: Der Weg ins Halbfinale!</Episode>
+					<Episode>Episode 1076: Die letzten Vier!</Episode>
+					<Episode>Episode 1077: Wütende Kämpfe</Episode>
+					<Episode>Episode 1078: Die Weisheit des Nichtwegrennens!</Episode>
+					<Episode>Episode 1079: Rivalen bis zum Schluss</Episode>
+					<Episode>Episode 1080: Ein neuer Champ!</Episode>
+					<Episode>Episode 1081: Z-Attacken-Showdown!</Episode>
+					<Episode>Episode 1082: Ganz ohne Maske!</Episode>
+					<Episode>Episode 1083: Voller Kampf voraus!</Episode>
+					<Episode>Episode 1084: Feurige Überraschungen</Episode>
+					<Episode>Episode 1085: Von Z bis Z!</Episode>
+					<Episode>Episode 1086: Träume von Sonne und Mond!</Episode>
+					<Episode>Episode 1087: Danke, Alola! Die Reise geht weiter!</Episode>
+					<Episode>Episode 1088: Hallo, Pikachu!</Episode>
+					<Episode>Episode 1089: Legende? Los! Freunde? Los!</Episode>
+					<Episode>Episode 1090: Der geheimnisvolle Turm der Bisaknosp!</Episode>
+					<Episode>Episode 1091: Hoppla, Hopplo!</Episode>
+					<Episode>Episode 1092: Unfassbares Dynamax!</Episode>
+					<Episode>Episode 1093: Auf dem Weg zurück zu Mew!</Episode>
+					<Episode>Episode 1094: Abserviert im Flöten-Cup!</Episode>
+					<Episode>Episode 1095: Das Sinnoh Eisberg-Rennen!</Episode>
+					<Episode>Episode 1097: Dragonirs Test im Paradies!</Episode>
+					<Episode>Episode 1098: Bester Freund, schlimmster Albtraum!</Episode>
+					<Episode>Episode 1099: Auftritt der Titanen!</Episode>
+					<Episode>Episode 1101: Raid-Kampf in den Ruinen!</Episode>
+					<Episode>Episode 1102: Die Suche im Schnee!</Episode>
+					<Episode>Episode 1103: Ein schrecklicher-Fluch!</Episode>
+					<Episode>Episode 1104: Der entscheidende Kick!</Episode>
+					<Episode>Episode 1105: Endstation Krönung!</Episode>
+					<Episode>Episode 1106: Imitieren will gelernt sein!</Episode>
+					<Episode>Episode 1107: Träume, was du träumen willst!</Episode>
+					<Episode>Episode 1108: Das rätselhafte Ei!</Episode>
+					<Episode>Episode 1109: Auf Wiedersehen, mein Freund!</Episode>
+					<Episode>Episode 1110: Panik im Park!</Episode>
+					<Episode>Episode 1111: Zwangsurlaub für Team Rocket!</Episode>
+					<Episode>Episode 1113: Spitzenplatscher für die Krone! / Laschokings Krönung!</Episode>
+					<Episode>Episode 1114: Hart im Nehmen!</Episode>
+					<Episode>Episode 1115: Nicht weinen, Memmeon!</Episode>
+					<Episode>Episode 1116: Familienzuwachs</Episode>
+					<Episode>Episode 1117: Betrogen, genervt und beleidigt!</Episode>
+					<Episode>Episode 1118: Eine Frage der Niedlichkeit!</Episode>
+					<Episode>Episode 1120: Tauschen kann glücklich machen!</Episode>
+					<Episode>Episode 1121: Stoisch und bedrohlich!</Episode>
+					<Episode>Episode 1122: Schnapp dir ein … was?!</Episode>
+					<Episode>Episode 1123: Kämpfe im Sand!</Episode>
+					<Episode>Episode 1124: Neue, alte Freunde!</Episode>
+					<Episode>Episode 1125: Neu belebt ist halb gewonnen!</Episode>
+					<Episode>Episode 1126: Gesprengte Octoklammer!</Episode>
+					<Episode>Episode 1127: Ein knisternder Raid-Kampf!</Episode>
+					<Episode>Episode 1128: Pikachu ergibt Sinn... Bis zum Kinn!</Episode>
+					<Episode>Episode 1129: Schwert und Schild: Schlummerwald!</Episode>
+					<Episode>Episode 1130: Schwert und Schild: Die Finstre Nacht!</Episode>
+					<Episode>Episode 1131: Schwert und Schild: Bringt Endynalos das Ende?!</Episode>
+					<Episode>Episode 1132: Schwert und Schild: Die Legenden erwachen!</Episode>
+					<Episode>Episode 1133: Anders als erwartet!</Episode>
+					<Episode>Episode 1134: Viel Spaß mit dem Vielfraß!</Episode>
+					<Episode>Episode 1135: Eine knappe Sache... quasi!</Episode>
+					<Episode>Episode 1136: Trainieren oder nicht trainieren!</Episode>
+					<Episode>Episode 1137: Eine Prise hiervon, eine Prise davon!</Episode>
+					<Episode>Episode 1138: Der angehende Lauchstangen-Meister!</Episode>
+					<Episode>Episode 1139: Macht euch vom Acker!</Episode>
+					<Episode>Episode 1140: Das Heilen des Heilers!</Episode>
+					<Episode>Episode 1141: Memmeon spioniert eine stille Strategie aus!</Episode>
+					<Episode>Episode 1142: Die Geschichte von dir und dem Wirrschein-Wald!</Episode>
+					<Episode>Episode 1143: Auf der Suche nach Ritterlichkeit!</Episode>
+					<Episode>Episode 1144: Wärmende Erinnerungen!</Episode>
+					<Episode>Episode 1145: Das ist zum Kugeln... ins Ziel trudeln!</Episode>
+					<Episode>Episode 1146: Trautes Heim, Glück allein!</Episode>
+					<Episode>Episode 1147: Mehr als ritterlich... ein aufstrebender Lauchstangen-Meister!</Episode>
+					<Episode>Episode 1148: Service mit einem Lächeln!</Episode>
+					<Episode>Episode 1149: Mit Abstand am besten!</Episode>
+					<Episode>Episode 1150: An Land, im Meer und für die Zukunft!</Episode>
+					<Episode>Episode 1151: Absolution für Absol!</Episode>
+					<Episode>Episode 1152: Kampf der Drachen-Pokémon!</Episode>
+					<Episode>Episode 1153: Die Farben der Nacht!</Episode>
+					<Episode>Episode 1154: Der Wahrheit auf der Spur!</Episode>
+					<Episode>Episode 1155: Gohs Entscheidung!</Episode>
+					<Episode>Episode 1156: Im Auftrag unterwegs</Episode>
+					<Episode>Episode 1157: Nehmt doch unseren Dieb! Bitte!</Episode>
+					<Episode>Episode 1158: Gohs Chance!</Episode>
+					<Episode>Episode 1159: Im Untergrund geht's rund!</Episode>
+					<Episode>Episode 1160: Anführer gesucht!</Episode>
+					<Episode>Episode 1161: Kommt die Nacht – kommen die Albträume!</Episode>
+					<Episode>Episode 1162: Ein Sommernachtslicht!</Episode>
+					<Episode>Episode 1163: Wir gehen immer aufs Ganze!</Episode>
+					<Episode>Episode 1164: Nervenkitzel vom Anfang bis zum Ende</Episode>
+					<Episode>Episode 1165: Meisterdetektiv Phlegleon!</Episode>
+					<Episode>Episode 1166: Tag und Nacht, ihr seid eine wahre Pracht!</Episode>
+					<Episode>Episode 1167: Goh und der goldene Flügelstaub!</Episode>
+					<Episode>Episode 1168: Verrückt nach Blau!</Episode>
+					<Episode>Episode 1169: Der süße Geschmack des Kämpfens!</Episode>
+					<Episode>Episode 1170: Sternennacht vertausendfacht!</Episode>
+					<Episode>Episode 1171: Ein Abenteuer mit Mega-Ausmaßen!</Episode>
+					<Episode>Episode 1172: Der dritte Kampf gegen Saida!</Episode>
+					<Episode>Episode 1173: Ein Kampf von Giga gegen Mega!</Episode>
+					<Episode>Episode 1174: Das Eis wird gebrochen!</Episode>
+					<Episode>Episode 1175: Gohs Tiefseeabenteuer!</Episode>
+					<Episode>Episode 1176: Portale der Verzerrung!</Episode>
+					<Episode>Episode 1177: Showdown bei den Portalen der Verzerrung!</Episode>
+					<Episode>Episode 1178: Der Geister-Express!</Episode>
+					<Episode>Episode 1179: Der gewundene Pfad zur Größe!</Episode>
+					<Episode>Episode 1180: Der Name sagt alles!</Episode>
+					<Episode>Episode 1181: Amors Pfeil bringt Unheil!</Episode>
+					<Episode>Episode 1182: Glück muss man haben!</Episode>
+					<Episode>Episode 1183: Ampharos geht ein Licht auf!</Episode>
+					<Episode>Episode 1184: Eine wahre Geschmacksexplosion!</Episode>
+					<Episode>Episode 1185: In luftigen Höhen!</Episode>
+					<Episode>Episode 1186: Von Null auf Elf!</Episode>
+					<Episode>Episode 1187: Training mit dem Monarchen!</Episode>
+					<Episode>Episode 1188: Das Ein-Schlägel-Wunder!</Episode>
+					<Episode>Episode 1189: Ein frostiger Raid-Kampf!</Episode>
+					<Episode>Episode 1190: Die richtige Strategie katapultiert uns in die Zukunft!</Episode>
+					<Episode>Episode 1191: Zwei Pokémon, ein Team!</Episode>
+					<Episode>Episode 1192: Wiedersehen ist doppelt schön!</Episode>
+					<Episode>Episode 1193: Team Rockets Radiostern geht auf!</Episode>
+					<Episode>Episode 1194: Der große Bruder eilt zur Hilfe!</Episode>
+					<Episode>Episode 1195: Die Aura des Schicksals!</Episode>
+					<Episode>Episode 1196: Kampf um Platz acht!</Episode>
+					<Episode>Episode 1197: Jetzt geht’s um alles oder nichts!</Episode>
+					<Episode>Episode 1198: Ein krönendes Wiedersehen!</Episode>
+					<Episode>Episode 1199: Hilfe für den Helden der Heimat!</Episode>
+					<Episode>Episode 1200: Jetzt geht es auf die Zielgerade!</Episode>
+					<Episode>Episode 1201: Freunde, Rivalen, stärkt meinen Kampfgeist!</Episode>
+					<Episode>Episode 1202: Vorhang auf! Die Kämpfe beginnen!</Episode>
+					<Episode>Episode 1203: Champ gegen Champ!</Episode>
+					<Episode>Episode 1204: Der feurige Weg zum Meistertitel!</Episode>
+					<Episode>Episode 1205: Harter Gegner – harter Kampf!</Episode>
+					<Episode>Episode 1206: „Chloe und Evoli, Wunder der Entwicklung“</Episode>
+					<Episode>Episode 1207: Unendliche Möglichkeiten!</Episode>
+					<Episode>Episode 1208: „Start des Höhepunkts! Ashs Masters Tournament!!“</Episode>
+					<Episode>Episode 1209: Es ist Champ-Time!</Episode>
+					<Episode>Episode 1210: Wechselspiele ohne Ende!</Episode>
+					<Episode>Episode 1211: Wagemut: Ein strategischer Teil des Kämpfens!</Episode>
+					<Episode>Episode 1212: Schritt für Schritt dem Ziel näher!</Episode>
+					<Episode>Episode 1213: „GO FOR DREAM! Gohs Weg zum Traum!!“</Episode>
+					<Episode>Episode 1214: Galar-Nostalgie!</Episode>
+					<Episode>Episode 1215: „Der Höhepunkt! Die Nacht vor dem Entscheidungskampf, Ash VS Delion!!“</Episode>
+					<Episode>Episode 1216: Sintflutartige Gewinnfälle!</Episode>
+					<Episode>Episode 1217: Taktikspiele!</Episode>
+					<Episode>Episode 1218: Wer gibt hier den Takt an?!</Episode>
+					<Episode>Episode 1219: Partner gegen Partner!</Episode>
+					<Episode>Episode 1221: Alles Fest im Griff!</Episode>
+					<Episode>Episode 1222: Helden vereinen sich!</Episode>
+					<Episode>Episode 1223: Dies könnten die Anfänge … von etwas Großem sein!</Episode>
+					<Episode>Episode 1224: Immer der Nase nach!</Episode>
+					<Episode>Episode 1225: Eine schicksalhafte Begegnung!</Episode>
+					<Episode>Episode 1226: Unsere Helden und eine Hexe!</Episode>
+					<Episode>Episode 1227: Ein Freund auf dünnem Eis!</Episode>
+					<Episode>Episode 1228: Eine Meute voller Leidenschaft!</Episode>
+					<Episode>Episode 1229: Derselbe Mond, jetzt und für immer!</Episode>
+					<Episode>Episode 1230: Los, Lapras, los!</Episode>
+					<Episode>Episode 1231: Herzrasen!</Episode>
+					<Episode>Episode 1232: Die Rocket-Rächer!</Episode>
+					<Episode>Episode 1233: Ash und Latios!</Episode>
+					<Episode>Episode 1234: Der Regenbogen und der Pokémon-Meister!</Episode>
+					<Episode>Episode 1236: Der Anhänger, mit dem alles anfängt! (2)</Episode>
+					<Episode>Episode 1237: Bestimmt! Weil Felori bei mir ist!</Episode>
+					<Episode>Episode 1238: Der Schatz nach dem Sturm!</Episode>
+					<Episode>Episode 1239: Ich hab’ dich gefunden, Krokel!</Episode>
+					<Episode>Episode 1240: Der Antike Pokéball!</Episode>
+					<Episode>Episode 1241: Spezial-Training mit Flugkapitän Pikachu!</Episode>
+					<Episode>Episode 1242: Das Geheimnis hinter der Tür!</Episode>
+					<Episode>Episode 1243: Willkommen in Paldea!</Episode>
+					<Episode>Episode 1244: Nemila und Colzo und …</Episode>
+					<Episode>Episode 1245: Olithenas Wald!</Episode>
+					<Episode>Episode 1246: Die Zukunft, die ich wähle!</Episode>
+					<Episode>Episode 1247: Ein Picknick mit Folgen!</Episode>
+					<Episode>Episode 1248: Flieg, Voltrel! Flieg!</Episode>
+					<Episode>Episode 1249: Wer bin ich, fragt ihr?</Episode>
+					<Episode>Episode 1250: Wir schaffen das, Kwaks!</Episode>
+					<Episode>Episode 1251: Zeit für ein Spezialtraining!</Episode>
+					<Episode>Episode 1252: Fliegendes Pikachu auf Höhenflug!</Episode>
+					<Episode>Episode 1253: Die Wahrheit über Pokusan!</Episode>
+					<Episode>Episode 1254: Kabus Kampf-Training!</Episode>
+					<Episode>Episode 1255: Das einsame Brimova!</Episode>
+					<Episode>Episode 1256: Zum Angriff – in der Galar-Mine!</Episode>
+					<Episode>Episode 1257: Das feurige Galar-Lavados!</Episode>
+					<Episode>Episode 1258: Wiedersehen im Antiken Schloss!</Episode>
+					<Episode>Episode 1259: Rivalen im Dunkeln der Nacht!</Episode>
+					<Episode>Episode 1260: „Terapagos' Abenteuer“</Episode>
+					<Episode>Episode 1261: „Wenn ich mit meinen Freunden zusammen bin“</Episode>
+					<Episode>Episode 1263: „Orla und die Pokéball-Handwerkerin“</Episode>
+					<Episode>Episode 1264: „Das verrutschende, scheppernde Geheimnis-Pokémon!?“</Episode>
+					<Episode>Episode 1265: „Die Singstimme im weißen Nebel“</Episode>
+					<Episode>Episode 1266: „Lapras' Gedanken über seine Gefährten“</Episode>
+					<Episode>Episode 1267: „Das Brüllen des Schwarzen Rayquaza“</Episode>
+					<Episode>Episode 1268: „Der jeweilige Abschied“</Episode>
+					<Episode>Episode 1269: „Zwei in der Wildnis: Friedel und Cap“</Episode>
+					<Episode>Episode 1271: „Krokel, wirst du etwa böse!?“</Episode>
+					<Episode>Episode 1272: „Kommt das SOS von Zwieps?“</Episode>
+					<Episode>Episode 1273: „Forgita und sein spezieller Hammer“</Episode>
+					<Episode>Episode 1274: „Auf Wiedersehen, Felori?“</Episode>
+					<Episode>Episode 1275: „Auftritt der strengen Mutter!“</Episode>
+					<Episode>Episode 1276: „Verwandlung! Der Meeresheld Delfinator“</Episode>
+					<Episode>Episode 1277: „Eine schriftliche Herausforderung der Entdecker“</Episode>
+					<Episode>Episode 1278: „Ein Plan, um Rayquaza zu fangen“</Episode>
+					<Episode>Episode 1279: „Wir sind so weit gekommen“</Episode>
+					<Episode>Episode 1280: „Große Aufregung! Orangen-Akademie“</Episode>
+					<Episode>Episode 1283: „Dot und Nidothing“</Episode>
+					<Episode>Episode 1284: „Scheine, Terakristallisierung! Dance Dance Kwaks!!“</Episode>
+				</Series>
+				<Films>
+					<Movie>Pokémon – Der Film </Movie>
+					<Movie>Pokémon 2 – Die Macht des Einzelnen </Movie>
+					<Movie>Pokémon 3 – Im Bann der Icognito </Movie>
+					<Movie>Mewtu kehrt zurück </Movie>
+					<Movie>Pokémon 4 – Die zeitlose Begegnung </Movie>
+					<Movie>Pokémon Heroes – Der Film </Movie>
+					<Movie>Pokémon 6 – Jirachi: Wishmaker </Movie>
+					<Movie>Pokémon 7 – Destiny Deoxys </Movie>
+					<Movie>Pokémon 8 – Lucario und das Geheimnis von Mew </Movie>
+					<Movie>Pokémon Ranger und der Tempel des Meeres </Movie>
+					<Movie>Pokémon 10 – Der Aufstieg von Darkrai </Movie>
+					<Movie>Pokémon 11 – Giratina und der Himmelsritter </Movie>
+					<Movie>Pokémon 12 – Arceus und das Juwel des Lebens </Movie>
+					<Movie>Pokémon 13 – Zoroark: Meister der Illusionen </Movie>
+					<Movie>Pokémon – Der Film: Schwarz &amp; Weiß: Victini und Zekrom &amp; Reshiram </Movie>
+					<Movie>Pokémon – Der Film: Kyurem gegen den Ritter der Redlichkeit </Movie>
+					<Movie>Pokémon – Der Film: Genesect und die wiedererwachte Legende </Movie>
+					<Movie>Mewtu vor dem Erwachen </Movie>
+					<Movie>Pokémon – Der Film: Diancie und der Kokon der Zerstörung </Movie>
+					<Movie>Pokémon – Der Film: Hoopa und der Kampf der Geschichte </Movie>
+					<Movie>Pokémon – Der Film: Volcanion und das mechanische Wunderwerk </Movie>
+					<Movie>Pokémon – Der Film: Du bist dran! </Movie>
+					<Movie>Pokémon – Der Film: Die Macht in uns </Movie>
+					<Movie>Pokémon: Der Film: Mewtu schlägt zurück EVOLUTION </Movie>
+					<Movie>Pokémon - Der Film: Geheimnisse des Dschungels</Movie>
+				</Films>
+			</Appearances>
+			<Trivias>
+				<Trivia>Zur Fußball-WM 2014 in Brasilien war Pikachu das offizielle Maskottchen des japanischen Fußballteams.</Trivia>
+				<Trivia>Es existiert ein nach einem Pokémon benanntes Protein, das in Menschen vorkommt: das Pikachurin.</Trivia>
+				<Trivia>In Meisterdetektiv Pikachu begegnen die Hauptcharaktere einem anderen Pikachu, das wohl Ash gehört. Der Meisterdetektiv wünscht ihm und seinem Trainer nämlich viel Glück, dass sie die Besten werden, die es je gab.</Trivia>
+				<Trivia>Am Ende des Kurzfilms „Pikachu und Pichu“ zu „Pokémon 3 - Im Bann der Icognito“ feiert Ash das einjährige Jubiläum seiner Reise, was bedeuten würde, dass er bereits Geburtstag hatte und somit älter als zehn Jahre ist.</Trivia>
+			</Trivias>
+		</Anime>
+	</Bisafans>
+</Pokemon>
