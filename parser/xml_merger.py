@@ -5,12 +5,12 @@ import english_parser
 from tqdm import tqdm
 
 
-bisafans_dir = '/home/alp/Studium/Text Technology/llm-chatbot-python/data/bisafans_data'
-pokewiki_dir = '/home/alp/Studium/Text Technology/llm-chatbot-python/data/pokewiki_data'
-bulbapedia_dir = '/home/alp/Studium/Text Technology/llm-chatbot-python/data/bulbapedia_data'
+bisafans_dir = '../data/bisafans_data'
+pokewiki_dir = '../data/pokewiki_data'
+bulbapedia_dir = '../data/bulbapedia_data'
 
 
-target_dir = '/home/alp/Studium/Text Technology/llm-chatbot-python/data/final_data'
+target_dir = '../data/final_data'
 os.makedirs(target_dir, exist_ok=True)
 
 
@@ -19,15 +19,17 @@ for bisa_file_name, poke_file_name, bulba_file_name in tqdm(zip(sorted(os.listdi
                                                            sorted(os.listdir(pokewiki_dir)), 
                                                            sorted(os.listdir(bulbapedia_dir))), total=1024):
     
-    with open(os.path.join(bisafans_dir, bisa_file_name), 'r') as file:
+    with open(os.path.join(bisafans_dir, bisa_file_name), 'r', encoding='utf-8') as file:
         bisafans_html = file.read()
-    with open(os.path.join(pokewiki_dir, poke_file_name), 'r') as file:
+    with open(os.path.join(pokewiki_dir, poke_file_name), 'r', encoding='utf-8') as file:
         pokewiki_html = file.read()
-    with open(os.path.join(bulbapedia_dir, bulba_file_name), 'r') as file:
+    with open(os.path.join(bulbapedia_dir, bulba_file_name), 'r', encoding='utf-8') as file:
         bulbapedia_html = file.read()
 
     store_path = os.path.join(target_dir, bisa_file_name[:4] + '.xml')
     if os.path.exists(store_path):
+        continue
+    if '0772_Type' == bulba_file_name:
         continue
     
     german_data = german_parser.main(bisafans_html, pokewiki_html)
@@ -36,7 +38,8 @@ for bisa_file_name, poke_file_name, bulba_file_name in tqdm(zip(sorted(os.listdi
 
     # Example dictionary
     abilities_list_eng = [{'Name': ability, "Hidden": False} for ability in english_data['abilities'][0]]
-    abilities_list_eng.append({'Name': english_data['abilities'][1], "Hidden": True})
+    if len(english_data['abilities']) > 1:
+        abilities_list_eng.append({'Name': english_data['abilities'][1], "Hidden": True})
 
     # Example dictionary
     abilities_list_ger = [{'Name': ability, "Hidden": False} for ability in german_data['abilities'][0]]
@@ -79,7 +82,7 @@ for bisa_file_name, poke_file_name, bulba_file_name in tqdm(zip(sorted(os.listdi
                                     'Category': attack[3],  
                                     'Power': attack[4], 
                                     'Accuracy': attack[5],  
-                                    'PP': attack[6]} for attack in english_data['learnset'][0][1:]]
+                                    'PP': attack[6]} for attack in english_data['learnset'][0]]
                                     },
                     'TechnicalMachine': {
                         "Attack": [{'Level': attack[0], 
@@ -88,12 +91,12 @@ for bisa_file_name, poke_file_name, bulba_file_name in tqdm(zip(sorted(os.listdi
                                     'Category': attack[3],  
                                     'Power': attack[4], 
                                     'Accuracy': attack[5],  
-                                    'PP': attack[6]} for attack in english_data['learnset'][1][1:]]
+                                    'PP': attack[6]} for attack in english_data['learnset'][1]]
                                     },     
                 },
             },
             "Anime": {
-                "Appearances": [{'Title': appearance,
+                "Appearance": [{'Title': appearance,
                                 'Summary': english_data['major_appearances'][appearance]
                 } for appearance in english_data['major_appearances']],
             },
@@ -150,5 +153,5 @@ for bisa_file_name, poke_file_name, bulba_file_name in tqdm(zip(sorted(os.listdi
     # Convert dictionary to XML
     xml_str = xmltodict.unparse(data, pretty=True)
 
-    with open(store_path, 'w') as writer:
+    with open(store_path, 'w', encoding='utf-8') as writer:
         writer.write(xml_str)

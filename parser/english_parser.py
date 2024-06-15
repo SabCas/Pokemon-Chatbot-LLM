@@ -212,7 +212,10 @@ def main(bulbapedia_html):
         if i <= len(major_appearances_title) - 1:
             major_appearances[major_appearances_title[i]] = major_appearances_content[i]
         else:
-            major_appearances[major_appearances_title[len(major_appearances_title)-1]] = content + " " + major_appearances_content[i]
+            if len(major_appearances_title) == 0:
+                major_appearances['Other'] = content + " " + major_appearances_content[i]
+            else:
+                major_appearances[major_appearances_title[len(major_appearances_title)-1]] = content + " " + major_appearances_content[i]
 
     # Pokemon Learn set
     # Level up moves
@@ -231,6 +234,10 @@ def main(bulbapedia_html):
             level = cells[0].find('span').text.strip()
             if level[0] == '0':
                 level = level[1:]
+            elif level == 'Evo.':
+                level = '0'
+            elif level == 'Rem.':
+                level = '999'
             move_name = cells[1].text.strip()
             move_type = cells[2].text.strip()
             move_category = cells[3].text.strip()
@@ -240,8 +247,8 @@ def main(bulbapedia_html):
             if power == '000':
                 power = '0'
             accuracy = cells[5].find('span').text.strip() + '%'
-            if accuracy == "00—":
-                accuracy = "999"
+            if accuracy == "00—%":
+                accuracy = "101%"
             if accuracy[0] == '0':
                 accuracy = accuracy[1:]
             pp = cells[6].text.strip()
@@ -257,10 +264,12 @@ def main(bulbapedia_html):
         i = 0
         for row in tm_moves_table.find_all('tr')[1:]:  # Skip the header row
             cells = row.find_all('td')
-            if len(cells) >= 6:
+            if len(cells) >= 8:
                 if i == 0:
                     i = i + 1
                     continue
+                if cells[1].text.strip() == cells[2].text.strip():
+                    cells = cells[1:] # Somehow duplicate tm name
                 tm_number = cells[1].text.strip()
                 move_name = cells[2].text.strip()
                 move_type = cells[3].text.strip()
@@ -271,8 +280,8 @@ def main(bulbapedia_html):
                 if power == '000':
                     power = '0'
                 accuracy = cells[6].find('span').text.strip()[:-2] + '%'
-                if accuracy == "00—":
-                    accuracy = "999"
+                if accuracy == "00—%":
+                    accuracy = "101%"
                 if accuracy[0] == '0':
                     accuracy = accuracy[1:]
                 pp = cells[7].text.strip()
@@ -331,6 +340,6 @@ if __name__ == "__main__":
     #            save_pokemon_xml(pokemon_data, storing_dir, name)
     #        i += 1
 
-    file = "../data/bulbapedia_data/0001_Bulbasaur.html"
+    file = "../data/bulbapedia_data/0151_Mew.html"
     f = open(file, encoding="utf8")
     main(f)
