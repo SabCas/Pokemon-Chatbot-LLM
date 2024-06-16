@@ -113,14 +113,14 @@ def save_to_file(name, content, index, directory):
         f.write(content)
 
 
-def main():
+def main(data_directories):
     """
     Main function to fetch data from PokéWiki and Bisafans, download their pages, and save them to files.
     """
     data_sources = [
-        ('../data/pokewiki_data', get_pokewiki_data),
-        ('../data/bisafans_data', get_bisafans_data),
-        ('../data/bulbapedia_data', get_bulbapedia_data)
+        (data_directories[0], get_bisafans_data),
+        (data_directories[1], get_pokewiki_data),
+        (data_directories[2], get_bulbapedia_data)
     ]
 
     for storing_dir, data_func in data_sources:
