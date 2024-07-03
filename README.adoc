@@ -1,19 +1,9 @@
-= Build an Neo4j-backed Chatbot using Python
+# LLM Chatbot with Neo4j
+This project demonstrates how to build a chatbot using Large Language Models (LLMs) and Neo4j, a graph database. The chatbot is designed to answer questions about Pokemon, leveraging the power of Neo4j for efficient data storage and retrieval.
 
-This repository accompanies the link:https://graphacademy.neo4j.com/courses/llm-chatbot-python/?ref=github[Build an Neo4j-backed Chatbot using Python^] course on link:https://graphacademy.neo4j.com/?ref=github[Neo4j GraphAcademy^].
-
-For a complete walkthrough of this repository, link:https://graphacademy.neo4j.com/courses/llm-chatbot-python/?ref=github[enrol now^].
-
-
-== Running the application
-
-To run the application, you must install the libraries listed in `requirements.txt`.
-
-[source,sh]
-pip install -r requirements.txt
-
-
-Then run the `streamlit run` command to start the app on link:http://localhost:8501/[http://localhost:8501/^].
-
-[source,sh]
-streamlit run bot.py
+## Features
+- LLM Integration: The chatbot utilizes LLMs, such as GPT-3, to generate natural language responses to user queries.
+- Neo4j Graph Database: Pokemon data is stored in a Neo4j graph database, allowing for efficient querying and retrieval of related information.
+- Vector Search: The chatbot uses vector embeddings to perform semantic search on the Pokemon data, enabling more accurate and relevant responses.
+- Cypher Query Generation: The chatbot can generate Cypher queries based on user questions, allowing it to retrieve specific information from the Neo4j database.
+- Streamlit Interface: A user-friendly interface is provided using the Streamlit library, making it easy to interact with the chatbot.
