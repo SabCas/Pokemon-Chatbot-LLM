@@ -15,3 +15,7 @@ This project demonstrates how to build a chatbot using Large Language Models (LL
 
   
 ![Screenshot 2024-07-04 004746](https://github.com/SabCas/llm-chatbot-python/assets/110026351/44a34164-0cc0-4c71-8e31-2c625a4549ce)
+
+## Presentation slides
+
+[Neo4j.pdf](https://github.com/user-attachments/files/16091435/Neo4j.pdf)
