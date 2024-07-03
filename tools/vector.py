@@ -4,25 +4,26 @@ from llm import llm, embeddings
 from langchain.chains import RetrievalQA
 
 
+# Neo4j Vector Store setup
 neo4jvector = Neo4jVector.from_existing_index(
-    embeddings,                              # (1)
-    url=st.secrets["NEO4J_URI"],             # (2)
-    username=st.secrets["NEO4J_USERNAME"],   # (3)
-    password=st.secrets["NEO4J_PASSWORD"],   # (4)
-    index_name="moviePlots",                 # (5)
-    node_label="Movie",                      # (6)
-    text_node_property="plot",               # (7)
-    embedding_node_property="plotEmbedding", # (8)
+    embeddings,
+    url=st.secrets["NEO4J_URI"],
+    username=st.secrets["NEO4J_USERNAME"],
+    password=st.secrets["NEO4J_PASSWORD"],
+    index_name="PokemonIndex",  # Adjusted index name
+    node_label="Pokemon",
+    text_node_property="description",
+    embedding_node_property="descriptionEmbedding",
     retrieval_query="""
 RETURN
-    node.plot AS text,
+    node.description AS text,
     score,
     {
-        title: node.title,
-        directors: [ (person)-[:DIRECTED]->(node) | person.name ],
-        actors: [ (person)-[r:ACTED_IN]->(node) | [person.name, r.role] ],
-        tmdbId: node.tmdbId,
-        source: 'https://www.themoviedb.org/movie/'+ node.tmdbId
+        name: node.name,
+        types: [ (type)-[:HAS_TYPE]->(node) | type.name ],
+        abilities: [ (ability)-[:HAS_ABILITY]->(node) | ability.name ],
+        attacks: [ (attack)-[:LEARNS]->(node) | attack.name ],
+        evolutions: [ (evolution)-[:EVOLVES_TO]->(node) | evolution.name ]
     } AS metadata
 """
 )
@@ -30,9 +31,9 @@ RETURN
 retriever = neo4jvector.as_retriever()
 
 kg_qa = RetrievalQA.from_chain_type(
-    llm,                  # (1)
-    chain_type="stuff",   # (2)
-    retriever=retriever,  # (3)
+    llm,
+    chain_type="stuff",
+    retriever=retriever,
 )
 
 def kg_qa_tool(input_str):

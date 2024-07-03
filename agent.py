@@ -10,9 +10,9 @@ from tools.cipher import cypher_qa_tool
 
 
 agent_prompt = PromptTemplate.from_template("""
-You are a movie expert providing information about movies.
+You are a Pokemon expert providing information about Pokemon.
 Be as helpful as possible and return as much information as possible.
-Do not answer any questions that do not relate to movies, actors or directors.
+Do not answer any questions that do not relate to Pokemon, their types, abilities, attacks, or evolutions.
 
 Do not answer any questions using your pre-trained knowledge, only use the information provided in the context.
 
@@ -77,7 +77,7 @@ tools = [
     ),
     Tool.from_function(
         name="Vector Search Index",  # (1)
-        description="Provides information about movie plots using Vector Search, showing similarities", # (2)
+        description="Provides information about Pokemon description using Vector Search, showing similarities", # (2)
         func = kg_qa_tool, # (3)
         return_direct=True
     ),
