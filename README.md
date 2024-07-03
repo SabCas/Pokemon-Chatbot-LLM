@@ -12,3 +12,6 @@ This project demonstrates how to build a chatbot using Large Language Models (LL
 - Langchain for providing a powerful framework for building LLM applications.
 - Neo4j for their excellent graph database solution.
 - Sentence Transformers for enabling vector embeddings.
+
+  
+![Screenshot 2024-07-04 004746](https://github.com/SabCas/llm-chatbot-python/assets/110026351/44a34164-0cc0-4c71-8e31-2c625a4549ce)
