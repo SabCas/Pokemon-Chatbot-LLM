@@ -7,3 +7,8 @@ This project demonstrates how to build a chatbot using Large Language Models (LL
 - Vector Search: The chatbot uses vector embeddings to perform semantic search on the Pokemon data, enabling more accurate and relevant responses.
 - Cypher Query Generation: The chatbot can generate Cypher queries based on user questions, allowing it to retrieve specific information from the Neo4j database.
 - Streamlit Interface: A user-friendly interface is provided using the Streamlit library, making it easy to interact with the chatbot.
+
+## Acknowledgments
+- Langchain for providing a powerful framework for building LLM applications.
+- Neo4j for their excellent graph database solution.
+- Sentence Transformers for enabling vector embeddings.
