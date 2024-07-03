@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Pokemon>
+	<Name>
+		<English>Bulbasaur (Pokémon)</English>
+		<German>Bisasam</German>
+	</Name>
+	<ID>1</ID>
+	<Types>
+		<EnglishType>
+			<Type>Grass</Type>
+			<Type>Poison</Type>
+		</EnglishType>
+		<GermanType>
+			<Type>Pflanze</Type>
+			<Type>Gift</Type>
+		</GermanType>
+	</Types>
+	<EnglishData>
+		<Introduction></Introduction>
+		<Biology>
+			<P>Bulbasaur is a small, quadrupedal amphibian Pokémon that has blue-green skin with darker patches. It has red eyes with white pupils, pointed, ear-like structures on top of its head, and a short, blunt snout with a wide mouth. A pair of small, pointed teeth are visible in the upper jaw when its mouth is open. Each of its thick legs ends with three sharp claws. On Bulbasaur's back is a green plant bulb that conceals two slender, tentacle-like vines, which is grown from a seed planted there at birth. The bulb also provides it with energy through photosynthesis as well as from the nutrient-rich seeds contained within.
+</P>
+			<P>First partner Pokémon are raised by Breeders to be distributed to new Trainers.[1] Having been raised by humans from birth, Bulbasaur is regarded as both a rare and well-behaved Pokémon. It is known to be extremely loyal, even after long-term abandonment.[2] Bulbasaur have demonstrated a nurturing instinct towards younger, weaker Pokémon, one individual even using its vines to pick up a crying Pokémon, gently rocking it back and forth through the air while singing a "Bulba-by".[3] Its vines are long and strong enough to allow Bulbasaur to grab the branches of trees and pull itself up to reach berries.[4] Bulbasaur can survive for days without even eating a single morsel.[5] As mentioned in Sleep Style Dex, Bulbasaur is known to sleep in sunny spots.[6]
+</P>
+			<P>It is found in grasslands and forests throughout the Kanto region. However, due to Bulbasaur's status as first partner Pokémon, it is hard to come by in the wild and generally found under the ownership of a Trainer. It has been recently seen living in the Terarium of Blueberry Academy. A Bulbasaur's bulb will flash blue when it is ready to evolve. If it does not want to evolve, it struggles to resist the transformation.[7] Many Bulbasaur gather every year in a hidden garden in Kanto to evolve into Ivysaur in a ceremony led by a Venusaur.
+
+</P>
+		</Biology>
+		<Trivias>
+			<Trivia>In the Japanese Pokémon Red, Green, and Blue, the international Pokémon Red and Blue, and the Japanese Pokémon FireRed and LeafGreen, Professor Oak classifies Bulbasaur as the "plant Pokémon" (Japanese: しょくぶつポケモン) when the player is about to choose it as their first partner Pokémon, using the term while referring to its type. In the English versions of Pokémon FireRed and LeafGreen, he calls it the "grass Pokémon".
+This also occurs in the first episode of Pokémon Origins.</Trivia>
+			<Trivia>This also occurs in the first episode of Pokémon Origins.</Trivia>
+			<Trivia>Bulbasaur's evolution family is the only first partner Pokémon family to have the Poison-type.
+Bulbasaur's evolution family is also the only first partner line to have each member appear at least once in the Super Smash Bros. series.</Trivia>
+			<Trivia>Bulbasaur's evolution family is also the only first partner line to have each member appear at least once in the Super Smash Bros. series.</Trivia>
+			<Trivia>Bulbasaur shares its category with its evolved forms and Sunkern. They are all known as the Seed Pokémon.</Trivia>
+			<Trivia>Bulbasaur's number in the National Pokédex and the Fiore Browser are the same: 001.</Trivia>
+			<Trivia>Due to the censor that prevents Pokémon with offensive nicknames being traded on the GTS, a Bulbasaur with an English name couldn't be traded on the GTS without a nickname in Pokémon Black and White.</Trivia>
+			<Trivia>In Pokémon Gold and Silver, Bulbasaur is programmed to be able to learn Charm through breeding, but no other Pokémon in the Grass or Monster Groups can legitimately learn it to pass down as an Egg Move in those games. In Generation III and IV, Bulbasaur can inherit the move from Shroomish by chain breeding. In Generation V onwards, Bulbasaur can inherit the move directly from Cottonee.</Trivia>
+			<Trivia>In Pokémon Sun and Moon, Bulbasaur could learn Vine Whip at level 7 instead of Leech Seed. This oversight was later fixed in Pokémon Ultra Sun and Ultra Moon.</Trivia>
+		</Trivias>
+		<Game>
+			<EvolutionLine>
+				<Name>Bulbasaur</Name>
+				<Name>Ivysaur</Name>
+				<Name>Venusaur</Name>
+			</EvolutionLine>
+			<Forms>
+			</Forms>
+			<Abilities>
+				<Ability>
+					<Name>Notdünger</Name>
+					<Hidden>false</Hidden>
+				</Ability>
+				<Ability>
+					<Name>Chlorophyll</Name>
+					<Hidden>true</Hidden>
+				</Ability>
+			</Abilities>
+			<Stats>
+				<HP>45
+</HP>
+				<Attack>49
+</Attack>
+				<Defense>49
+</Defense>
+				<Sp.Atk>65
+</Sp.Atk>
+				<Sp.Def>65
+</Sp.Def>
+				<Speed>45
+</Speed>
+			</Stats>
+			<Physique>
+				<Height>0.7 m
+</Height>
+				<Weight>6.9 kg
+</Weight>
+			</Physique>
+			<GenderRatio>87.5% male, 12.5% female
+</GenderRatio>
+			<LearnableAttacks>
+				<LevelUp>
+					<Attack>
+						<Level>01</Level>
+						<MoveName>Tackle</MoveName>
+						<Type>Normal</Type>
+						<Category>Physical</Category>
+						<Power>040</Power>
+						<Accuracy>100</Accuracy>
+						<PP>35</PP>
+					</Attack>
+					<Attack>
+						<Level>01</Level>
+						<MoveName>Growl</MoveName>
+						<Type>Normal</Type>
+						<Category>Status</Category>
+						<Power>0000</Power>
+						<Accuracy>100</Accuracy>
+						<PP>40</PP>
+					</Attack>
+					<Attack>
+						<Level>03</Level>
+						<MoveName>Vine Whip</MoveName>
+						<Type>Grass</Type>
+						<Category>Physical</Category>
+						<Power>045</Power>
+						<Accuracy>100</Accuracy>
+						<PP>25</PP>
+					</Attack>
+					<Attack>
+						<Level>06</Level>
+						<MoveName>Growth</MoveName>
+						<Type>Normal</Type>
+						<Category>Status</Category>
+						<Power>0000</Power>
+						<Accuracy>—</Accuracy>
+						<PP>20</PP>
+					</Attack>
+					<Attack>
+						<Level>09</Level>
+						<MoveName>Leech Seed</MoveName>
+						<Type>Grass</Type>
+						<Category>Status</Category>
+						<Power>0000</Power>
+						<Accuracy>090</Accuracy>
+						<PP>10</PP>
+					</Attack>
+					<Attack>
+						<Level>12</Level>
+						<MoveName>Razor Leaf</MoveName>
+						<Type>Grass</Type>
+						<Category>Physical</Category>
+						<Power>055</Power>
+						<Accuracy>095</Accuracy>
+						<PP>25</PP>
+					</Attack>
+					<Attack>
+						<Level>15</Level>
+						<MoveName>Poison Powder</MoveName>
+						<Type>Poison</Type>
+						<Category>Status</Category>
+						<Power>0000</Power>
+						<Accuracy>075</Accuracy>
+						<PP>35</PP>
+					</Attack>
+					<Attack>
+						<Level>15</Level>
+						<MoveName>Sleep Powder</MoveName>
+						<Type>Grass</Type>
+						<Category>Status</Category>
+						<Power>0000</Power>
+						<Accuracy>075</Accuracy>
+						<PP>15</PP>
+					</Attack>
+					<Attack>
+						<Level>18</Level>
+						<MoveName>Seed Bomb</MoveName>
+						<Type>Grass</Type>
+						<Category>Physical</Category>
+						<Power>080</Power>
+						<Accuracy>100</Accuracy>
+						<PP>15</PP>
+					</Attack>
+					<Attack>
+						<Level>21</Level>
+						<MoveName>Take Down</MoveName>
+						<Type>Normal</Type>
+						<Category>Physical</Category>
+						<Power>090</Power>
+						<Accuracy>085</Accuracy>
+						<PP>20</PP>
+					</Attack>
+					<Attack>
+						<Level>24</Level>
+						<MoveName>Sweet Scent</MoveName>
+						<Type>Normal</Type>
+						<Category>Status</Category>
+						<Power>0000</Power>
+						<Accuracy>100</Accuracy>
+						<PP>20</PP>
+					</Attack>
+					<Attack>
+						<Level>27</Level>
+						<MoveName>Synthesis</MoveName>
+						<Type>Grass</Type>
+						<Category>Status</Category>
+						<Power>0000</Power>
+						<Accuracy>—</Accuracy>
+						<PP>5</PP>
+					</Attack>
+					<Attack>
+						<Level>30</Level>
+						<MoveName>Worry Seed</MoveName>
+						<Type>Grass</Type>
+						<Category>Status</Category>
+						<Power>0000</Power>
+						<Accuracy>100</Accuracy>
+						<PP>10</PP>
+					</Attack>
+					<Attack>
+						<Level>33</Level>
+						<MoveName>Power Whip</MoveName>
+						<Type>Grass</Type>
+						<Category>Physical</Category>
+						<Power>120</Power>
+						<Accuracy>085</Accuracy>
+						<PP>10</PP>
+					</Attack>
+					<Attack>
+						<Level>36</Level>
+						<MoveName>Solar Beam</MoveName>
+						<Type>Grass</Type>
+						<Category>Special</Category>
+						<Power>120</Power>
+						<Accuracy>100</Accuracy>
+						<PP>10</PP>
+					</Attack>
+				</LevelUp>
+				<TechnicalMachine>
+					<Attack>
+						<Level>TM001</Level>
+						<MoveName>Take Down</MoveName>
+						<Type>Normal</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>090</Power>
+						<Accuracy>085</Accuracy>
+						<PP>20</PP>
+					</Attack>
+					<Attack>
+						<Level>TM002</Level>
+						<MoveName>Charm</MoveName>
+						<Type>Fairy</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>0000</Power>
+						<Accuracy>100</Accuracy>
+						<PP>20</PP>
+					</Attack>
+					<Attack>
+						<Level>TM007</Level>
+						<MoveName>Protect</MoveName>
+						<Type>Normal</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>0000</Power>
+						<Accuracy>—</Accuracy>
+						<PP>10</PP>
+					</Attack>
+					<Attack>
+						<Level>TM013</Level>
+						<MoveName>Acid Spray</MoveName>
+						<Type>Poison</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>040</Power>
+						<Accuracy>100</Accuracy>
+						<PP>20</PP>
+					</Attack>
+					<Attack>
+						<Level>TM020</Level>
+						<MoveName>Trailblaze</MoveName>
+						<Type>Grass</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>050</Power>
+						<Accuracy>100</Accuracy>
+						<PP>20</PP>
+					</Attack>
+					<Attack>
+						<Level>TM025</Level>
+						<MoveName>Facade</MoveName>
+						<Type>Normal</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>070</Power>
+						<Accuracy>100</Accuracy>
+						<PP>20</PP>
+					</Attack>
+					<Attack>
+						<Level>TM033</Level>
+						<MoveName>Magical Leaf</MoveName>
+						<Type>Grass</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>060</Power>
+						<Accuracy>—</Accuracy>
+						<PP>20</PP>
+					</Attack>
+					<Attack>
+						<Level>TM045</Level>
+						<MoveName>Venoshock</MoveName>
+						<Type>Poison</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>065</Power>
+						<Accuracy>100</Accuracy>
+						<PP>10</PP>
+					</Attack>
+					<Attack>
+						<Level>TM047</Level>
+						<MoveName>Endure</MoveName>
+						<Type>Normal</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>0000</Power>
+						<Accuracy>—</Accuracy>
+						<PP>10</PP>
+					</Attack>
+					<Attack>
+						<Level>TM049</Level>
+						<MoveName>Sunny Day</MoveName>
+						<Type>Fire</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>0000</Power>
+						<Accuracy>—</Accuracy>
+						<PP>5</PP>
+					</Attack>
+					<Attack>
+						<Level>TM056</Level>
+						<MoveName>Bullet Seed</MoveName>
+						<Type>Grass</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>025</Power>
+						<Accuracy>100</Accuracy>
+						<PP>30</PP>
+					</Attack>
+					<Attack>
+						<Level>TM057</Level>
+						<MoveName>False Swipe</MoveName>
+						<Type>Normal</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>040</Power>
+						<Accuracy>100</Accuracy>
+						<PP>40</PP>
+					</Attack>
+					<Attack>
+						<Level>TM066</Level>
+						<MoveName>Body Slam</MoveName>
+						<Type>Normal</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>085</Power>
+						<Accuracy>100</Accuracy>
+						<PP>15</PP>
+					</Attack>
+					<Attack>
+						<Level>TM070</Level>
+						<MoveName>Sleep Talk</MoveName>
+						<Type>Normal</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>0000</Power>
+						<Accuracy>—</Accuracy>
+						<PP>10</PP>
+					</Attack>
+					<Attack>
+						<Level>TM071</Level>
+						<MoveName>Seed Bomb</MoveName>
+						<Type>Grass</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>080</Power>
+						<Accuracy>100</Accuracy>
+						<PP>15</PP>
+					</Attack>
+					<Attack>
+						<Level>TM081</Level>
+						<MoveName>Grass Knot</MoveName>
+						<Type>Grass</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>0000</Power>
+						<Accuracy>100</Accuracy>
+						<PP>20</PP>
+					</Attack>
+					<Attack>
+						<Level>TM085</Level>
+						<MoveName>Rest</MoveName>
+						<Type>Psychic</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>0000</Power>
+						<Accuracy>—</Accuracy>
+						<PP>5</PP>
+					</Attack>
+					<Attack>
+						<Level>TM088</Level>
+						<MoveName>Swords Dance</MoveName>
+						<Type>Normal</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>0000</Power>
+						<Accuracy>—</Accuracy>
+						<PP>20</PP>
+					</Attack>
+					<Attack>
+						<Level>TM103</Level>
+						<MoveName>Substitute</MoveName>
+						<Type>Normal</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>0000</Power>
+						<Accuracy>—</Accuracy>
+						<PP>10</PP>
+					</Attack>
+					<Attack>
+						<Level>TM111</Level>
+						<MoveName>Giga Drain</MoveName>
+						<Type>Grass</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>075</Power>
+						<Accuracy>100</Accuracy>
+						<PP>10</PP>
+					</Attack>
+					<Attack>
+						<Level>TM119</Level>
+						<MoveName>Energy Ball</MoveName>
+						<Type>Grass</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>090</Power>
+						<Accuracy>100</Accuracy>
+						<PP>10</PP>
+					</Attack>
+					<Attack>
+						<Level>TM130</Level>
+						<MoveName>Helping Hand</MoveName>
+						<Type>Normal</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>0000</Power>
+						<Accuracy>—</Accuracy>
+						<PP>20</PP>
+					</Attack>
+					<Attack>
+						<Level>TM137</Level>
+						<MoveName>Grassy Terrain</MoveName>
+						<Type>Grass</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>0000</Power>
+						<Accuracy>—</Accuracy>
+						<PP>10</PP>
+					</Attack>
+					<Attack>
+						<Level>TM146</Level>
+						<MoveName>Grass Pledge</MoveName>
+						<Type>Grass</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>080</Power>
+						<Accuracy>100</Accuracy>
+						<PP>10</PP>
+					</Attack>
+					<Attack>
+						<Level>TM148</Level>
+						<MoveName>Sludge Bomb</MoveName>
+						<Type>Poison</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>090</Power>
+						<Accuracy>100</Accuracy>
+						<PP>10</PP>
+					</Attack>
+					<Attack>
+						<Level>TM159</Level>
+						<MoveName>Leaf Storm</MoveName>
+						<Type>Grass</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>130</Power>
+						<Accuracy>090</Accuracy>
+						<PP>5</PP>
+					</Attack>
+					<Attack>
+						<Level>TM168</Level>
+						<MoveName>Solar Beam</MoveName>
+						<Type>Grass</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>120</Power>
+						<Accuracy>100</Accuracy>
+						<PP>10</PP>
+					</Attack>
+					<Attack>
+						<Level>TM171</Level>
+						<MoveName>Tera Blast</MoveName>
+						<Type>Normal</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>080</Power>
+						<Accuracy>100</Accuracy>
+						<PP>10</PP>
+					</Attack>
+					<Attack>
+						<Level>TM175</Level>
+						<MoveName>Toxic</MoveName>
+						<Type>Poison</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>0000</Power>
+						<Accuracy>090</Accuracy>
+						<PP>10</PP>
+					</Attack>
+					<Attack>
+						<Level>TM181</Level>
+						<MoveName>Knock Off</MoveName>
+						<Type>Dark</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>065</Power>
+						<Accuracy>100</Accuracy>
+						<PP>20</PP>
+					</Attack>
+					<Attack>
+						<Level>TM193</Level>
+						<MoveName>Weather Ball</MoveName>
+						<Type>Normal</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>050</Power>
+						<Accuracy>100</Accuracy>
+						<PP>10</PP>
+					</Attack>
+					<Attack>
+						<Level>TM194</Level>
+						<MoveName>Grassy Glide</MoveName>
+						<Type>Grass</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>055</Power>
+						<Accuracy>100</Accuracy>
+						<PP>20</PP>
+					</Attack>
+					<Attack>
+						<Level>TM204</Level>
+						<MoveName>Double-Edge</MoveName>
+						<Type>Normal</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>120</Power>
+						<Accuracy>100</Accuracy>
+						<PP>15</PP>
+					</Attack>
+					<Attack>
+						<Level>TM224</Level>
+						<MoveName>Curse</MoveName>
+						<Type>Ghost</Type>
+						<Category>Seed Pokémon</Category>
+						<Power>0000</Power>
+						<Accuracy>—</Accuracy>
+						<PP>10</PP>
+					</Attack>
+				</TechnicalMachine>
+			</LearnableAttacks>
+		</Game>
+	</EnglishData>
+</Pokemon>
