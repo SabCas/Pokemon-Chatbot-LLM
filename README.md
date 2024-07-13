@@ -19,3 +19,8 @@ This project demonstrates how to build a chatbot using Large Language Models (LL
 ## Presentation slides
 
 [Neo4j.pdf](https://github.com/user-attachments/files/16091435/Neo4j.pdf)
+
+### Pokémon Chatbot App
+
+Click [here](https://pokemon-chatbot.streamlit.app/) to access the Pokémon Chatbot deployed on Streamlit.
+
