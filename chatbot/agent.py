@@ -4,8 +4,8 @@ from langchain.tools import Tool
 from llm import llm
 from langchain.chains.conversation.memory import ConversationBufferWindowMemory
 from langchain.prompts import PromptTemplate
-from tools.vector import kg_qa_tool
-from tools.cipher import cypher_qa_tool
+from chatbot.tools.vector import kg_qa_tool
+from chatbot.tools.cipher import cypher_qa_tool
 
 
 
