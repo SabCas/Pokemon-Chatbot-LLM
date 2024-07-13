@@ -1,6 +1,10 @@
 # LLM Chatbot with Neo4j
 This project demonstrates how to build a chatbot using Large Language Models (LLMs) and Neo4j, a graph database. The chatbot is designed to answer questions about Pokemon, leveraging the power of Neo4j for efficient data storage and retrieval.
 
+### Pokémon Chatbot App
+
+Click [here](https://pokemon-chatbot.streamlit.app/) to access the Pokémon Chatbot deployed on Streamlit.
+
 ## Features
 - LLM Integration: The chatbot utilizes LLMs, such as GPT-3, to generate natural language responses to user queries.
 - Neo4j Graph Database: Pokemon data is stored in a Neo4j graph database, allowing for efficient querying and retrieval of related information.
@@ -20,7 +24,5 @@ This project demonstrates how to build a chatbot using Large Language Models (LL
 
 [Neo4j.pdf](https://github.com/user-attachments/files/16091435/Neo4j.pdf)
 
-### Pokémon Chatbot App
 
-Click [here](https://pokemon-chatbot.streamlit.app/) to access the Pokémon Chatbot deployed on Streamlit.
 
