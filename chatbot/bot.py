@@ -4,14 +4,14 @@ from agent import generate_response
 
 # tag::setup[]
 # Page Config
-st.set_page_config("Ebert", page_icon=":movie_camera:")
+st.set_page_config("Pokemon", page_icon=":movie_camera:")
 # end::setup[]
 
 # tag::session[]
 # Set up Session State
 if "messages" not in st.session_state:
     st.session_state.messages = [
-        {"role": "assistant", "content": "Hi, I'm the GraphAcademy Chatbot!  How can I help you?"},
+        {"role": "assistant", "content": "Hi, I'm the Pokemon Chatbot!  How can I help you?"},
     ]
 # end::session[]
 
