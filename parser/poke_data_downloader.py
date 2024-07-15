@@ -106,6 +106,7 @@ def save_to_file(name, content, index, directory):
     """
     Saves the content to a file in the specified directory.
     """
+    name = name.replace(':','')
     filename = str(index+10001)[-4:] + '_' + name + ".html"
     filepath = os.path.join(directory, filename)
 

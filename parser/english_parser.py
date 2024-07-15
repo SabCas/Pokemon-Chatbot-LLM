@@ -36,30 +36,29 @@ def extract_p_text_between_tags(start_tag, end_tag, listlike=False):
 
     return cleaned_biology
 
-def main(bulbapedia_html):
-    # Create Soup out of html
-    soup = BeautifulSoup(bulbapedia_html, 'html.parser')
+def get_name(soup):
+    return soup.find('h1', {'id': 'firstHeading'}).text.strip()[:-10]
 
-    # Extract Pokémon name
-    pokemon_name = soup.find('h1', {'id': 'firstHeading'}).text.strip()[:-10]
 
-    # Extract Pokemon id
-    dex_number = soup.find_all('a', {'title': 'List of Pokémon by National Pokédex number'})[1].text.strip()[1:]
+def get_dex_number(soup):
+    return soup.find_all('a', {'title': 'List of Pokémon by National Pokédex number'})[1].text.strip()[1:]
 
-    # Category
-    category = soup.find('a', {'title': 'Pokémon category'}).text.strip()
+def get_category(soup):
+    return soup.find('a', {'title': 'Pokémon category'}).text.strip()
 
-    # Extract Pokémon type(s)
+def get_type(soup):
     type_section = soup.find('a', {'title': 'Type'}).parent
     type_list = type_section.find_next_sibling('table').find_all('b')
-    type = [type.text.strip() for type in type_list if 'Unknown' != type.text.strip()]
+    pokemon_type = [type.text.strip() for type in type_list if 'Unknown' != type.text.strip()]
+    return pokemon_type
 
-    # Introduction
+def get_introduction(soup):
     intro_first_tag = soup.find('a', {'title': 'List of Pokémon by base friendship'})
     intro_end_tag = soup.find('a', {'href': '#Biology'})
     introduction = extract_p_text_between_tags(intro_first_tag, intro_end_tag)
+    return introduction
 
-    # Extract Pokémon abilities
+def get_ability(soup):
     abilities_section = soup.find('a', {'title': 'Ability'}).parent
     abilities_list_parent = abilities_section.find_next_sibling('table').find_all('td')
     hidden_abilities_list = abilities_section.find_next_sibling('table').find_all('small')
@@ -76,8 +75,9 @@ def main(bulbapedia_html):
     abilities = [normal_abilities]
     if hidden_ability != "":
         abilities.append(hidden_ability)
+    return abilities
 
-    # Extract Pokémon stats (assuming they are in the first table with class 'roundy')
+def get_stats(soup):
     stats_section = soup.findAll('th', {
         'style': 'padding-left: 0.2em; padding-right: 0.2em; display: flex; justify-content: space-between;'})
     # TODO: add stats for every gen
@@ -89,8 +89,9 @@ def main(bulbapedia_html):
         stat = row.text.strip().split(':')
         stat_name = stat[0].replace(' ', '')  # Remove white spaces for Sp. Attack and Sp. Defense
         stats[stat_name] = stat[1]
+    return stats
 
-    # Egg Data
+def get_egg_data(soup):
     eggs = {}
     egg_section = soup.find('a', {'href': '/wiki/Egg_Group'}).parent
 
@@ -101,38 +102,42 @@ def main(bulbapedia_html):
     hatch_section = soup.find('a', {'href': '/wiki/Egg_cycle'}).parent.parent
     hatch = hatch_section.find('td').text.strip().replace('\xa0', ' ').replace('\n', ' ')
     eggs["HatchTime"] = [hatch]
+    return eggs
 
-    # Gender
+def get_gender(soup):
     gender_section = soup.find('a', {'title': 'List of Pokémon by gender ratio'}).parent
     gender_list = gender_section.find_next_sibling('table').find_all('td')
     gender = []
     for entry in gender_list:
         if ('male' in entry.text.strip() or 'female' in entry.text.strip() or "unknown" in entry.text.strip()):
             gender.append(entry.text.strip())
+    return gender
 
-    # Physique
-    # Height
+def get_physique(soup):
     height_section = soup.find('a', {'title': 'List of Pokémon by height'}).parent
     # first element is in m and not feet
     height = height_section.find_next_sibling('table').find_all('td')[1].text.strip()
 
     # Weight
     weight_section = soup.find('a', {'title': 'Weight'}).parent
-    # first element is in m and not feet
+    # first element is in lbs and not kg
     weight = weight_section.find_next_sibling('table').find_all('td')[1].text.strip()
     physique = [height, weight]
+    return physique
 
-    # Biology
+def get_biology(soup):
     biology_section = soup.find(id='Biology')
     biology = []
     if biology_section:
         current_elem = biology_section.find_next()
         while current_elem and current_elem.name not in ['h2', 'h3', 'h4', 'h5', 'h6']:
             if current_elem.name in ['p']:
-                biology.append(current_elem.text.strip().replace('\n', ''))
+                current_biology = current_elem.text.strip().replace('\n', '')
+                biology.append(re.sub(r'[\d+]', '', current_biology))
             current_elem = current_elem.find_next()
+    return biology
 
-    # Evolution
+def get_evolution(soup):
     evolution_section = soup.find('span', id='Evolution')
     evolution_line = []  # TODO: decide if the evolution line should appear if its only 1 pokemon#[pokemon_name]
     if evolution_section:
@@ -151,8 +156,9 @@ def main(bulbapedia_html):
         evolution_line = list(dict.fromkeys(evolution_line))
         if ('' in evolution_line):
             evolution_line.remove('')
+    return evolution_line
 
-    # Forms
+def get_form(soup):
     unfiltered_forms = []
     forms = []
     form_section = soup.find('span', id='Forms')
@@ -175,8 +181,9 @@ def main(bulbapedia_html):
         forms = list(dict.fromkeys(forms))
         if ('' in forms):
             forms.remove('')
+    return forms
 
-    # Pokedex
+def get_pokedex_entries(soup):
     pokedex_entries_section = soup.find('span', {'id': 'Pok.C3.A9dex_entries'}).parent
     pokedex_table = pokedex_entries_section.find_next('table')
 
@@ -188,9 +195,9 @@ def main(bulbapedia_html):
             version = cells[0].text.strip()
             entry = cells[1].text.strip()
             pokedex_entries.append((version, entry))
+    return pokedex_entries
 
-    # Major Appearances
-    # Find the "Major appearances" section
+def get_major_appearances(soup):
     major_appearances_header = soup.find(id="Major_appearances")
 
     # Collect the paragraphs under the "Major appearances" section
@@ -216,9 +223,10 @@ def main(bulbapedia_html):
                 major_appearances['Other'] = content + " " + major_appearances_content[i]
             else:
                 major_appearances[major_appearances_title[len(major_appearances_title)-1]] = content + " " + major_appearances_content[i]
+    return major_appearances
 
-    # Pokemon Learn set
-    # Level up moves
+
+def get_learnset(soup):
     level_up_moves_section = soup.find('span', {'id': 'By_leveling_up'}).parent
     level_up_moves_table = level_up_moves_section.find_next('table')
 
@@ -269,7 +277,7 @@ def main(bulbapedia_html):
                     i = i + 1
                     continue
                 if cells[1].text.strip() == cells[2].text.strip():
-                    cells = cells[1:] # Somehow duplicate tm name
+                    cells = cells[1:]  # Somehow duplicate tm name
                 tm_number = cells[1].text.strip()
                 move_name = cells[2].text.strip()
                 move_type = cells[3].text.strip()
@@ -288,8 +296,10 @@ def main(bulbapedia_html):
                 tm_moves.append((tm_number, move_name, move_type, move_category, int(power), accuracy, int(pp)))
 
     learnset = [level_up_moves, tm_moves]
+    return learnset
 
-    # trivias
+
+def get_trivia(soup):
     trivias_section = soup.find('span', {'id': 'Trivia'}).parent
     trivias_list = trivias_section.find_next('ul')
 
@@ -297,26 +307,32 @@ def main(bulbapedia_html):
     trivias = []
     for item in trivias_list.find_all('li'):
         trivias.append(item.text.strip().replace('\n', ''))
+    return trivias
 
-    return {
-        'name': pokemon_name,
-        'dex_number': dex_number,
-        'category': category,
-        'type': type,
-        'introduction': introduction,
-        'abilities': abilities,
-        'stats': stats,
-        'eggs': eggs,
-        'gender': gender,
-        'physique': physique,
-        'biology': biology,
-        'evolution_line': evolution_line,
-        'forms': forms,
-        'pokedex_entries': pokedex_entries,
-        'major_appearances': major_appearances,
-        'learnset': learnset,
-        'trivias': trivias,
+def main(bulbapedia_html):
+    # Create Soup out of html
+    bulbapedia_soup = BeautifulSoup(bulbapedia_html, 'html.parser')
+
+    data = {
+        'name': get_name(bulbapedia_soup),
+        'dex_number': get_dex_number(bulbapedia_soup),
+        'category': get_category(bulbapedia_soup),
+        'type': get_type(bulbapedia_soup),
+        'introduction': get_introduction(bulbapedia_soup),
+        'abilities': get_ability(bulbapedia_soup),
+        'stats': get_stats(bulbapedia_soup),
+        'eggs': get_egg_data(bulbapedia_soup),
+        'gender': get_gender(bulbapedia_soup),
+        'physique': get_physique(bulbapedia_soup),
+        'biology': get_biology(bulbapedia_soup),
+        'evolution_line': get_evolution(bulbapedia_soup),
+        'forms': get_form(bulbapedia_soup),
+        'pokedex_entries': get_pokedex_entries(bulbapedia_soup),
+        'major_appearances': get_major_appearances(bulbapedia_soup),
+        'learnset': get_learnset(bulbapedia_soup),
+        'trivias': get_trivia(bulbapedia_soup),
     }
+    return data
 
 if __name__ == "__main__":
     #data_sources = [
