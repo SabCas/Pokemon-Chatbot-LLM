@@ -8,4 +8,6 @@ aiohttp
 asyncio
 requests
 bs4
+lxml
 tqdm
+xmltodict
