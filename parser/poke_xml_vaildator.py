@@ -49,7 +49,7 @@ def validate_directory(directory, xsd_file):
 
 def main(xml_directory, xsd_schema_file):
     # Define the directory containing XML files and the path to the XSD schema file
-    xml_directory = "/path/to/xml/files"
-    xsd_schema_file = "/path/to/schema.xsd"
+    #xml_directory = "/path/to/xml/files"
+    #xsd_schema_file = "/path/to/schema.xsd"
 
     validate_directory(xml_directory, xsd_schema_file)

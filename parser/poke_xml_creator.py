@@ -1,10 +1,17 @@
-import os 
+import os
 import xmltodict
 import german_parser
 import english_parser
 from tqdm import tqdm
 
-
+NAMESPACE = 'http://ims.uni-stuttgart.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ims.uni-stuttgart.de Pokemon.xsd'
+def add_namespace(xml_str, ns):
+    lines = xml_str.split('\n')
+    for i, line in enumerate(lines):
+        if line.strip().startswith('<Pokemon'):
+            lines[i] = line.replace('<Pokemon', f'<Pokemon xmlns="{ns}"')
+            break
+    return '\n'.join(lines)
 
 def main(data_directories, target_directory):
     bisafans_dir = data_directories[0]
@@ -150,6 +157,7 @@ def main(data_directories, target_directory):
 
         # Convert dictionary to XML
         xml_str = xmltodict.unparse(data, pretty=True)
+        xml_str = add_namespace(xml_str, NAMESPACE)
 
         with open(store_path, 'w', encoding='utf-8') as writer:
             writer.write(xml_str)

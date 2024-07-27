@@ -157,8 +157,12 @@ def get_physique(soup):
     """
     Extracts height and weight of a Pokémon.
     """
-    height = get_data_from_table(soup, 0, 'Größe').strip().replace('Meter', 'm')
-    weight = get_data_from_table(soup, 0, 'Gewicht').strip().replace('Kilogramm', 'kg')
+    height = get_data_from_table(soup, 0, 'Größe')
+    weight = get_data_from_table(soup, 0, 'Gewicht')
+
+    # Some Pokemon have multiple Physique data (like Irrbis). We split and only save the first entry
+    height = height.split('Meter')[0].strip() + ' m'
+    weight = weight.split('Kilogramm')[0].strip() + ' kg'
     return height, weight
 
 def get_attacks(soup):
@@ -188,7 +192,7 @@ def get_attacks(soup):
                 typ = values[2].find('img').get('alt')
                 kat = values[3].find('img').get('title')
             except:
-                print('Error with attack in bisafans:', name)
+                #print('Error with attack in bisafans:', name)
                 typ = 'Psycho'
                 kat = 'Status'
             power = values[4].text.strip()
@@ -218,9 +222,14 @@ def main(bisafans_html, pokewiki_html):
     if not intro_first_tag or not intro_end_tag or not biology_first_tag or not biology_end_tag:
         raise ValueError("One or more tags not found in the provided HTML.")
 
+    # Only the first two types are currently used in the new games
+    types = get_type(bisafans_soup)
+    if len(types) > 2:
+        types = types[:2]
+
     # Extract data using the defined functions
     data = {
-        "type": get_type(bisafans_soup),
+        "type": types,
         "intro": extract_p_text_between_tags(intro_first_tag, intro_end_tag),
         "biologies": extract_p_text_between_tags(biology_first_tag, biology_end_tag, True),
         "appearances": get_appearances(bisafans_soup),
