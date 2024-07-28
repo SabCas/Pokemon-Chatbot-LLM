@@ -19,7 +19,7 @@ Set the path to your XML files in the folder_path variable.
 ###4. Run the Script
 Execute the Python script to parse XML files and import data into Neo4j:
 ```
-python your_script_name.py
+python parseXML.py
 ```
 
 ### **5. Verify Data**
