@@ -1,3 +1,33 @@
-For downloading and parsing the necessary data please execute the init.py.
-
+### **For downloading and parsing the necessary data**
+- Please execute the init.py.
 This will create the folder /data/parsed_data with all XML files.
+
+## **Setting Up Neo4j with XML Data**
+
+### **1. Install Neo4j**
+- Download and install Neo4j from [Neo4j's official website](https://neo4j.com/download/).
+- Start Neo4j and create a new database.
+
+### **2. Install Python Libraries**
+- Install the Neo4j Python driver:
+  ```bash
+  pip install neo4j
+  3. Configure the Script
+  ```
+Update the uri, user, and password variables in the script to match your Neo4j database settings.
+Set the path to your XML files in the folder_path variable.
+###4. Run the Script
+Execute the Python script to parse XML files and import data into Neo4j:
+```
+python your_script_name.py
+```
+
+### **5. Verify Data**
+Open Neo4j Browser at http://localhost:7474 to check and query your imported data.
+
+
+
+
+
+
+
