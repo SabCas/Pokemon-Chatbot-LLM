@@ -34,10 +34,9 @@ Open Neo4j Browser at http://localhost:7474 to check and query your imported dat
 
 ### **2. Set up secrets.toml:**
 - Create a .streamlit folder in your project root
-= Inside .streamlit, create a secrets.toml file
+- Inside .streamlit, create a secrets.toml file
+- Add the following to secrets.toml:
 ```
-
-Add the following to secrets.toml:
 NEO4J_URI = "bolt://localhost:7687"
 NEO4J_USERNAME = "your_username"
 NEO4J_PASSWORD = "your_password"
