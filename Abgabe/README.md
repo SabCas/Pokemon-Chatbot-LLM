@@ -49,7 +49,7 @@ OPENAI_MODEL = "gpt-3.5-turbo"
 ```
 
 
-### **3. Start Streamlit::**
+### **3. Start Streamlit**
 
 
 Open a terminal in your project directory
