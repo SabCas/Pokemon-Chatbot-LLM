@@ -25,6 +25,37 @@ python your_script_name.py
 ### **5. Verify Data**
 Open Neo4j Browser at http://localhost:7474 to check and query your imported data.
 
+## **Setting up the CHatbot with Streamlit and Neo4J**
+
+### **1. Configure OpenAI key::**
+
+- Obtain an API key from OpenAI
+
+
+### **2. Set up secrets.toml:**
+- Create a .streamlit folder in your project root
+= Inside .streamlit, create a secrets.toml file
+```
+
+Add the following to secrets.toml:
+NEO4J_URI = "bolt://localhost:7687"
+NEO4J_USERNAME = "your_username"
+NEO4J_PASSWORD = "your_password"
+OPENAI_API_KEY = "your_openai_api_key"
+OPENAI_MODEL = "gpt-3.5-turbo"
+```
+
+
+### **3. Start Streamlit::**
+
+
+Open a terminal in your project directory
+Run the command:
+```
+streamlit run chatbot/bot.py
+```
+
+
 
 
 
