@@ -10,10 +10,10 @@ This will create the folder /data/parsed_data with all XML files.
 
 ### **2. Install Python Libraries**
 - Install the Neo4j Python driver:
-  ```bash
-  pip install neo4j
-  3. Configure the Script
   ```
+  pip install neo4j
+  ```
+### **3. Configure the Script**
 Update the uri, user, and password variables in the script to match your Neo4j database settings.
 Set the path to your XML files in the folder_path variable.
 ###4. Run the Script
