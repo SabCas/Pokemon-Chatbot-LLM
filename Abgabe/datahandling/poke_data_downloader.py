@@ -5,12 +5,6 @@ import requests
 from bs4 import BeautifulSoup
 
 
-# Ensure the directories for storing data exist
-os.makedirs('../data/pokewiki_data', exist_ok=True)
-os.makedirs('../data/bisafans_data', exist_ok=True)
-os.makedirs('../data/bulbapedia_data', exist_ok=True)
-
-
 def get_pokewiki_data():
     """
     Fetches Pokémon names and their corresponding links from PokéWiki.
@@ -118,6 +112,9 @@ def main(data_directories):
     """
     Main function to fetch data from PokéWiki and Bisafans, download their pages, and save them to files.
     """
+    for data_dir in data_directories:
+        os.makedirs(data_dir, exist_ok=True)
+
     data_sources = [
         (data_directories[0], get_bisafans_data),
         (data_directories[1], get_pokewiki_data),

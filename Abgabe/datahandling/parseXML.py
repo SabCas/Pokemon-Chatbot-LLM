@@ -3,6 +3,7 @@ import xml.etree.ElementTree as ET
 from neo4j import GraphDatabase
 
 # Neo4j connection details
+# TODO: fill in your passwort
 uri = "bolt://localhost:7687"
 user = "neo4j"
 password = "yourPassword"
@@ -244,7 +245,7 @@ def main(folder_path):
         print(f"Error in main function: {e}")
 
 if __name__ == "__main__":
-    folder_path = r'D:\Coding\Uni\Texttechnology\Project\final_data\final_data'  # Replace with your folder path
+    folder_path = '../data/parsed_data'  # TODO: Replace with your folder path if necessary
     main(folder_path)
     driver.close()
 
