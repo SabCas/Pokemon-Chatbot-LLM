@@ -1,5 +1,5 @@
 ## **For downloading and parsing the necessary data**
-- Please execute the init.py.
+- Please execute the init.py in the datahandling folder.
 ```
 python init.py
 ```
@@ -29,7 +29,7 @@ python parseXML.py
 ### **5. Verify Data**
 Open Neo4j Browser at http://localhost:7474 to check and query your imported data.
 
-## **Setting up the CHatbot with Streamlit and Neo4J**
+## **Setting up the Chatbot with Streamlit and Neo4J**
 
 ### **1. Configure OpenAI key::**
 
