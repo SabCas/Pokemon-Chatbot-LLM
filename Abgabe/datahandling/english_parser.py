@@ -48,7 +48,8 @@ def get_category(soup):
 
 def get_type(soup):
     type_section = soup.find('a', {'title': 'Type'}).parent
-    type_list = type_section.find_next_sibling('table').find_all('b')
+    # Only get the first two types as the other types are for different forms
+    type_list = type_section.find_next_sibling('table').find_all('b')[0:2]
     pokemon_type = [type.text.strip() for type in type_list if 'Unknown' != type.text.strip()]
     return pokemon_type
 
@@ -58,19 +59,66 @@ def get_introduction(soup):
     introduction = extract_p_text_between_tags(intro_first_tag, intro_end_tag)
     return introduction
 
-def get_ability(soup):
+def get_ability(soup, name):
     abilities_section = soup.find('a', {'title': 'Ability'}).parent
     abilities_list_parent = abilities_section.find_next_sibling('table').find_all('td')
-    hidden_abilities_list = abilities_section.find_next_sibling('table').find_all('small')
+    # The found section is more encapsuled as usual so we call parent ones more.
+    if abilities_list_parent is None:
+        abilities_list_parent = abilities_section.parent.find_next_sibling('table').find_all('td')
 
     normal_abilities = []
     hidden_ability = ""
+    name_length = len(name)
     for row in abilities_list_parent:
-        if row.find('small'):
-            if row.find('small').text.strip() == 'Hidden Ability' and row.find('a').text.strip() != 'Cacophony':
-                hidden_ability = row.find('a').text.strip()
-        else:
-            normal_abilities.append(row.text.strip())
+        if row.find('span'):
+            # For some Pokemon all Abilities are written in a line
+            ability_row = row.find_all('span')
+            hidden = ''
+            # Check needed if the Pokemon does not have a hidden ability
+            if row.find('small'):
+                hidden = row.find('small').text.strip()
+
+            if len(ability_row) == 1:
+                # The html uses \xa0 instead of a whitespace
+                ability = ability_row[0].text.strip().replace('\xa0', ' ')
+                # Not a valid Ability for Pokemon
+                if ability == 'Cacophony':
+                    continue
+                # Case for normal abilities
+                if hidden == name:
+                    normal_abilities.append(ability)
+                # Case for hidden abilities
+                elif 'Hidden Ability' in hidden:
+                    hidden_ability = ability
+                # Case if the Pokemon does not have any hidden abilities
+                elif hidden == '':
+                    normal_abilities.append(ability)
+                # Special case if the hidden ability is defined for multiple Pokemon forms
+                elif 'Hidden Ability' in hidden and name == hidden[0:name_length]:
+                    hidden_ability = ability
+                # Special case for the Pokemon Shaymin
+                elif hidden == 'Land Forme' or hidden == 'Sky Forme':
+                    normal_abilities.append(ability)
+                # Special case for the Pokemon Zygarde
+                elif 'Forme' in hidden and ability not in normal_abilities:
+                    normal_abilities.append(ability)
+                # Special case for the Pokemon Gimmighoul
+                elif 'Chest Form' in hidden or 'Roaming Form' in hidden:
+                    normal_abilities.append(ability)
+                # Special case for the Pokemon Terapagos
+                elif hidden == 'Normal Form':
+                    normal_abilities.append(ability)
+            else:
+                # If multiple abilities are in the same row the Pokemon name is missing or in brackets if it has multiple forms.
+                if hidden == '('+name+')' or hidden == '':
+                    normal_abilities.append(ability_row[0].text.strip().replace('\xa0', ' '))
+                    normal_abilities.append(ability_row[1].text.strip().replace('\xa0', ' '))
+                # Special case for the Pokemon Zygarde for the second ability
+                elif ability_row[1].text == '*':
+                    normal_abilities.append(ability_row[0].text.strip())
+                # Special case for the Pokemon Ogerpon
+                elif hidden == '(Teal Mask)':
+                    normal_abilities.append(ability_row[0].text.strip())
 
     abilities = [normal_abilities]
     if hidden_ability != "":
@@ -80,7 +128,6 @@ def get_ability(soup):
 def get_stats(soup):
     stats_section = soup.findAll('th', {
         'style': 'padding-left: 0.2em; padding-right: 0.2em; display: flex; justify-content: space-between;'})
-    # TODO: add stats for every gen
     # Only keep the stats of the newest Version
     while len(stats_section) > 6:
         stats_section.pop(0)
@@ -137,9 +184,9 @@ def get_biology(soup):
             current_elem = current_elem.find_next()
     return biology
 
-def get_evolution(soup):
+def get_evolution(soup, name):
     evolution_section = soup.find('span', id='Evolution')
-    evolution_line = []  # TODO: decide if the evolution line should appear if its only 1 pokemon#[pokemon_name]
+    evolution_line = []
     if evolution_section:
         evolution_parent = evolution_section.parent
         evolution_table = evolution_parent.find_next('table')
@@ -156,31 +203,29 @@ def get_evolution(soup):
         evolution_line = list(dict.fromkeys(evolution_line))
         if ('' in evolution_line):
             evolution_line.remove('')
+    # The Pokemon is the only Pokemon in the evolution line
+    else:
+        evolution_line.append(name)
     return evolution_line
 
-def get_form(soup):
-    unfiltered_forms = []
+def get_form(soup, name):
     forms = []
-    form_section = soup.find('span', id='Forms')
+    form_section = soup.find('a', title='Pokémon category').parent.find_next('table')
     if form_section:
-        form_parent = form_section.parent
-        form_table = form_section.find_next('table')
-
-        for row in form_table.find_all('tr'):  # Skip the header row
-            cells = row.find_all('td')
-            for cell in cells:
-                if len(cell) > 0:
-                    version = ""
-                    for t in cell:
-                        version = version + t.text.strip()
-                    unfiltered_forms.append(version)
-
-        for form in unfiltered_forms:
-            j = form.replace(' ', '')
-            forms.append(j)
-        forms = list(dict.fromkeys(forms))
-        if ('' in forms):
-            forms.remove('')
+        for row in form_section.find_all('small'):
+            # Replace empty space declaration of html file
+            current_elem = row.text.strip().replace('\xa0', ' ')
+            # Skip included elements
+            if current_elem in forms:
+                pass
+            # Skip empty element
+            elif current_elem == "":
+                pass
+            # Skip Base name element
+            elif current_elem == name:
+                pass
+            else:
+                forms.append(current_elem)
     return forms
 
 def get_pokedex_entries(soup):
@@ -312,21 +357,22 @@ def get_trivia(soup):
 def main(bulbapedia_html):
     # Create Soup out of html
     bulbapedia_soup = BeautifulSoup(bulbapedia_html, 'html.parser')
+    name = get_name(bulbapedia_soup)
 
     data = {
-        'name': get_name(bulbapedia_soup),
+        'name': name,
         'dex_number': get_dex_number(bulbapedia_soup),
         'category': get_category(bulbapedia_soup),
         'type': get_type(bulbapedia_soup),
         'introduction': get_introduction(bulbapedia_soup),
-        'abilities': get_ability(bulbapedia_soup),
+        'abilities': get_ability(bulbapedia_soup, name),
         'stats': get_stats(bulbapedia_soup),
         'eggs': get_egg_data(bulbapedia_soup),
         'gender': get_gender(bulbapedia_soup),
         'physique': get_physique(bulbapedia_soup),
         'biology': get_biology(bulbapedia_soup),
-        'evolution_line': get_evolution(bulbapedia_soup),
-        'forms': get_form(bulbapedia_soup),
+        'evolution_line': get_evolution(bulbapedia_soup, name),
+        'forms': get_form(bulbapedia_soup, name),
         'pokedex_entries': get_pokedex_entries(bulbapedia_soup),
         'major_appearances': get_major_appearances(bulbapedia_soup),
         'learnset': get_learnset(bulbapedia_soup),
@@ -356,6 +402,6 @@ if __name__ == "__main__":
     #            save_pokemon_xml(pokemon_data, storing_dir, name)
     #        i += 1
 
-    file = "../data/bulbapedia_data/0151_Mew.html"
+    file = "../data/bulbapedia_data/0718_Zygarde.html"
     f = open(file, encoding="utf8")
     main(f)
