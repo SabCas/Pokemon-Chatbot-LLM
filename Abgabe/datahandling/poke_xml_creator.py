@@ -24,7 +24,10 @@ def main(data_directories, target_directory):
 
     for bisa_file_name, poke_file_name, bulba_file_name in tqdm(zip(sorted(os.listdir(bisafans_dir)),
                                                                     sorted(os.listdir(pokewiki_dir)),
-                                                                    sorted(os.listdir(bulbapedia_dir))), total=1024):
+                                                                    sorted(os.listdir(bulbapedia_dir))), 
+                                                                    
+                                                                    total=1024, 
+                                                                    desc='Parsing data and creating XML files'):
 
         with open(os.path.join(bisafans_dir, bisa_file_name), 'r', encoding='utf-8') as file:
             bisafans_html = file.read()

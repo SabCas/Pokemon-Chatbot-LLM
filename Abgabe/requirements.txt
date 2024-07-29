@@ -1,7 +1,9 @@
 langchain
-openai
+langchain_community
 langchain_openai
+neo4j
 neo4j-driver
+openai
 streamlit
 
 aiohttp
